@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 85bf9170fb13bbe4c93b43bf3e729e34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3013161076319378387
+    second: TreeMarsh01_0
+  - first:
+      213: -8000979982584994905
+    second: TreeMarsh01_1
+  - first:
+      213: 749406553805438122
+    second: TreeMarsh01_2
+  - first:
+      213: 6279831789310127194
+    second: TreeMarsh01_3
+  - first:
+      213: -348777408703112976
+    second: TreeMarsh01_4
+  - first:
+      213: 7476772122170888956
+    second: TreeMarsh01_5
+  - first:
+      213: 7384985161103408155
+    second: TreeMarsh01_6
+  - first:
+      213: -6105861322050172653
+    second: TreeMarsh01_7
+  - first:
+      213: -1356566643037541255
+    second: TreeMarsh01_8
+  - first:
+      213: -719681538303578243
+    second: TreeMarsh01_9
+  - first:
+      213: -2126978237679218217
+    second: TreeMarsh01_0
+  - first:
+      213: 319611395216524082
+    second: TreeMarsh01_1
+  - first:
+      213: 8134949587351103382
+    second: TreeMarsh01_2
+  - first:
+      213: -3242685606373129158
+    second: TreeMarsh01_3
+  - first:
+      213: 1274942136612389865
+    second: TreeMarsh01_4
+  - first:
+      213: 7458973846776270774
+    second: TreeMarsh01_5
+  - first:
+      213: 4710182309622922054
+    second: TreeMarsh01_6
+  - first:
+      213: 8340395892973131875
+    second: TreeMarsh01_7
+  - first:
+      213: -1139329895313457218
+    second: TreeMarsh01_8
+  - first:
+      213: -2833363367418779444
+    second: TreeMarsh01_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TreeMarsh01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1d422ef847b72e0800000000000000
+      internalID: -2126978237679218217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeMarsh01_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2334c0ededc7f6400800000000000000
+      internalID: 319611395216524082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeMarsh01_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697e5c38c8525e070800000000000000
+      internalID: 8134949587351103382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeMarsh01_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a348bd91f9aaff2d0800000000000000
+      internalID: -3242685606373129158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeMarsh01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e385f94e1181b110800000000000000
+      internalID: 1274942136612389865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeMarsh01_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf470eb139938760800000000000000
+      internalID: 7458973846776270774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeMarsh01_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b3760eadded5140800000000000000
+      internalID: 4710182309622922054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeMarsh01_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3685ac610e90fb370800000000000000
+      internalID: 8340395892973131875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeMarsh01_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfbbd32f794030f0800000000000000
+      internalID: -1139329895313457218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TreeMarsh01_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -50, y: -51}
+        - {x: -29, y: 5}
+        - {x: 51, y: 1}
+        - {x: 32, y: -52}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc82665770fdda8d0800000000000000
+      internalID: -2833363367418779444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

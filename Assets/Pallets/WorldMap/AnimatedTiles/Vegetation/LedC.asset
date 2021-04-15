@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: LedC
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -6762465503344073005, guid: 7ca1c6918c1f16d45b7b6f2838d08fe3, type: 3}
+  - {fileID: -3591903431024419857, guid: 7ca1c6918c1f16d45b7b6f2838d08fe3, type: 3}
+  - {fileID: 1550082136767495654, guid: 7ca1c6918c1f16d45b7b6f2838d08fe3, type: 3}
+  - {fileID: 5148292104741371560, guid: 7ca1c6918c1f16d45b7b6f2838d08fe3, type: 3}
+  - {fileID: -1681049635645716794, guid: 7ca1c6918c1f16d45b7b6f2838d08fe3, type: 3}
+  - {fileID: 8888086478071231905, guid: 7ca1c6918c1f16d45b7b6f2838d08fe3, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

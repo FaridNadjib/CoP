@@ -1,0 +1,480 @@
+fileFormatVersion: 2
+guid: d9a9b58af8a52ca49b1839e21db82ba9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4086309681081215708
+    second: tree2A_ss_0
+  - first:
+      213: 7466948217716630137
+    second: tree2A_ss_1
+  - first:
+      213: -9136194376104009969
+    second: tree2A_ss_2
+  - first:
+      213: -794871710124838507
+    second: tree2A_ss_3
+  - first:
+      213: 2189312314499530252
+    second: tree2A_ss_4
+  - first:
+      213: 6868196545942992157
+    second: tree2A_ss_5
+  - first:
+      213: 6650325902358168724
+    second: tree2A_ss_6
+  - first:
+      213: -931376394448485232
+    second: tree2A_ss_7
+  - first:
+      213: -6463184605737667565
+    second: tree2A_ss_8
+  - first:
+      213: -1023600212343937618
+    second: tree2A_ss_9
+  - first:
+      213: -9029249234894466519
+    second: tree2A_ss_0
+  - first:
+      213: -2544494636888675838
+    second: tree2A_ss_1
+  - first:
+      213: -7290937876309973071
+    second: tree2A_ss_2
+  - first:
+      213: -8866731315265417619
+    second: tree2A_ss_3
+  - first:
+      213: -267244370323863086
+    second: tree2A_ss_4
+  - first:
+      213: -4601968347869524694
+    second: tree2A_ss_5
+  - first:
+      213: 5707363364290094055
+    second: tree2A_ss_6
+  - first:
+      213: -8704281786656472179
+    second: tree2A_ss_7
+  - first:
+      213: -5155829997369739253
+    second: tree2A_ss_8
+  - first:
+      213: 1284806932967717123
+    second: tree2A_ss_9
+  - first:
+      213: -8893370898327388592
+    second: tree2A_ss_10
+  - first:
+      213: 5741621733571234505
+    second: tree2A_ss_11
+  - first:
+      213: -8361613605023446644
+    second: tree2A_ss_12
+  - first:
+      213: 716316634983120581
+    second: tree2A_ss_13
+  - first:
+      213: -5698776376642370455
+    second: tree2A_ss_14
+  - first:
+      213: 1803560144687082636
+    second: tree2A_ss_15
+  - first:
+      213: 2578197979255084383
+    second: tree2A_ss_16
+  - first:
+      213: 4853872385514612815
+    second: tree2A_ss_17
+  - first:
+      213: 4815732002960908232
+    second: tree2A_ss_18
+  - first:
+      213: 6749019107007626094
+    second: tree2A_ss_19
+  - first:
+      213: 48738293771895181
+    second: tree2A_ss_20
+  - first:
+      213: 6390925107583386543
+    second: tree2A_ss_21
+  - first:
+      213: -8933974408540106846
+    second: tree2A_ss_22
+  - first:
+      213: 1220544053560563536
+    second: tree2A_ss_23
+  - first:
+      213: -8916961049505037922
+    second: tree2A_ss_24
+  - first:
+      213: 4088538055436900408
+    second: tree2A_ss_25
+  - first:
+      213: 5259051522636409591
+    second: tree2A_ss_26
+  - first:
+      213: 6780108433156285797
+    second: tree2A_ss_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree2A_ss_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922d5ade8a9a1b280800000000000000
+      internalID: -9029249234894466519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2A_ss_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a2d5beb9320bcd0800000000000000
+      internalID: -2544494636888675838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2A_ss_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b76a1b61a261da90800000000000000
+      internalID: -7290937876309973071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2A_ss_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ec5c2c8da03f480800000000000000
+      internalID: -8866731315265417619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2A_ss_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d98f9e39ae8a4cf0800000000000000
+      internalID: -267244370323863086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2A_ss_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d45ad7b268220c0800000000000000
+      internalID: -4601968347869524694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2A_ss_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3e69cadb0a43f40800000000000000
+      internalID: 5707363364290094055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2A_ss_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83407115dd243780800000000000000
+      internalID: -8704281786656472179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2A_ss_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0839742fefc278b0800000000000000
+      internalID: -5155829997369739253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree2A_ss_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -24.5, y: -63.5}
+        - {x: -5, y: -37}
+        - {x: 26, y: -37}
+        - {x: 51.5, y: -51.5}
+        - {x: 33.5, y: -73.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309ff7c291d84d110800000000000000
+      internalID: 1284806932967717123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

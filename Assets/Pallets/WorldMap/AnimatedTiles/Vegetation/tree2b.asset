@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: tree2b
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -4289696093344039091, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  - {fileID: 5636682642586066579, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  - {fileID: -8620281969016385749, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  - {fileID: 6274648970672564504, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  - {fileID: -2603769048843916943, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  - {fileID: 4568178447519867213, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  - {fileID: 7518964855781127078, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  - {fileID: -17854968348738458, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  - {fileID: -4481905545350449186, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  - {fileID: -5470072140336811664, guid: a9fae700d5ac4884a96f2db43600d674, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 1

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: volc_bubble1
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -5423149676358632021, guid: 26993fa6ea4c55245a93eba18940a0af, type: 3}
+  - {fileID: 4084928324212298741, guid: 26993fa6ea4c55245a93eba18940a0af, type: 3}
+  - {fileID: 8825207517252650269, guid: 26993fa6ea4c55245a93eba18940a0af, type: 3}
+  - {fileID: 8691111711126339229, guid: 26993fa6ea4c55245a93eba18940a0af, type: 3}
+  - {fileID: -1822966066233428521, guid: 26993fa6ea4c55245a93eba18940a0af, type: 3}
+  - {fileID: -5083289050470130834, guid: 26993fa6ea4c55245a93eba18940a0af, type: 3}
+  - {fileID: -4618896344593444298, guid: 26993fa6ea4c55245a93eba18940a0af, type: 3}
+  - {fileID: -5849482367852574360, guid: 26993fa6ea4c55245a93eba18940a0af, type: 3}
+  - {fileID: -3527693977066158922, guid: 26993fa6ea4c55245a93eba18940a0af, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

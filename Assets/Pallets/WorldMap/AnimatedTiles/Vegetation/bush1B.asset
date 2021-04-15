@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: bush1B
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 3917212399893201589, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  - {fileID: 6581496222920809200, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  - {fileID: 4044436601450257858, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  - {fileID: 3295608189332885855, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  - {fileID: -5870243768149508305, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  - {fileID: 5173957480113967703, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  - {fileID: -6021937466060220351, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  - {fileID: -7576019178679134133, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  - {fileID: -7502189151495132347, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  - {fileID: -3061284729165893083, guid: 218bab56a2fd4324494704884c717403, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 1

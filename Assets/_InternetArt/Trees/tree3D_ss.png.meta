@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 0b2326e22bc567741bdec633477fbbbf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1212368738428181426
+    second: tree3D_ss_0
+  - first:
+      213: 5972159920802959071
+    second: tree3D_ss_1
+  - first:
+      213: 6063259318200139034
+    second: tree3D_ss_2
+  - first:
+      213: 4473551539027870020
+    second: tree3D_ss_3
+  - first:
+      213: -7374988541281764544
+    second: tree3D_ss_4
+  - first:
+      213: 1438591945043068697
+    second: tree3D_ss_5
+  - first:
+      213: -3333731129707882981
+    second: tree3D_ss_6
+  - first:
+      213: 1869459897434018483
+    second: tree3D_ss_7
+  - first:
+      213: -2317575498710021626
+    second: tree3D_ss_8
+  - first:
+      213: -1836925524387560123
+    second: tree3D_ss_9
+  - first:
+      213: 58011875808818318
+    second: tree3D_ss_0
+  - first:
+      213: 870912348554050799
+    second: tree3D_ss_1
+  - first:
+      213: -1921200633180171896
+    second: tree3D_ss_2
+  - first:
+      213: 2357919892360578583
+    second: tree3D_ss_3
+  - first:
+      213: 6982417384964547685
+    second: tree3D_ss_4
+  - first:
+      213: -6408079046067996125
+    second: tree3D_ss_5
+  - first:
+      213: 2293872152552100387
+    second: tree3D_ss_6
+  - first:
+      213: -3875642819893189476
+    second: tree3D_ss_7
+  - first:
+      213: 8983167691861470700
+    second: tree3D_ss_8
+  - first:
+      213: -3508863252477455978
+    second: tree3D_ss_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree3D_ss_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84b6526e791ec000800000000000000
+      internalID: 58011875808818318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3D_ss_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecb01eaa2a161c00800000000000000
+      internalID: 870912348554050799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3D_ss_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8815a0df3368655e0800000000000000
+      internalID: -1921200633180171896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3D_ss_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716caf836a309b020800000000000000
+      internalID: 2357919892360578583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3D_ss_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564e2500e9786e060800000000000000
+      internalID: 6982417384964547685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3D_ss_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a3e7e1f0ee117a0800000000000000
+      internalID: -6408079046067996125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3D_ss_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322570db19875df10800000000000000
+      internalID: 2293872152552100387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3D_ss_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9429fba363f63ac0800000000000000
+      internalID: -3875642819893189476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3D_ss_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced2b2fbb6f9aac70800000000000000
+      internalID: 8983167691861470700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree3D_ss_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 128
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -23, y: -67}
+        - {x: -11, y: -40}
+        - {x: 28, y: -40}
+        - {x: 52, y: -58}
+        - {x: 32, y: -77}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691d8ae66730e4fc0800000000000000
+      internalID: -3508863252477455978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
