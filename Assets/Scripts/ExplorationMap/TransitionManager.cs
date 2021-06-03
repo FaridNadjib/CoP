@@ -20,6 +20,11 @@ public class TransitionManager : MonoBehaviour
 
     Transitions activeTransition;
 
+
+    public delegate void FinishedFading(bool fadeFinished);
+    public FinishedFading OnFinishedFading;
+
+
     #region Singleton
     public static TransitionManager Instance;
 
@@ -130,6 +135,22 @@ public class TransitionManager : MonoBehaviour
         }
     }
 
+    public void BattleFade(Transitions trans)
+    {
+        activeTransition = trans;
+        StartCoroutine("BattleFading");
+    }
+
+    IEnumerator BattleFading()
+    {
+        PlayFadeOutAnimation();
+        yield return new WaitForSeconds(waitingTime);
+        OnFinishedFading?.Invoke(true);
+        PlayFadeInAnimation();
+        yield return new WaitForSeconds(waitingTime);
+        DeactivateLayers();
+    }
+
     private void DeactivateLayers()
     {
         def.SetActive(false);
@@ -140,7 +161,6 @@ public class TransitionManager : MonoBehaviour
     private void PlacePlayer(Scene scene, LoadSceneMode mode)
     {
         StartCoroutine("InitPlayerPosition");
-        Debug.Log("Success");
     }
 
     IEnumerator InitPlayerPosition()
@@ -157,4 +177,6 @@ public class TransitionManager : MonoBehaviour
     {
         SceneManager.sceneLoaded -= PlacePlayer;
     }
+
+
 }

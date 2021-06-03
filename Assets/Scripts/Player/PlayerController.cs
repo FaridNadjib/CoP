@@ -38,7 +38,12 @@ public class PlayerController : MonoBehaviour
 
     bool isInteracting;
     Direction facingDirection;
+
+
+    bool isFighting;
     #endregion Private Fields
+
+
 
     #region Properties
 
@@ -55,6 +60,7 @@ public class PlayerController : MonoBehaviour
     public Transform EmotionHolder { get => emotionHolder; set => emotionHolder = value; }
     public Transform ItemIndicator { get => itemIndicator; set => itemIndicator = value; }
     public Vector3 TeleportLocation { get => teleportLocation; set => teleportLocation = value; }
+    public bool IsFighting { get => isFighting; set => isFighting = value; }
 
     #endregion Properties
 

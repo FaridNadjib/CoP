@@ -18,9 +18,17 @@ public class PlayerInventory : MonoBehaviour
     int hunterCrystals;
     int seadrragonCrystals;
 
+    List<GameObject> allChampions;
+    List<GameObject> currentChampions;
+
+    [SerializeField] GameObject test;
+    [SerializeField] Transform championHolder;
+    public List<GameObject> CurrentChampions { get => currentChampions; set => currentChampions = value; }
 
     #region Singleton
     public static PlayerInventory Instance;
+
+    
 
     private void Awake()
     {
@@ -36,7 +44,22 @@ public class PlayerInventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currentChampions = new List<GameObject>();
+
+        GameObject tmp = Instantiate(test, championHolder);
+        tmp.GetComponent<Champion>().IsPlayer = true;
+        tmp.GetComponent<Champion>().Initiative = 20;
         
+        currentChampions.Add(tmp);
+        //tmp.SetActive(false);
+        tmp = Instantiate(test, championHolder);
+        tmp.GetComponent<Champion>().IsPlayer = true;
+        tmp.GetComponent<Champion>().Initiative = 40;
+        currentChampions.Add(tmp);
+        tmp = Instantiate(test, championHolder);
+        tmp.GetComponent<Champion>().IsPlayer = true;
+        tmp.GetComponent<Champion>().Initiative = 30;
+        currentChampions.Add(tmp);
     }
 
     // Update is called once per frame

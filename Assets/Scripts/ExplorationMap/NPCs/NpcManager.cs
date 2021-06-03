@@ -56,6 +56,10 @@ public class NpcManager : MonoBehaviour
     [SerializeField] Transform emojiHolder;
     Emotion activeEmotion;
 
+
+
+
+
     public bool IsFighting { get { return isFighting; } set { isFighting = value; } }
     public bool IsTalking { get { return isTalking; } set { isTalking = value; } }
     public bool WayBlocked { get; set; }

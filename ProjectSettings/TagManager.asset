@@ -56,6 +56,9 @@ TagManager:
   - name: StrategyMap
     uniqueID: 2153026101
     locked: 0
+  - name: Champions
+    uniqueID: 1239809237
+    locked: 0
   - name: UI
     uniqueID: 4072933549
     locked: 0

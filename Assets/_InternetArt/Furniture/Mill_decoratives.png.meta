@@ -1,7 +1,550 @@
 fileFormatVersion: 2
 guid: dbd02804a7930de4b9a4331b3c8bd80d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6157296718350535996
+    second: Mill_decoratives_0
+  - first:
+      213: 4318558953034202699
+    second: Mill_decoratives_1
+  - first:
+      213: 881980128083354363
+    second: Mill_decoratives_2
+  - first:
+      213: -2293840158363947093
+    second: Mill_decoratives_3
+  - first:
+      213: -5207572317631112733
+    second: Mill_decoratives_4
+  - first:
+      213: 4442250054352036518
+    second: Mill_decoratives_5
+  - first:
+      213: -3523695573235250713
+    second: Mill_decoratives_6
+  - first:
+      213: 6665936685111646503
+    second: Mill_decoratives_7
+  - first:
+      213: 8302300867056222271
+    second: Mill_decoratives_8
+  - first:
+      213: 2819489873519796641
+    second: Mill_decoratives_9
+  - first:
+      213: -3679611604476774436
+    second: Mill_decoratives_10
+  - first:
+      213: -817893081553791198
+    second: Mill_decoratives_11
+  - first:
+      213: 8657936857547617030
+    second: Mill_decoratives_12
+  - first:
+      213: -4577716875457718208
+    second: Mill_decoratives_13
+  - first:
+      213: -8512810330470628516
+    second: Mill_decoratives_14
+  - first:
+      213: 1322568281411013565
+    second: Mill_decoratives_15
+  - first:
+      213: -719795267174431955
+    second: Mill_decoratives_16
+  - first:
+      213: 5177030707534182132
+    second: Mill_decoratives_17
+  - first:
+      213: 8850907027743655861
+    second: Mill_decoratives_18
+  - first:
+      213: 1528889967830856058
+    second: Mill_decoratives_19
+  - first:
+      213: -1647175952099068731
+    second: Mill_decoratives_20
+  - first:
+      213: -6397017280936288911
+    second: Mill_decoratives_21
+  - first:
+      213: 6048477910599572717
+    second: Mill_decoratives_22
+  - first:
+      213: 2869245612339217980
+    second: Mill_decoratives_23
+  - first:
+      213: 1779927266269004200
+    second: Mill_decoratives_24
+  - first:
+      213: 7741098011202959956
+    second: Mill_decoratives_25
+  - first:
+      213: -7023521535331190866
+    second: Mill_decoratives_26
+  - first:
+      213: -70880509963494117
+    second: Mill_decoratives_27
+  - first:
+      213: 727982775640310909
+    second: Mill_decoratives_28
+  - first:
+      213: -2697349591597572169
+    second: Mill_decoratives_29
+  - first:
+      213: 7481047923063115868
+    second: Mill_decoratives_30
+  - first:
+      213: 3137771217397702086
+    second: Mill_decoratives_31
+  - first:
+      213: 5166428818462636047
+    second: Mill_decoratives_32
+  - first:
+      213: -4604589877222387828
+    second: Mill_decoratives_33
+  - first:
+      213: -6925582315709410744
+    second: Mill_decoratives_34
+  - first:
+      213: 3594775020188376546
+    second: Mill_decoratives_35
+  - first:
+      213: -2095373213649431840
+    second: Mill_decoratives_36
+  - first:
+      213: 8600860665915425740
+    second: Mill_decoratives_37
+  - first:
+      213: 3408321884959797109
+    second: Mill_decoratives_38
+  - first:
+      213: 1257798718212856811
+    second: Mill_decoratives_39
+  - first:
+      213: 7923695809296571744
+    second: Mill_decoratives_40
+  - first:
+      213: 4732962943639311685
+    second: Mill_decoratives_41
+  - first:
+      213: -8606462510425607608
+    second: Mill_decoratives_42
+  - first:
+      213: 8331513317524154653
+    second: Mill_decoratives_43
+  - first:
+      213: -5234820496024964606
+    second: Mill_decoratives_44
+  - first:
+      213: -3728189224945871418
+    second: Mill_decoratives_45
+  - first:
+      213: 428045338086172837
+    second: Mill_decoratives_46
+  - first:
+      213: -7626317903174509653
+    second: Mill_decoratives_47
+  - first:
+      213: -4888801411551272463
+    second: Mill_decoratives_48
+  - first:
+      213: -6949892119353861016
+    second: Mill_decoratives_49
+  - first:
+      213: -1808789270127576567
+    second: Mill_decoratives_50
+  - first:
+      213: -976877534484684466
+    second: Mill_decoratives_51
+  - first:
+      213: -5289131198171641425
+    second: Mill_decoratives_52
+  - first:
+      213: -6937321849493301954
+    second: Mill_decoratives_53
+  - first:
+      213: 8292890283964018205
+    second: Mill_decoratives_54
+  - first:
+      213: -3470029650053724915
+    second: Mill_decoratives_55
+  - first:
+      213: -4142417178305681694
+    second: Mill_decoratives_56
+  - first:
+      213: 1519151077865710880
+    second: Mill_decoratives_57
+  - first:
+      213: -3592283593501781944
+    second: Mill_decoratives_58
+  - first:
+      213: -1238980990830526464
+    second: Mill_decoratives_59
+  - first:
+      213: 6341682284543665093
+    second: Mill_decoratives_60
+  - first:
+      213: 5055468358509843277
+    second: Mill_decoratives_61
+  - first:
+      213: 5470277334240797153
+    second: Mill_decoratives_62
+  - first:
+      213: 4912381126530792297
+    second: Mill_decoratives_63
+  - first:
+      213: 3771457125008445223
+    second: Mill_decoratives_64
+  - first:
+      213: 6929279230862336448
+    second: Mill_decoratives_65
+  - first:
+      213: 2269314786428994931
+    second: Mill_decoratives_66
+  - first:
+      213: 4542561407610588894
+    second: Mill_decoratives_67
+  - first:
+      213: 3210537865894284120
+    second: Mill_decoratives_68
+  - first:
+      213: -661776071265364047
+    second: Mill_decoratives_69
+  - first:
+      213: -8321169430311776073
+    second: Mill_decoratives_70
+  - first:
+      213: 4716022444600631675
+    second: Mill_decoratives_71
+  - first:
+      213: 6877864489262669422
+    second: Mill_decoratives_72
+  - first:
+      213: -3410054781958659035
+    second: Mill_decoratives_73
+  - first:
+      213: -4027087903157957442
+    second: Mill_decoratives_74
+  - first:
+      213: 7277942765329354591
+    second: Mill_decoratives_75
+  - first:
+      213: -4636364819554604183
+    second: Mill_decoratives_76
+  - first:
+      213: -172065368727567555
+    second: Mill_decoratives_77
+  - first:
+      213: 5664096455412561901
+    second: Mill_decoratives_78
+  - first:
+      213: 5485622252512850142
+    second: Mill_decoratives_79
+  - first:
+      213: -6130875201393590788
+    second: Mill_decoratives_80
+  - first:
+      213: -1286721341559437548
+    second: Mill_decoratives_81
+  - first:
+      213: -3822329176302253923
+    second: Mill_decoratives_82
+  - first:
+      213: -6585913835733473687
+    second: Mill_decoratives_83
+  - first:
+      213: 8959932566803010152
+    second: Mill_decoratives_84
+  - first:
+      213: -1279198038147681684
+    second: Mill_decoratives_85
+  - first:
+      213: -571891420422617617
+    second: Mill_decoratives_86
+  - first:
+      213: -4331032775059920110
+    second: Mill_decoratives_87
+  - first:
+      213: -7472758305227785715
+    second: Mill_decoratives_88
+  - first:
+      213: 332031238633503781
+    second: Mill_decoratives_89
+  - first:
+      213: 8335848443601624775
+    second: Mill_decoratives_90
+  - first:
+      213: 4401570478725506467
+    second: Mill_decoratives_91
+  - first:
+      213: -4881190226611358388
+    second: Mill_decoratives_92
+  - first:
+      213: 2003482425966636198
+    second: Mill_decoratives_93
+  - first:
+      213: 6950804944757348609
+    second: Mill_decoratives_94
+  - first:
+      213: -6700751504490449202
+    second: Mill_decoratives_95
+  - first:
+      213: 6382963283999442183
+    second: Mill_decoratives_96
+  - first:
+      213: -3393543151337232267
+    second: Mill_decoratives_97
+  - first:
+      213: -920299403725675187
+    second: Mill_decoratives_98
+  - first:
+      213: 1018422778380527203
+    second: Mill_decoratives_99
+  - first:
+      213: -7894141467931373848
+    second: Mill_decoratives_100
+  - first:
+      213: -116323893661635938
+    second: Mill_decoratives_101
+  - first:
+      213: 750867248711664057
+    second: Mill_decoratives_102
+  - first:
+      213: 5792205743518410552
+    second: Mill_decoratives_103
+  - first:
+      213: 9191973643438819671
+    second: Mill_decoratives_104
+  - first:
+      213: -305033323967239522
+    second: Mill_decoratives_105
+  - first:
+      213: 1180853261204708550
+    second: Mill_decoratives_106
+  - first:
+      213: -8128850249785832245
+    second: Mill_decoratives_107
+  - first:
+      213: 5732880724362163427
+    second: Mill_decoratives_108
+  - first:
+      213: 6149023825713628475
+    second: Mill_decoratives_109
+  - first:
+      213: -1867244525169445302
+    second: Mill_decoratives_110
+  - first:
+      213: 9037354620143326569
+    second: Mill_decoratives_111
+  - first:
+      213: -3395695910374162647
+    second: Mill_decoratives_112
+  - first:
+      213: 1682734497157900592
+    second: Mill_decoratives_113
+  - first:
+      213: 6719223301455413974
+    second: Mill_decoratives_114
+  - first:
+      213: -3734398504537751706
+    second: Mill_decoratives_115
+  - first:
+      213: -623441550759351843
+    second: Mill_decoratives_116
+  - first:
+      213: 9194245841361975235
+    second: Mill_decoratives_117
+  - first:
+      213: -4435849411975280402
+    second: Mill_decoratives_118
+  - first:
+      213: -8278055313488422759
+    second: Mill_decoratives_119
+  - first:
+      213: -2127137467170356300
+    second: Mill_decoratives_120
+  - first:
+      213: 666963873612230582
+    second: Mill_decoratives_121
+  - first:
+      213: 1644768129655682258
+    second: Mill_decoratives_122
+  - first:
+      213: -2996930030551247216
+    second: Mill_decoratives_123
+  - first:
+      213: -2154802785842630059
+    second: Mill_decoratives_124
+  - first:
+      213: -2935819639054183569
+    second: Mill_decoratives_125
+  - first:
+      213: 5403292596152709623
+    second: Mill_decoratives_126
+  - first:
+      213: 2364536163125194680
+    second: Mill_decoratives_127
+  - first:
+      213: 5250825477365523988
+    second: Mill_decoratives_128
+  - first:
+      213: -1895516979618579447
+    second: Mill_decoratives_129
+  - first:
+      213: -7466022277015714601
+    second: Mill_decoratives_130
+  - first:
+      213: 5472116487570221353
+    second: Mill_decoratives_131
+  - first:
+      213: -8965322557043157944
+    second: Mill_decoratives_132
+  - first:
+      213: -4615303612827633939
+    second: Mill_decoratives_133
+  - first:
+      213: 9012366194087088004
+    second: Mill_decoratives_134
+  - first:
+      213: -4747424218899246315
+    second: Mill_decoratives_135
+  - first:
+      213: 8019669365689249610
+    second: Mill_decoratives_136
+  - first:
+      213: -7905799545148257712
+    second: Mill_decoratives_137
+  - first:
+      213: -8046417593071071654
+    second: Mill_decoratives_138
+  - first:
+      213: 6087074812557362311
+    second: Mill_decoratives_139
+  - first:
+      213: 8459771992091909873
+    second: Mill_decoratives_140
+  - first:
+      213: -7147391933051875784
+    second: Mill_decoratives_141
+  - first:
+      213: 5035194590289612290
+    second: Mill_decoratives_142
+  - first:
+      213: 4392888598373686368
+    second: Mill_decoratives_143
+  - first:
+      213: -7948572691068747644
+    second: Mill_decoratives_144
+  - first:
+      213: -9151067763993214146
+    second: Mill_decoratives_145
+  - first:
+      213: -9215074856460270152
+    second: Mill_decoratives_146
+  - first:
+      213: 5109880303846517722
+    second: Mill_decoratives_147
+  - first:
+      213: 2996263952627265335
+    second: Mill_decoratives_148
+  - first:
+      213: 4975593459020148277
+    second: Mill_decoratives_149
+  - first:
+      213: 2183244334594781389
+    second: Mill_decoratives_150
+  - first:
+      213: -2547928067775986911
+    second: Mill_decoratives_151
+  - first:
+      213: -5594739160653751825
+    second: Mill_decoratives_152
+  - first:
+      213: -7322756615570166648
+    second: Mill_decoratives_153
+  - first:
+      213: 2243498994173285206
+    second: Mill_decoratives_154
+  - first:
+      213: -4864426776631686242
+    second: Mill_decoratives_155
+  - first:
+      213: 2269441855607459917
+    second: Mill_decoratives_156
+  - first:
+      213: -1617696164835481787
+    second: Mill_decoratives_157
+  - first:
+      213: -6829007989920889785
+    second: Mill_decoratives_158
+  - first:
+      213: 8163674528642113887
+    second: Mill_decoratives_159
+  - first:
+      213: 7489681413596406154
+    second: Mill_decoratives_160
+  - first:
+      213: 6463498651136629980
+    second: Mill_decoratives_161
+  - first:
+      213: 4052927229339357900
+    second: Mill_decoratives_162
+  - first:
+      213: -8822866290166263414
+    second: Mill_decoratives_163
+  - first:
+      213: -4350410669060580223
+    second: Mill_decoratives_164
+  - first:
+      213: -2068101732283776439
+    second: Mill_decoratives_165
+  - first:
+      213: -158389545982151610
+    second: Mill_decoratives_166
+  - first:
+      213: 4786398418268232265
+    second: Mill_decoratives_167
+  - first:
+      213: -686290644041629151
+    second: Mill_decoratives_168
+  - first:
+      213: 5897044432473654985
+    second: Mill_decoratives_169
+  - first:
+      213: -8046033728755597218
+    second: Mill_decoratives_170
+  - first:
+      213: -3420686083712348374
+    second: Mill_decoratives_171
+  - first:
+      213: 7814543262438343637
+    second: Mill_decoratives_172
+  - first:
+      213: -4951106068530922444
+    second: Mill_decoratives_173
+  - first:
+      213: 4799470746257681209
+    second: Mill_decoratives_174
+  - first:
+      213: 6301259492560769848
+    second: Mill_decoratives_175
+  - first:
+      213: -6166046349885494036
+    second: Mill_decoratives_176
+  - first:
+      213: -404120092617737223
+    second: Mill_decoratives_177
+  - first:
+      213: 6450342977800645197
+    second: Mill_decoratives_178
+  - first:
+      213: 4152291563526927992
+    second: Mill_decoratives_179
+  - first:
+      213: -1352876771574254500
+    second: Mill_decoratives_180
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +575,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,12 +584,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -55,6 +598,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -66,7 +611,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -75,7 +632,1666 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mill_decoratives_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 497
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2b906e143ec8aa0800000000000000
+      internalID: -6157296718350535996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 495
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ebf21bc7a9eeb30800000000000000
+      internalID: 4318558953034202699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 491
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2ac59e04c6d3c00800000000000000
+      internalID: 881980128083354363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 491
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafe03d7784aa20e0800000000000000
+      internalID: -2293840158363947093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 480
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e99079619cfab7b0800000000000000
+      internalID: -5207572317631112733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 480
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2ec1d63ea06ad30800000000000000
+      internalID: 4442250054352036518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 480
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e942b4ab81591fc0800000000000000
+      internalID: -3523695573235250713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_7
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 480
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7291353f81a228c50800000000000000
+      internalID: 6665936685111646503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_8
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 487
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30cd4fa6a2b73370800000000000000
+      internalID: 8302300867056222271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_9
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 490
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a165f60a17d02720800000000000000
+      internalID: 2819489873519796641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_10
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 482
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7b1cbbdb46fecc0800000000000000
+      internalID: -3679611604476774436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 465
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2279cb1639246a4f0800000000000000
+      internalID: -817893081553791198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 463
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60333e143bb272870800000000000000
+      internalID: 8657936857547617030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_13
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 459
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048180c61cea870c0800000000000000
+      internalID: -4577716875457718208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 459
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53c5047b1c6cd980800000000000000
+      internalID: -8512810330470628516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 459
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbc3bc38d4ba5210800000000000000
+      internalID: 1322568281411013565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 459
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d238f05a406c206f0800000000000000
+      internalID: -719795267174431955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 458
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f63dd9dff188d740800000000000000
+      internalID: 5177030707534182132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_18
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 438
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b74ba03c0db4da70800000000000000
+      internalID: 8850907027743655861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 428
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7177394355b73510800000000000000
+      internalID: 1528889967830856058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_20
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 428
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4b19cd23e0429e0800000000000000
+      internalID: -1647175952099068731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 430
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dd1c30daa3937a0800000000000000
+      internalID: -6397017280936288911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_22
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 428
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec951d0d9280f350800000000000000
+      internalID: 6048477910599572717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_23
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 428
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36c3d8beab91d720800000000000000
+      internalID: 2869245612339217980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 430
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a10fff0b6293b810800000000000000
+      internalID: 1779927266269004200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 428
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a3c3980a7ed6b60800000000000000
+      internalID: 7741098011202959956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_26
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 428
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea737463060778e90800000000000000
+      internalID: -7023521535331190866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_27
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 430
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d902e3d8e240ff0800000000000000
+      internalID: -70880509963494117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_28
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 418
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74c4a83a705a1a00800000000000000
+      internalID: 727982775640310909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_29
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 423
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf18cd66d6119ad0800000000000000
+      internalID: -2697349591597572169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_30
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 423
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50d9d1237502d760800000000000000
+      internalID: 7481047923063115868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_31
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 423
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd5f6f2c4a9b8b20800000000000000
+      internalID: 3137771217397702086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_32
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 423
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f087ec133a7d2b740800000000000000
+      internalID: 5166428818462636047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_33
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 396
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fcccf17e53910c0800000000000000
+      internalID: -4604589877222387828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_34
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 396
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842d961c39363ef90800000000000000
+      internalID: -6925582315709410744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 398
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed96cdb5d433e130800000000000000
+      internalID: 3594775020188376546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_36
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 396
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e29e88f92dbbe2e0800000000000000
+      internalID: -2095373213649431840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_37
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 396
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3c482d4356c5770800000000000000
+      internalID: 8600860665915425740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_38
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 398
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57fe73142bacc4f20800000000000000
+      internalID: 3408321884959797109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_39
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 396
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebd4062549947110800000000000000
+      internalID: 1257798718212856811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_40
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 396
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d9f556b5f96fd60800000000000000
+      internalID: 7923695809296571744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_41
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 398
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54555be88bcdea140800000000000000
+      internalID: 4732962943639311685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 337
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8427d5d12f3bf8880800000000000000
+      internalID: -8606462510425607608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_43
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 342
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19a674583b7f9370800000000000000
+      internalID: 8331513317524154653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 330
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2027f7f7e7e2a57b0800000000000000
+      internalID: -5234820496024964606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_45
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 327
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c599a717afc24cc0800000000000000
+      internalID: -3728189224945871418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_46
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 338
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8636497f8b0f500800000000000000
+      internalID: 428045338086172837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_47
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 335
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babd415e540e92690800000000000000
+      internalID: -7626317903174509653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_48
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 321
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1ee07a40d772cb0800000000000000
+      internalID: -4888801411551272463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_49
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 321
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c50a680f50d8f90800000000000000
+      internalID: -6949892119353861016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_50
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 325
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90af1800eb3e5e6e0800000000000000
+      internalID: -1808789270127576567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 356
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e412bffde0f6172f0800000000000000
+      internalID: -976877534484684466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 269
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa90b82c23b3996b0800000000000000
+      internalID: -5289131198171641425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_53
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 271
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35556c888ea9bf90800000000000000
+      internalID: -6937321849493301954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_54
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 270
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ea6f096c3461370800000000000000
+      internalID: 8292890283964018205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_55
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 270
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0589741b6af7dfc0800000000000000
+      internalID: -3470029650053724915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_56
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 270
+        width: 12
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e62d97168d2386c0800000000000000
+      internalID: -4142417178305681694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_57
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 270
+        width: 12
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02566544bdb151510800000000000000
+      internalID: 1519151077865710880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_58
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 291
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840dcdcba15a52ec0800000000000000
+      internalID: -3592283593501781944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_59
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 291
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000c51e6a514ecee0800000000000000
+      internalID: -1238980990830526464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_60
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 272
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3ec98207e220850800000000000000
+      internalID: 6341682284543665093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_61
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 269
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43d432efa1a82640800000000000000
+      internalID: 5055468358509843277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_62
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 269
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e12b42b0445aeb40800000000000000
+      internalID: 5470277334240797153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 177
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b73309b984c2440800000000000000
+      internalID: 4912381126530792297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_64
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 180
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f8ebde548e65430800000000000000
+      internalID: 3771457125008445223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_65
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 160
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1aa016fbeb92060800000000000000
+      internalID: 6929279230862336448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 180
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37544a066c93e7f10800000000000000
+      internalID: 2269314786428994931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_67
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 170
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede070f588b6a0f30800000000000000
+      internalID: 4542561407610588894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_68
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 181
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bc19acd2f1e8c20800000000000000
+      internalID: 3210537865894284120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_69
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 181
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7df5f5b26e0d6f0800000000000000
+      internalID: -661776071265364047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_70
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 213
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b05d669d74458c80800000000000000
+      internalID: -8321169430311776073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 81
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a0334d6da27140800000000000000
+      internalID: 4716022444600631675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_72
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 84
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e56cfff45137f50800000000000000
+      internalID: 6877864489262669422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_73
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 64
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5246bb83e3d0da0d0800000000000000
+      internalID: -3410054781958659035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 84
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc4ff473e8ec18c0800000000000000
+      internalID: -4027087903157957442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_75
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 74
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f84178262700560800000000000000
+      internalID: 7277942765329354591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_76
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 85
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b6459d2c258afb0800000000000000
+      internalID: -4636364819554604183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_77
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 85
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33c8d27573bc9df0800000000000000
+      internalID: -172065368727567555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_decoratives_78
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 117
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de73a6e67b9ea9e40800000000000000
+      internalID: 5664096455412561901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

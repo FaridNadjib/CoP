@@ -1,7 +1,1168 @@
 fileFormatVersion: 2
 guid: 84bd3cd656ed3cd47b2361b0c170fc1c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -466036661834214985
+    second: Mill_outside_0
+  - first:
+      213: 4124218154501101400
+    second: Mill_outside_1
+  - first:
+      213: -254967096208140636
+    second: Mill_outside_2
+  - first:
+      213: -1778614355655833977
+    second: Mill_outside_3
+  - first:
+      213: -8549352695618490800
+    second: Mill_outside_4
+  - first:
+      213: 5299337518405061986
+    second: Mill_outside_5
+  - first:
+      213: -1364055937777532504
+    second: Mill_outside_6
+  - first:
+      213: 3181797025866504174
+    second: Mill_outside_7
+  - first:
+      213: 9003128905879465091
+    second: Mill_outside_8
+  - first:
+      213: 9109967550969793702
+    second: Mill_outside_9
+  - first:
+      213: 1123071296820064597
+    second: Mill_outside_10
+  - first:
+      213: -8542978413878570069
+    second: Mill_outside_11
+  - first:
+      213: 3270889059167274070
+    second: Mill_outside_12
+  - first:
+      213: -7790638719362755613
+    second: Mill_outside_13
+  - first:
+      213: -8172627348732192781
+    second: Mill_outside_14
+  - first:
+      213: -184936187252906635
+    second: Mill_outside_15
+  - first:
+      213: -6949330602177301866
+    second: Mill_outside_16
+  - first:
+      213: -2417746361461447887
+    second: Mill_outside_17
+  - first:
+      213: 5476949969871756741
+    second: Mill_outside_18
+  - first:
+      213: 5611234673028087948
+    second: Mill_outside_19
+  - first:
+      213: 5222785484065817941
+    second: Mill_outside_20
+  - first:
+      213: 2620231846664066318
+    second: Mill_outside_21
+  - first:
+      213: 71450125139441987
+    second: Mill_outside_22
+  - first:
+      213: -2764915804028596121
+    second: Mill_outside_23
+  - first:
+      213: -4900070060028716041
+    second: Mill_outside_24
+  - first:
+      213: -1597433800408729355
+    second: Mill_outside_25
+  - first:
+      213: -2797497123779640496
+    second: Mill_outside_26
+  - first:
+      213: -4147668301940122570
+    second: Mill_outside_27
+  - first:
+      213: -1889991596880196616
+    second: Mill_outside_28
+  - first:
+      213: -1130673693896229518
+    second: Mill_outside_29
+  - first:
+      213: 8534609543531759882
+    second: Mill_outside_30
+  - first:
+      213: 4243693358230491097
+    second: Mill_outside_31
+  - first:
+      213: 822161470667407706
+    second: Mill_outside_32
+  - first:
+      213: 831213635331239994
+    second: Mill_outside_33
+  - first:
+      213: -1590634981511286577
+    second: Mill_outside_34
+  - first:
+      213: 5792445177722445066
+    second: Mill_outside_35
+  - first:
+      213: 5658315395336630489
+    second: Mill_outside_36
+  - first:
+      213: -4775465727457428305
+    second: Mill_outside_37
+  - first:
+      213: 1163922798748615889
+    second: Mill_outside_38
+  - first:
+      213: -6165635489700603787
+    second: Mill_outside_39
+  - first:
+      213: -7492176000879385397
+    second: Mill_outside_40
+  - first:
+      213: -2798989459837402286
+    second: Mill_outside_41
+  - first:
+      213: -3222130913827278727
+    second: Mill_outside_42
+  - first:
+      213: 3921180173711507603
+    second: Mill_outside_43
+  - first:
+      213: 8397164651421038589
+    second: Mill_outside_44
+  - first:
+      213: 3596141553522162483
+    second: Mill_outside_45
+  - first:
+      213: -8797984114881856947
+    second: Mill_outside_46
+  - first:
+      213: -6621502242377793454
+    second: Mill_outside_47
+  - first:
+      213: 6691945735894575130
+    second: Mill_outside_48
+  - first:
+      213: 1205435716304315992
+    second: Mill_outside_49
+  - first:
+      213: 3349624175713598535
+    second: Mill_outside_50
+  - first:
+      213: -691467624209106504
+    second: Mill_outside_51
+  - first:
+      213: 4156392901639110866
+    second: Mill_outside_52
+  - first:
+      213: -587813342552841614
+    second: Mill_outside_53
+  - first:
+      213: -8958472758934411106
+    second: Mill_outside_54
+  - first:
+      213: -5510170139639345334
+    second: Mill_outside_55
+  - first:
+      213: -5048021771105457274
+    second: Mill_outside_56
+  - first:
+      213: -2277567208142559761
+    second: Mill_outside_57
+  - first:
+      213: 4111072808375513337
+    second: Mill_outside_58
+  - first:
+      213: -2596761481524297610
+    second: Mill_outside_59
+  - first:
+      213: 1135823839984787405
+    second: Mill_outside_60
+  - first:
+      213: -6068490257747512938
+    second: Mill_outside_61
+  - first:
+      213: -4020921261883635537
+    second: Mill_outside_62
+  - first:
+      213: -4901084968114854589
+    second: Mill_outside_63
+  - first:
+      213: -6321987684718743839
+    second: Mill_outside_64
+  - first:
+      213: 6875352146300454812
+    second: Mill_outside_65
+  - first:
+      213: -5359083373395869020
+    second: Mill_outside_66
+  - first:
+      213: 6785532079023652632
+    second: Mill_outside_67
+  - first:
+      213: 2109986789476733086
+    second: Mill_outside_68
+  - first:
+      213: -3604526553855848388
+    second: Mill_outside_69
+  - first:
+      213: -4475080154931678309
+    second: Mill_outside_70
+  - first:
+      213: 2766413673253638214
+    second: Mill_outside_71
+  - first:
+      213: 8220017881114725381
+    second: Mill_outside_72
+  - first:
+      213: -8839755597715574381
+    second: Mill_outside_73
+  - first:
+      213: 5499721888645331389
+    second: Mill_outside_74
+  - first:
+      213: -3641125387657556798
+    second: Mill_outside_75
+  - first:
+      213: -4479403641183221264
+    second: Mill_outside_76
+  - first:
+      213: 6102236574192357719
+    second: Mill_outside_77
+  - first:
+      213: 2179519177711808342
+    second: Mill_outside_78
+  - first:
+      213: 4013673440254958647
+    second: Mill_outside_79
+  - first:
+      213: -8134975994424560500
+    second: Mill_outside_80
+  - first:
+      213: 7382860863015742366
+    second: Mill_outside_81
+  - first:
+      213: 7497954058483935931
+    second: Mill_outside_82
+  - first:
+      213: -3684624043845254457
+    second: Mill_outside_83
+  - first:
+      213: -2660097918869891329
+    second: Mill_outside_84
+  - first:
+      213: -6604462050601852747
+    second: Mill_outside_85
+  - first:
+      213: -3259858798139401270
+    second: Mill_outside_86
+  - first:
+      213: -4840170232990018644
+    second: Mill_outside_87
+  - first:
+      213: -4535904981580338315
+    second: Mill_outside_88
+  - first:
+      213: -3747642604455878224
+    second: Mill_outside_89
+  - first:
+      213: -1449348066382566068
+    second: Mill_outside_90
+  - first:
+      213: -2465144589937826132
+    second: Mill_outside_91
+  - first:
+      213: -4556796109565317662
+    second: Mill_outside_92
+  - first:
+      213: 4426667861460243703
+    second: Mill_outside_93
+  - first:
+      213: -7373166359648117411
+    second: Mill_outside_94
+  - first:
+      213: -8723159345493354126
+    second: Mill_outside_95
+  - first:
+      213: 7035947042998587427
+    second: Mill_outside_96
+  - first:
+      213: -4935243762095291036
+    second: Mill_outside_97
+  - first:
+      213: 6910149923011394520
+    second: Mill_outside_98
+  - first:
+      213: -9048983805614209785
+    second: Mill_outside_99
+  - first:
+      213: 491229128216816638
+    second: Mill_outside_100
+  - first:
+      213: -2303820703620478571
+    second: Mill_outside_101
+  - first:
+      213: 8704281157195318307
+    second: Mill_outside_102
+  - first:
+      213: 8584738366902055218
+    second: Mill_outside_103
+  - first:
+      213: 2014006787814630082
+    second: Mill_outside_104
+  - first:
+      213: 7936815273163966662
+    second: Mill_outside_105
+  - first:
+      213: 7016090900898845935
+    second: Mill_outside_106
+  - first:
+      213: 1094980152499016941
+    second: Mill_outside_107
+  - first:
+      213: 1196594169798784868
+    second: Mill_outside_108
+  - first:
+      213: 7470439762836940344
+    second: Mill_outside_109
+  - first:
+      213: 9174663643428601123
+    second: Mill_outside_110
+  - first:
+      213: -4409474082343954572
+    second: Mill_outside_111
+  - first:
+      213: 9092044998250868762
+    second: Mill_outside_112
+  - first:
+      213: -4820961980031700599
+    second: Mill_outside_113
+  - first:
+      213: -8629385006565564520
+    second: Mill_outside_114
+  - first:
+      213: 4011726922626690514
+    second: Mill_outside_115
+  - first:
+      213: 2076817412937128142
+    second: Mill_outside_116
+  - first:
+      213: -442291920650155090
+    second: Mill_outside_117
+  - first:
+      213: 3510303728129741132
+    second: Mill_outside_118
+  - first:
+      213: -8538836969967030569
+    second: Mill_outside_119
+  - first:
+      213: -6334473180560599599
+    second: Mill_outside_120
+  - first:
+      213: -1414095119634643467
+    second: Mill_outside_121
+  - first:
+      213: 1260589525463962797
+    second: Mill_outside_122
+  - first:
+      213: 2767791027809235692
+    second: Mill_outside_123
+  - first:
+      213: -7503258469594249023
+    second: Mill_outside_124
+  - first:
+      213: 1951845464052301081
+    second: Mill_outside_125
+  - first:
+      213: 8823504761793302850
+    second: Mill_outside_126
+  - first:
+      213: -4816473568703041108
+    second: Mill_outside_127
+  - first:
+      213: -708370705294696271
+    second: Mill_outside_128
+  - first:
+      213: 4726970290675077431
+    second: Mill_outside_129
+  - first:
+      213: 2161970899098479973
+    second: Mill_outside_130
+  - first:
+      213: 7443842822363078724
+    second: Mill_outside_131
+  - first:
+      213: -4744232280455457174
+    second: Mill_outside_132
+  - first:
+      213: 6075296031137690448
+    second: Mill_outside_133
+  - first:
+      213: -945901224803836284
+    second: Mill_outside_134
+  - first:
+      213: 3982032945470953413
+    second: Mill_outside_135
+  - first:
+      213: 3005831735786498207
+    second: Mill_outside_136
+  - first:
+      213: -4071367041840016199
+    second: Mill_outside_137
+  - first:
+      213: -5930579529022698501
+    second: Mill_outside_138
+  - first:
+      213: 1532555523245670527
+    second: Mill_outside_139
+  - first:
+      213: 4612854188484195864
+    second: Mill_outside_140
+  - first:
+      213: -1553698439669087718
+    second: Mill_outside_141
+  - first:
+      213: 449949815634366398
+    second: Mill_outside_142
+  - first:
+      213: -2854033320845042146
+    second: Mill_outside_143
+  - first:
+      213: 8621586764320895284
+    second: Mill_outside_144
+  - first:
+      213: -7316340290330854993
+    second: Mill_outside_145
+  - first:
+      213: -1095070467422579158
+    second: Mill_outside_146
+  - first:
+      213: -5881706577804291131
+    second: Mill_outside_147
+  - first:
+      213: -8165613685060203638
+    second: Mill_outside_148
+  - first:
+      213: 412710659069854178
+    second: Mill_outside_149
+  - first:
+      213: -7381106635649244507
+    second: Mill_outside_150
+  - first:
+      213: 4852820651239269186
+    second: Mill_outside_151
+  - first:
+      213: 6828534041670353484
+    second: Mill_outside_152
+  - first:
+      213: -281340895992950419
+    second: Mill_outside_153
+  - first:
+      213: -5071778133981591066
+    second: Mill_outside_154
+  - first:
+      213: -2465443126414947231
+    second: Mill_outside_155
+  - first:
+      213: 5472999929428305594
+    second: Mill_outside_156
+  - first:
+      213: -5419212293879651874
+    second: Mill_outside_157
+  - first:
+      213: 6427383771556093340
+    second: Mill_outside_158
+  - first:
+      213: 4324251359913468208
+    second: Mill_outside_159
+  - first:
+      213: -6674879002454670157
+    second: Mill_outside_160
+  - first:
+      213: 2235399891884246738
+    second: Mill_outside_161
+  - first:
+      213: 2672005518890021012
+    second: Mill_outside_162
+  - first:
+      213: -2503056904032304328
+    second: Mill_outside_163
+  - first:
+      213: 4316235770516673427
+    second: Mill_outside_164
+  - first:
+      213: 5928690275796691893
+    second: Mill_outside_165
+  - first:
+      213: 1990426510499442553
+    second: Mill_outside_166
+  - first:
+      213: -8998794460092825669
+    second: Mill_outside_167
+  - first:
+      213: -1192266129545013100
+    second: Mill_outside_168
+  - first:
+      213: 1952919211842961635
+    second: Mill_outside_169
+  - first:
+      213: 8714617258076099124
+    second: Mill_outside_170
+  - first:
+      213: 2493399397831116939
+    second: Mill_outside_171
+  - first:
+      213: 2288583977099307787
+    second: Mill_outside_172
+  - first:
+      213: 5261063199115633647
+    second: Mill_outside_173
+  - first:
+      213: 416975133230468652
+    second: Mill_outside_174
+  - first:
+      213: 2114989600768164834
+    second: Mill_outside_175
+  - first:
+      213: 3492870416912361693
+    second: Mill_outside_176
+  - first:
+      213: -7546884148906633612
+    second: Mill_outside_177
+  - first:
+      213: -7950386412030020201
+    second: Mill_outside_178
+  - first:
+      213: 1905218037765141384
+    second: Mill_outside_179
+  - first:
+      213: 2507592322033727562
+    second: Mill_outside_180
+  - first:
+      213: -4975229898792714961
+    second: Mill_outside_181
+  - first:
+      213: 9131429700664610928
+    second: Mill_outside_182
+  - first:
+      213: 2543317410022697819
+    second: Mill_outside_183
+  - first:
+      213: -2355764936724994203
+    second: Mill_outside_184
+  - first:
+      213: 601780963395138178
+    second: Mill_outside_185
+  - first:
+      213: -5250495907859061483
+    second: Mill_outside_186
+  - first:
+      213: 6704220941451139998
+    second: Mill_outside_187
+  - first:
+      213: -3866162403695476338
+    second: Mill_outside_188
+  - first:
+      213: -9058151716188956055
+    second: Mill_outside_189
+  - first:
+      213: 1183213037931069158
+    second: Mill_outside_190
+  - first:
+      213: 3485154915879548804
+    second: Mill_outside_191
+  - first:
+      213: 91833008327318669
+    second: Mill_outside_192
+  - first:
+      213: 1256145667345872508
+    second: Mill_outside_193
+  - first:
+      213: 835460463795750975
+    second: Mill_outside_194
+  - first:
+      213: -5537329748373000833
+    second: Mill_outside_195
+  - first:
+      213: -8789122410972489925
+    second: Mill_outside_196
+  - first:
+      213: 2267257610903293795
+    second: Mill_outside_197
+  - first:
+      213: -1913554860350408125
+    second: Mill_outside_198
+  - first:
+      213: 6310331773477278173
+    second: Mill_outside_199
+  - first:
+      213: -457285917968680657
+    second: Mill_outside_200
+  - first:
+      213: -7419504229373232352
+    second: Mill_outside_201
+  - first:
+      213: 5697739652768983807
+    second: Mill_outside_202
+  - first:
+      213: 356140902948987191
+    second: Mill_outside_203
+  - first:
+      213: 6041761735992804128
+    second: Mill_outside_204
+  - first:
+      213: -5174219724782213868
+    second: Mill_outside_205
+  - first:
+      213: 6097802288345917197
+    second: Mill_outside_206
+  - first:
+      213: -122249929417815380
+    second: Mill_outside_207
+  - first:
+      213: -5359643947183153471
+    second: Mill_outside_208
+  - first:
+      213: 7739449590547129536
+    second: Mill_outside_209
+  - first:
+      213: 6697419340907961677
+    second: Mill_outside_210
+  - first:
+      213: 4744432456093328167
+    second: Mill_outside_211
+  - first:
+      213: -6651227520394430988
+    second: Mill_outside_212
+  - first:
+      213: 2712862038926305223
+    second: Mill_outside_213
+  - first:
+      213: -3800029825788750144
+    second: Mill_outside_214
+  - first:
+      213: 7532354632156852003
+    second: Mill_outside_215
+  - first:
+      213: 4099880146914779082
+    second: Mill_outside_216
+  - first:
+      213: -8263183977075218648
+    second: Mill_outside_217
+  - first:
+      213: -4688024610975647646
+    second: Mill_outside_218
+  - first:
+      213: 6072662067257346614
+    second: Mill_outside_219
+  - first:
+      213: -7975754108646153642
+    second: Mill_outside_220
+  - first:
+      213: 5248172869830269519
+    second: Mill_outside_221
+  - first:
+      213: -5597330148874975702
+    second: Mill_outside_222
+  - first:
+      213: 6032926417011907919
+    second: Mill_outside_223
+  - first:
+      213: -2471652832579577567
+    second: Mill_outside_224
+  - first:
+      213: -8683939045275451245
+    second: Mill_outside_225
+  - first:
+      213: 8057512942857504076
+    second: Mill_outside_226
+  - first:
+      213: -257124649964934602
+    second: Mill_outside_227
+  - first:
+      213: 811723634104471051
+    second: Mill_outside_228
+  - first:
+      213: 2660859383380912546
+    second: Mill_outside_229
+  - first:
+      213: -6494293289723307909
+    second: Mill_outside_230
+  - first:
+      213: -7826607069254529293
+    second: Mill_outside_231
+  - first:
+      213: 3196252449674085725
+    second: Mill_outside_232
+  - first:
+      213: 3007337943242589989
+    second: Mill_outside_233
+  - first:
+      213: 1579842897298580385
+    second: Mill_outside_234
+  - first:
+      213: 2600734532447664244
+    second: Mill_outside_235
+  - first:
+      213: -1002336347223342468
+    second: Mill_outside_236
+  - first:
+      213: 8193653182176253733
+    second: Mill_outside_237
+  - first:
+      213: -5393543174551927699
+    second: Mill_outside_238
+  - first:
+      213: -5433354883662456886
+    second: Mill_outside_239
+  - first:
+      213: -5324554310619683007
+    second: Mill_outside_240
+  - first:
+      213: 5931216219988180848
+    second: Mill_outside_241
+  - first:
+      213: -5666779165842999859
+    second: Mill_outside_242
+  - first:
+      213: -9162255598980338594
+    second: Mill_outside_243
+  - first:
+      213: -1396241502065032452
+    second: Mill_outside_244
+  - first:
+      213: -6565613413752212669
+    second: Mill_outside_245
+  - first:
+      213: 1562270816043250733
+    second: Mill_outside_246
+  - first:
+      213: 5746194019348855940
+    second: Mill_outside_247
+  - first:
+      213: 2957330358626533565
+    second: Mill_outside_248
+  - first:
+      213: 7813530653005757422
+    second: Mill_outside_249
+  - first:
+      213: 1264403926643608306
+    second: Mill_outside_250
+  - first:
+      213: -675853995932201422
+    second: Mill_outside_251
+  - first:
+      213: -5833585306426728924
+    second: Mill_outside_252
+  - first:
+      213: 1069570347252444089
+    second: Mill_outside_253
+  - first:
+      213: 9204928799192190999
+    second: Mill_outside_254
+  - first:
+      213: -8420553380191244663
+    second: Mill_outside_255
+  - first:
+      213: -4339652196068250278
+    second: Mill_outside_256
+  - first:
+      213: 4441475458440583991
+    second: Mill_outside_257
+  - first:
+      213: -2571650784343899248
+    second: Mill_outside_258
+  - first:
+      213: -5739648590710105624
+    second: Mill_outside_259
+  - first:
+      213: 1001595411506700353
+    second: Mill_outside_260
+  - first:
+      213: -6405579803045160998
+    second: Mill_outside_261
+  - first:
+      213: 6335590686528437395
+    second: Mill_outside_262
+  - first:
+      213: -6056822588603290557
+    second: Mill_outside_263
+  - first:
+      213: -236623215347984478
+    second: Mill_outside_264
+  - first:
+      213: -2261079701638662580
+    second: Mill_outside_265
+  - first:
+      213: 2163319999491431290
+    second: Mill_outside_266
+  - first:
+      213: 8712668024434791548
+    second: Mill_outside_267
+  - first:
+      213: -4294126690138523950
+    second: Mill_outside_268
+  - first:
+      213: 5916122096410477248
+    second: Mill_outside_269
+  - first:
+      213: 8160477482249793317
+    second: Mill_outside_270
+  - first:
+      213: -860164043889030496
+    second: Mill_outside_271
+  - first:
+      213: -3010994184640007715
+    second: Mill_outside_272
+  - first:
+      213: 6292513974333257481
+    second: Mill_outside_273
+  - first:
+      213: 2290686489519736994
+    second: Mill_outside_274
+  - first:
+      213: -7072825819253689853
+    second: Mill_outside_275
+  - first:
+      213: -688394117879278246
+    second: Mill_outside_276
+  - first:
+      213: 3620840374687439469
+    second: Mill_outside_277
+  - first:
+      213: -3580096302282451632
+    second: Mill_outside_278
+  - first:
+      213: -934039959925206610
+    second: Mill_outside_279
+  - first:
+      213: -4093446497986112230
+    second: Mill_outside_280
+  - first:
+      213: -517897042008978684
+    second: Mill_outside_281
+  - first:
+      213: 3178302298695479992
+    second: Mill_outside_282
+  - first:
+      213: 7905570616713940553
+    second: Mill_outside_283
+  - first:
+      213: 8900735018144454153
+    second: Mill_outside_284
+  - first:
+      213: -6260177603329627457
+    second: Mill_outside_285
+  - first:
+      213: 9187959406692400069
+    second: Mill_outside_286
+  - first:
+      213: -844108900402860770
+    second: Mill_outside_287
+  - first:
+      213: 5475994292717132979
+    second: Mill_outside_288
+  - first:
+      213: 8897880340450978513
+    second: Mill_outside_289
+  - first:
+      213: -1692987066674411804
+    second: Mill_outside_290
+  - first:
+      213: 3705483877904146308
+    second: Mill_outside_291
+  - first:
+      213: 733909532024387093
+    second: Mill_outside_292
+  - first:
+      213: 785477651351007847
+    second: Mill_outside_293
+  - first:
+      213: 5208433417738347316
+    second: Mill_outside_294
+  - first:
+      213: 1656844628063006670
+    second: Mill_outside_295
+  - first:
+      213: -906745163835605373
+    second: Mill_outside_296
+  - first:
+      213: 762949741712655232
+    second: Mill_outside_297
+  - first:
+      213: -8776409548575192646
+    second: Mill_outside_298
+  - first:
+      213: 730397486941406798
+    second: Mill_outside_299
+  - first:
+      213: -3615074245175328346
+    second: Mill_outside_300
+  - first:
+      213: -6332076866088375907
+    second: Mill_outside_301
+  - first:
+      213: -8671550841440538303
+    second: Mill_outside_302
+  - first:
+      213: 1057673357038138390
+    second: Mill_outside_303
+  - first:
+      213: -4636040560393347378
+    second: Mill_outside_304
+  - first:
+      213: -7470797337154935116
+    second: Mill_outside_305
+  - first:
+      213: -8100116187981044515
+    second: Mill_outside_306
+  - first:
+      213: 7664248861249527077
+    second: Mill_outside_307
+  - first:
+      213: -4173473998550555422
+    second: Mill_outside_308
+  - first:
+      213: -3970067045206223128
+    second: Mill_outside_309
+  - first:
+      213: -1250750509108445142
+    second: Mill_outside_310
+  - first:
+      213: -9178973308882842733
+    second: Mill_outside_311
+  - first:
+      213: -3984630595807742057
+    second: Mill_outside_312
+  - first:
+      213: -2314857510054086152
+    second: Mill_outside_313
+  - first:
+      213: 4906734700740019525
+    second: Mill_outside_314
+  - first:
+      213: -6699012284459729089
+    second: Mill_outside_315
+  - first:
+      213: 6669329192117694031
+    second: Mill_outside_316
+  - first:
+      213: 4574885188781121969
+    second: Mill_outside_317
+  - first:
+      213: 30417702127124928
+    second: Mill_outside_318
+  - first:
+      213: 6911421871881312206
+    second: Mill_outside_319
+  - first:
+      213: -6493105164043804966
+    second: Mill_outside_320
+  - first:
+      213: 138662566058495501
+    second: Mill_outside_321
+  - first:
+      213: -6483824155827900985
+    second: Mill_outside_322
+  - first:
+      213: 7655861857980029211
+    second: Mill_outside_323
+  - first:
+      213: 5882398773565660882
+    second: Mill_outside_324
+  - first:
+      213: -3550267524214890842
+    second: Mill_outside_325
+  - first:
+      213: -1672469209362050408
+    second: Mill_outside_326
+  - first:
+      213: -3120937177719210187
+    second: Mill_outside_327
+  - first:
+      213: -2365049741799263684
+    second: Mill_outside_328
+  - first:
+      213: -3054345508161370641
+    second: Mill_outside_329
+  - first:
+      213: 7444382286786267283
+    second: Mill_outside_330
+  - first:
+      213: 1397834010124610774
+    second: Mill_outside_331
+  - first:
+      213: 6541240566112213221
+    second: Mill_outside_332
+  - first:
+      213: -4517770016035432399
+    second: Mill_outside_333
+  - first:
+      213: -2503554690476167194
+    second: Mill_outside_334
+  - first:
+      213: 3922818286878089724
+    second: Mill_outside_335
+  - first:
+      213: 6787480384303828848
+    second: Mill_outside_336
+  - first:
+      213: -112593852168460465
+    second: Mill_outside_337
+  - first:
+      213: -3247029467873732886
+    second: Mill_outside_338
+  - first:
+      213: 1442496195989680383
+    second: Mill_outside_339
+  - first:
+      213: -4962676380403997662
+    second: Mill_outside_340
+  - first:
+      213: 8474898465814957844
+    second: Mill_outside_341
+  - first:
+      213: 903177544776845580
+    second: Mill_outside_342
+  - first:
+      213: -783190715803922174
+    second: Mill_outside_343
+  - first:
+      213: 5927457641111933165
+    second: Mill_outside_344
+  - first:
+      213: -8109217674149513991
+    second: Mill_outside_345
+  - first:
+      213: 6700703537581573119
+    second: Mill_outside_346
+  - first:
+      213: -6682400947460163926
+    second: Mill_outside_347
+  - first:
+      213: 5147737804632472027
+    second: Mill_outside_348
+  - first:
+      213: -584550675008391171
+    second: Mill_outside_349
+  - first:
+      213: -8465992099467289149
+    second: Mill_outside_350
+  - first:
+      213: 5447464612392144139
+    second: Mill_outside_351
+  - first:
+      213: -3538523338539887367
+    second: Mill_outside_352
+  - first:
+      213: -6804442927889159436
+    second: Mill_outside_353
+  - first:
+      213: 7090828876086947858
+    second: Mill_outside_354
+  - first:
+      213: 7995921269552550152
+    second: Mill_outside_355
+  - first:
+      213: -6146887031372739340
+    second: Mill_outside_356
+  - first:
+      213: -8674695523246983643
+    second: Mill_outside_357
+  - first:
+      213: 8289420915307380940
+    second: Mill_outside_358
+  - first:
+      213: -5906059312490999995
+    second: Mill_outside_359
+  - first:
+      213: -575306580517629265
+    second: Mill_outside_360
+  - first:
+      213: 4257491346150555451
+    second: Mill_outside_361
+  - first:
+      213: -2609463245411987187
+    second: Mill_outside_362
+  - first:
+      213: 2866689112453307723
+    second: Mill_outside_363
+  - first:
+      213: -2021206196498463949
+    second: Mill_outside_364
+  - first:
+      213: 3457889083787941908
+    second: Mill_outside_365
+  - first:
+      213: 5539677283392222536
+    second: Mill_outside_366
+  - first:
+      213: 7665113677672688774
+    second: Mill_outside_367
+  - first:
+      213: 5120794872584315579
+    second: Mill_outside_368
+  - first:
+      213: 742989407167793300
+    second: Mill_outside_369
+  - first:
+      213: -9073016010933435938
+    second: Mill_outside_370
+  - first:
+      213: 4351405260898837298
+    second: Mill_outside_371
+  - first:
+      213: -7868923516985592672
+    second: Mill_outside_372
+  - first:
+      213: -1280969399138683821
+    second: Mill_outside_373
+  - first:
+      213: -7799409594603599607
+    second: Mill_outside_374
+  - first:
+      213: 7358319740250148270
+    second: Mill_outside_375
+  - first:
+      213: -3542082876968220182
+    second: Mill_outside_376
+  - first:
+      213: 2996228242754973667
+    second: Mill_outside_377
+  - first:
+      213: 671658931040816563
+    second: Mill_outside_378
+  - first:
+      213: 3304731586896945000
+    second: Mill_outside_379
+  - first:
+      213: -4016981586215029238
+    second: Mill_outside_380
+  - first:
+      213: -9191424870948249733
+    second: Mill_outside_381
+  - first:
+      213: 5480626596287338597
+    second: Mill_outside_382
+  - first:
+      213: 7472286915305297488
+    second: Mill_outside_383
+  - first:
+      213: 6137359010674304600
+    second: Mill_outside_384
+  - first:
+      213: 9054348265650350040
+    second: Mill_outside_385
+  - first:
+      213: -2360826416521854218
+    second: Mill_outside_386
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +1193,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,12 +1202,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -55,6 +1216,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -66,7 +1229,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -75,7 +1250,658 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mill_outside_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 512
+        width: 104
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b1101f002e4889f0800000000000000
+      internalID: -466036661834214985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 512
+        width: 138
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857514b7f8a2c3930800000000000000
+      internalID: 4124218154501101400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 512
+        width: 104
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6d911e6cc267cf0800000000000000
+      internalID: -254967096208140636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_3
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 512
+        width: 138
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78649b2caa71157e0800000000000000
+      internalID: -1778614355655833977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 716
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ea12e05099a5980800000000000000
+      internalID: -8549352695618490800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 716
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d0f6955670b8940800000000000000
+      internalID: 5299337518405061986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 684
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a102070a56e11de0800000000000000
+      internalID: -1364055937777532504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_7
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 684
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7da228983082c20800000000000000
+      internalID: 3181797025866504174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 652
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c2ffd0a0a81fc70800000000000000
+      internalID: 9003128905879465091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_9
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 652
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acc3ee883b1d6e70800000000000000
+      internalID: 9109967550969793702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_10
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 576
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551b568e463f59f00800000000000000
+      internalID: 1123071296820064597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_11
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 576
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba310fc256e317980800000000000000
+      internalID: -8542978413878570069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 512
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6548067f448846d20800000000000000
+      internalID: 3270889059167274070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_13
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 333
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e39afe7c5712e390800000000000000
+      internalID: -7790638719362755613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_14
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 333
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7dc2d0abef49e80800000000000000
+      internalID: -8172627348732192781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_15
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 333
+        width: 166
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575ecac7489fe6df0800000000000000
+      internalID: -184936187252906635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_16
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 405
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692787ee2a40f8f90800000000000000
+      internalID: -6949330602177301866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_17
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 405
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133e8187e70727ed0800000000000000
+      internalID: -2417746361461447887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 59
+        width: 118
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cddacebaf8020c40800000000000000
+      internalID: 5476949969871756741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 160
+        width: 116
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80c13d943c1fdd40800000000000000
+      internalID: 5611234673028087948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5554fcbe9bf0b7840800000000000000
+      internalID: 5222785484065817941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 86
+        width: 182
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05d3916bfeec5420800000000000000
+      internalID: 2620231846664066318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_22
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 86
+        width: 182
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349f710a287ddf000800000000000000
+      internalID: 71450125139441987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7601303b9bb01a9d0800000000000000
+      internalID: -2764915804028596121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_24
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 96
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb1679fd347ffbb0800000000000000
+      internalID: -4900070060028716041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_25
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 96
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f87f6e0c66c4d9e0800000000000000
+      internalID: -1597433800408729355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_26
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 32
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05300fc003b4d29d0800000000000000
+      internalID: -2797497123779640496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_27
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 32
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c16b897a58076c0800000000000000
+      internalID: -4147668301940122570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_28
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 38
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb8b7ff7a665c5e0800000000000000
+      internalID: -1889991596880196616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_29
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dbf66144a0f40f0800000000000000
+      internalID: -1130673693896229518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mill_outside_30
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a098eda5926017670800000000000000
+      internalID: 8534609543531759882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

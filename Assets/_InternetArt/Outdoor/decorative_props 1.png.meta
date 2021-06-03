@@ -1,7 +1,178 @@
 fileFormatVersion: 2
 guid: a75aa7180694c5644b6bae3d43689954
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -928553351725769950
+    second: decorative_props 1_0
+  - first:
+      213: -4517123986258086694
+    second: decorative_props 1_1
+  - first:
+      213: 1573993577915747449
+    second: decorative_props 1_2
+  - first:
+      213: 3411841372443761176
+    second: decorative_props 1_3
+  - first:
+      213: -95487804761635181
+    second: decorative_props 1_4
+  - first:
+      213: -5798388561867533084
+    second: decorative_props 1_5
+  - first:
+      213: -8655747849406798258
+    second: decorative_props 1_6
+  - first:
+      213: 2842471295471382129
+    second: decorative_props 1_7
+  - first:
+      213: 232513275637389785
+    second: decorative_props 1_8
+  - first:
+      213: 8965518465019096435
+    second: decorative_props 1_9
+  - first:
+      213: -7912307949726931327
+    second: decorative_props 1_10
+  - first:
+      213: 4434595599388920624
+    second: decorative_props 1_11
+  - first:
+      213: -6183142692541465409
+    second: decorative_props 1_12
+  - first:
+      213: 8475397697982649750
+    second: decorative_props 1_13
+  - first:
+      213: 1546318432588142119
+    second: decorative_props 1_14
+  - first:
+      213: -4356667389979515020
+    second: decorative_props 1_15
+  - first:
+      213: -9152434997757983673
+    second: decorative_props 1_16
+  - first:
+      213: -308579706437412600
+    second: decorative_props 1_17
+  - first:
+      213: -2911178619573741548
+    second: decorative_props 1_18
+  - first:
+      213: -8756633852303991602
+    second: decorative_props 1_19
+  - first:
+      213: 7717571954509465948
+    second: decorative_props 1_20
+  - first:
+      213: 2350826938054948704
+    second: decorative_props 1_21
+  - first:
+      213: 7355928866903066850
+    second: decorative_props 1_22
+  - first:
+      213: 3529895931697707263
+    second: decorative_props 1_23
+  - first:
+      213: 1338121378644572611
+    second: decorative_props 1_24
+  - first:
+      213: -6651404949551650498
+    second: decorative_props 1_25
+  - first:
+      213: -6261811821697101900
+    second: decorative_props 1_26
+  - first:
+      213: -4819453338236247037
+    second: decorative_props 1_27
+  - first:
+      213: -630575544823532467
+    second: decorative_props 1_28
+  - first:
+      213: -6938054015536348483
+    second: decorative_props 1_29
+  - first:
+      213: 854270803188419231
+    second: decorative_props 1_30
+  - first:
+      213: 2532758621716636001
+    second: decorative_props 1_31
+  - first:
+      213: 3315897799924878806
+    second: decorative_props 1_32
+  - first:
+      213: -4470974383248282209
+    second: decorative_props 1_33
+  - first:
+      213: -7260108001193052328
+    second: decorative_props 1_34
+  - first:
+      213: -3003770324382652326
+    second: decorative_props 1_35
+  - first:
+      213: 1405593635093979680
+    second: decorative_props 1_36
+  - first:
+      213: 4616874378483604545
+    second: decorative_props 1_37
+  - first:
+      213: -7462427384755656975
+    second: decorative_props 1_38
+  - first:
+      213: -6863620702713532132
+    second: decorative_props 1_39
+  - first:
+      213: -767052032811861888
+    second: decorative_props 1_40
+  - first:
+      213: -8977037921477912379
+    second: decorative_props 1_41
+  - first:
+      213: -1373709794737188893
+    second: decorative_props 1_42
+  - first:
+      213: -1476565562948382763
+    second: decorative_props 1_43
+  - first:
+      213: -505008267739260427
+    second: decorative_props 1_44
+  - first:
+      213: 3603365473553666084
+    second: decorative_props 1_45
+  - first:
+      213: 7141799739352666057
+    second: decorative_props 1_46
+  - first:
+      213: 6649036090385069223
+    second: decorative_props 1_47
+  - first:
+      213: 2060825275011221212
+    second: decorative_props 1_48
+  - first:
+      213: 3305482858304201297
+    second: decorative_props 1_49
+  - first:
+      213: -6480991538695055681
+    second: decorative_props 1_50
+  - first:
+      213: -2802535076606746627
+    second: decorative_props 1_51
+  - first:
+      213: -3071125334535340871
+    second: decorative_props 1_52
+  - first:
+      213: 6853806432526762447
+    second: decorative_props 1_53
+  - first:
+      213: -5522985408277269028
+    second: decorative_props 1_54
+  - first:
+      213: 8091835528025910860
+    second: decorative_props 1_55
+  - first:
+      213: 1932898790654202154
+    second: decorative_props 1_56
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +203,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -41,12 +212,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -55,6 +226,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -66,7 +239,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -75,7 +260,1204 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: decorative_props 1_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 487
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b136375ad1d13f0800000000000000
+      internalID: -928553351725769950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 416
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4b0b0daa3ff41c0800000000000000
+      internalID: -4517123986258086694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 484
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c0a6ad1d2f7d510800000000000000
+      internalID: 1573993577915747449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_3
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 502
+        width: 52
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81add7ac6ab495f20800000000000000
+      internalID: 3411841372443761176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_4
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 480
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3960dc4f852ccaef0800000000000000
+      internalID: -95487804761635181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 495
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4923cf25cf78fa0800000000000000
+      internalID: -5798388561867533084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_6
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 480
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46a1cae03b90e780800000000000000
+      internalID: -8655747849406798258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_7
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 468
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ee0da459c727720800000000000000
+      internalID: 2842471295471382129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 454
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9ddef979d0a3300800000000000000
+      internalID: 232513275637389785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 490
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d2ba6ea8beb6c70800000000000000
+      internalID: 8965518465019096435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 455
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186e60747d5d13290800000000000000
+      internalID: -7912307949726931327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_11
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 458
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b4610c339da8d30800000000000000
+      internalID: 4434595599388920624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 452
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc73871b70113aa0800000000000000
+      internalID: -6183142692541465409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6955b6e3d49ae9570800000000000000
+      internalID: 8475397697982649750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_14
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 462
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7261e04fb60a57510800000000000000
+      internalID: 1546318432588142119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 455
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4772eb767120a83c0800000000000000
+      internalID: -4356667389979515020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74448c87cd40cf080800000000000000
+      internalID: -9152434997757983673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 450
+        width: 55
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80957e45464b7bbf0800000000000000
+      internalID: -308579706437412600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 423
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4185896387a6997d0800000000000000
+      internalID: -2911178619573741548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 426
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc924de7ef2a7680800000000000000
+      internalID: -8756633852303991602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 420
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59cd0d9dc25a1b60800000000000000
+      internalID: 7717571954509465948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 396
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0673f2b15a0df9020800000000000000
+      internalID: 2350826938054948704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_22
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 397
+        width: 15
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e88cc0c452851660800000000000000
+      internalID: 7355928866903066850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 58
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff830fec5a5bcf030800000000000000
+      internalID: 3529895931697707263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_24
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 320
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c93770ed46f19210800000000000000
+      internalID: 1338121378644572611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 353
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39e2b4607671b3a0800000000000000
+      internalID: -6651404949551650498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_26
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 390
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf076d13539919a0800000000000000
+      internalID: -6261811821697101900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 370
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304abd239bcdd1db0800000000000000
+      internalID: -4819453338236247037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_28
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 372
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44beb602eebf37f0800000000000000
+      internalID: -630575544823532467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 320
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2cb7bd1a417bf90800000000000000
+      internalID: -6938054015536348483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 320
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a8806f4cafadb00800000000000000
+      internalID: 854270803188419231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_31
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 329
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1616a3d1c8a262320800000000000000
+      internalID: 2532758621716636001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_32
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 352
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd850c0b7f640e20800000000000000
+      internalID: 3315897799924878806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 64
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d6d969c78e3f1c0800000000000000
+      internalID: -4470974383248282209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 224
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857bae51d3aee3b90800000000000000
+      internalID: -7260108001193052328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_35
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 266
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58ef4cfdc67056d0800000000000000
+      internalID: -3003770324382652326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_36
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 288
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022a356c6fba18310800000000000000
+      internalID: 1405593635093979680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_37
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 289
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c1e1639ce621040800000000000000
+      internalID: 4616874378483604545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_38
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 224
+        width: 18
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6ed79c4d1207890800000000000000
+      internalID: -7462427384755656975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c113ebdf5558fb0a0800000000000000
+      internalID: -6863620702713532132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_40
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 235
+        width: 15
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088f10c7d32ea55f0800000000000000
+      internalID: -767052032811861888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_41
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 172
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c81913a2972b6380800000000000000
+      internalID: -8977037921477912379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_42
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 131
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef073c483a9fece0800000000000000
+      internalID: -1373709794737188893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df03e4917f228be0800000000000000
+      internalID: -1476565562948382763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 185
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f914c8f7a9ddf8f0800000000000000
+      internalID: -505008267739260427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 185
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420d2178ec9b10230800000000000000
+      internalID: 3603365473553666084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_46
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 192
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfc7192605cc1360800000000000000
+      internalID: 7141799739352666057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_47
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 203
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4772a981f164c50800000000000000
+      internalID: 6649036090385069223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6c03d3ba5899c10800000000000000
+      internalID: 2060825275011221212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_49
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 161
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1526d5c752f6fdd20800000000000000
+      internalID: 3305482858304201297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6d4c78884ee06a0800000000000000
+      internalID: -6480991538695055681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_51
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 84
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff584042356b19d0800000000000000
+      internalID: -2802535076606746627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_52
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 145
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc715e97cb2165d0800000000000000
+      internalID: -3071125334535340871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_53
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 102
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc18b0a23ac9d1f50800000000000000
+      internalID: 6853806432526762447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_54
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 131
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5b7ff780a6a53b0800000000000000
+      internalID: -5522985408277269028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 76
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4eaed45a89fb4070800000000000000
+      internalID: 8091835528025910860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_props 1_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a21d9bb853903da10800000000000000
+      internalID: 1932898790654202154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
