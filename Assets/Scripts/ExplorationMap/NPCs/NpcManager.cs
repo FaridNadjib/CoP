@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+/// <summary>
+/// All available emotions.
+/// </summary>
 public enum Emotion { None, Angry, Attention, GoodMood, Kill, Love, Sleepy, Talking, Waiting }
 
 /// <summary>
@@ -10,55 +12,67 @@ public enum Emotion { None, Angry, Attention, GoodMood, Kill, Love, Sleepy, Talk
 /// </summary>
 public class NpcManager : MonoBehaviour
 {
+    #region Fields
+
     [Tooltip("The SO Editorsettings, for global gizmo settings.")]
-    [SerializeField] EditorSettings settings;
-    [SerializeField] Animator anim;
-    [SerializeField] bool isPatrolling;
-    [SerializeField] bool isLooping;
-    [SerializeField] Transform[] waypoints;
-    [SerializeField] float speed;
-    [SerializeField] bool isLookingAround;
-    [SerializeField] Direction initialFacing;
-    [SerializeField] Direction facingRestriction1;
-    [SerializeField] Direction facingRestriction2;
-    [SerializeField] float maxTimeBetweenFacingChange;
-    float changeTimer;
-    float currentMaxChangeTime;
+    [SerializeField] private EditorSettings settings;
 
-    [SerializeField] bool canRestBetweenWaypoints;
-    [SerializeField] float maxBreakBetweenWaypoints;
-    float breakTimer;
-    float currentMaxBreakTime;
+    [SerializeField] private Animator anim;
+    [SerializeField] private bool isPatrolling;
+    [SerializeField] private bool isLooping;
+    [SerializeField] private Transform[] waypoints;
+    [SerializeField] private float speed;
+    [SerializeField] private bool isLookingAround;
+    [SerializeField] private Direction initialFacing;
+    [SerializeField] private Direction facingRestriction1;
+    [SerializeField] private Direction facingRestriction2;
+    [SerializeField] private float maxTimeBetweenFacingChange;
+    private float changeTimer;
+    private float currentMaxChangeTime;
 
-    bool isMoving;
-    bool isResting;
+    [SerializeField] private bool canRestBetweenWaypoints;
+    [SerializeField] private float maxBreakBetweenWaypoints;
+    private float breakTimer;
+    private float currentMaxBreakTime;
 
-    [SerializeField] Transform visionTrigger;
-    [SerializeField] bool canFight;
-    Quaternion rotation = new Quaternion();
-    Vector3 angle = new Vector3();
+    private bool isMoving;
+    private bool isResting;
 
-    Queue<Transform> waypointQueue;
-    bool reverseWaypoints;
-    int waypointIndex;
-    Transform currentWaypoint;
-    Vector3 lastWaypoint;
+    [SerializeField] private Transform visionTrigger;
+    [SerializeField] private bool canFight;
+    private Quaternion rotation = new Quaternion();
+    private Vector3 angle = new Vector3();
 
-    Direction currentFacing;
+    private Queue<Transform> waypointQueue;
+    private bool reverseWaypoints;
+    private int waypointIndex;
+    private Transform currentWaypoint;
+    private Vector3 lastWaypoint;
 
-    bool isFighting;
-    bool engagedInFight;
-    bool isTalking;
+    private Direction currentFacing;
+
+    private bool isFighting;
+    private bool engagedInFight;
+    private bool isTalking;
+    private bool readyToBattle;
 
     [Tooltip("Put here the GO with the dialogmanager.")]
-    [SerializeField] GameObject dialog;
+    [SerializeField] private GameObject dialog;
+
     [Tooltip("Will be anchor for any emojis.")]
-    [SerializeField] Transform emojiHolder;
-    Emotion activeEmotion;
+    [SerializeField] private Transform emojiHolder;
 
+    private Emotion activeEmotion;
 
+    [Header("Battle related:")]
+    [SerializeField] private Biom[] possibleBioms;
 
+    [SerializeField] private Transitions transitionType;
+    [SerializeField] private Encounters possibleEncounters;
 
+    #endregion Fields
+
+    #region Properties
 
     public bool IsFighting { get { return isFighting; } set { isFighting = value; } }
     public bool IsTalking { get { return isTalking; } set { isTalking = value; } }
@@ -68,9 +82,10 @@ public class NpcManager : MonoBehaviour
     public bool IsMoving { get => isMoving; }
     public bool CanFight { get => canFight; set => canFight = value; }
 
+    #endregion Properties
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         // Prepare waypoints depending on the npc settings.
         if (isPatrolling)
@@ -79,14 +94,10 @@ public class NpcManager : MonoBehaviour
             {
                 waypointQueue = new Queue<Transform>(waypoints);
                 currentWaypoint = waypointQueue.Dequeue();
-
             }
-            
         }
         //First waypoint is always where the palyer starts in the world.
-        //currentWaypoint = transform.parent.transform;
         currentWaypoint = waypoints[0];
-        //currentWaypoint.position = transform.parent.transform.position;
 
         if (waypoints.Length == 0)
             isPatrolling = false;
@@ -96,34 +107,34 @@ public class NpcManager : MonoBehaviour
         currentMaxBreakTime = Random.Range(0, maxBreakBetweenWaypoints);
 
         // Set init facing.
-        if(currentFacing != Direction.None)
+        if (currentFacing != Direction.None)
         {
             currentFacing = initialFacing;
             MoveCharacter(false);
         }
-        
 
+        // Fading wait.
+        TransitionManager.Instance.OnFinishedFading += (status) => { readyToBattle = status; Debug.Log(readyToBattle); };
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         // Handle npc movement.
-        if(!WayBlocked && !isFighting && !isTalking)
+        if (!WayBlocked && !isFighting && !isTalking)
         {
             if (isPatrolling && !isResting)
             {
                 isMoving = true;
 
-                    // Move the npc.
-                    MoveToWaypoint();
-                    // If he reached the waypoint, set next waypoint and set its facing direction.
-                    if (ReachedWayPoint())
-                    {
-                        SetNextWaypoint();
-                        //MoveCharacter(false);
-                    }
-
+                // Move the npc.
+                MoveToWaypoint();
+                // If he reached the waypoint, set next waypoint and set its facing direction.
+                if (ReachedWayPoint())
+                {
+                    SetNextWaypoint();
+                    //MoveCharacter(false);
+                }
             }
 
             // Is he taking a break?
@@ -156,7 +167,6 @@ public class NpcManager : MonoBehaviour
                 {
                     if (isPatrolling)
                     {
-                        
                         isResting = false;
                         currentFacing = CaulculateFacingDirection(currentWaypoint.position);
                         MoveCharacter(true);
@@ -164,7 +174,6 @@ public class NpcManager : MonoBehaviour
                     breakTimer = 0;
                     currentMaxBreakTime = Random.Range(0, maxBreakBetweenWaypoints);
                 }
-
             }
         }
 
@@ -179,16 +188,9 @@ public class NpcManager : MonoBehaviour
                 {
                     MoveCharacter(false);
                     dialog.SetActive(true);
-                    engagedInFight = true;                  
+                    engagedInFight = true;
                 }
-
             }
-            else
-            {
-
-            }
-            // Once fight is over go back to old waypoint.
-
         }
 
         // Does the player talks to the npc?
@@ -196,8 +198,6 @@ public class NpcManager : MonoBehaviour
         {
             dialog.SetActive(true);
         }
-
-
     }
 
     /// <summary>
@@ -206,7 +206,7 @@ public class NpcManager : MonoBehaviour
     /// <returns>Reached the current waypoint?</returns>
     private bool ReachedWayPoint()
     {
-        // Reached the target? 
+        // Reached the target?
         if (Vector2.SqrMagnitude((Vector2)currentWaypoint.position - (Vector2)transform.position) < 0.00001)
         {
             isMoving = false;
@@ -216,7 +216,6 @@ public class NpcManager : MonoBehaviour
         }
         else return false;
     }
-
 
     /// <summary>
     /// Set next waypoint.
@@ -252,7 +251,6 @@ public class NpcManager : MonoBehaviour
 
             currentFacing = CaulculateFacingDirection(currentWaypoint.position);
         }
-        
     }
 
     /// <summary>
@@ -294,6 +292,7 @@ public class NpcManager : MonoBehaviour
                 visionTrigger.rotation = rotation;
 
                 break;
+
             case Direction.Left:
                 if (!isWalking)
                     anim.SetTrigger("LookLeft");
@@ -303,6 +302,7 @@ public class NpcManager : MonoBehaviour
                 rotation.eulerAngles = angle;
                 visionTrigger.rotation = rotation;
                 break;
+
             case Direction.Up:
                 if (!isWalking)
                     anim.SetTrigger("LookUp");
@@ -312,6 +312,7 @@ public class NpcManager : MonoBehaviour
                 rotation.eulerAngles = angle;
                 visionTrigger.rotation = rotation;
                 break;
+
             case Direction.Down:
                 if (!isWalking)
                     anim.SetTrigger("LookDown");
@@ -321,9 +322,9 @@ public class NpcManager : MonoBehaviour
                 rotation.eulerAngles = angle;
                 visionTrigger.rotation = rotation;
                 break;
+
             default:
                 break;
-                
         }
     }
 
@@ -334,12 +335,12 @@ public class NpcManager : MonoBehaviour
     /// <returns>Direction of the target.</returns>
     public Direction CaulculateFacingDirection(Vector3 target)
     {
-        if(Mathf.Abs(target.x - transform.position.x) > Mathf.Abs(target.y - transform.position.y))
+        if (Mathf.Abs(target.x - transform.position.x) > Mathf.Abs(target.y - transform.position.y))
         {
             if (target.x < transform.position.x)
                 return Direction.Left;
             else
-                return  Direction.Right;
+                return Direction.Right;
         }
         else
         {
@@ -355,16 +356,16 @@ public class NpcManager : MonoBehaviour
     /// </summary>
     public void EngagePlayer()
     {
-        Debug.Log("CurrentWP:" + currentWaypoint);
         lastWaypoint = waypoints[waypointIndex].position;
         PlayerController.Instance.GetAttention(currentFacing);
         isFighting = true;
         Vector3 tmp = PlayerController.Instance.transform.position;
 
-        if(currentFacing == Direction.Down)
+        if (currentFacing == Direction.Down)
         {
             tmp.y += 1f;
-        }else if (currentFacing == Direction.Up)
+        }
+        else if (currentFacing == Direction.Up)
         {
             tmp.y -= 1f;
         }
@@ -396,7 +397,7 @@ public class NpcManager : MonoBehaviour
                 {
                     for (int i = 0; i < waypoints.Length - 1; i++)
                         Gizmos.DrawLine(waypoints[i].position, waypoints[i + 1].position);
-                    Gizmos.DrawLine(waypoints[0].position, waypoints[waypoints.Length -1].position);
+                    Gizmos.DrawLine(waypoints[0].position, waypoints[waypoints.Length - 1].position);
                 }
                 else
                     for (int i = 0; i < waypoints.Length - 1; i++)
@@ -405,6 +406,9 @@ public class NpcManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// finished precombat dialog, so start combat.
+    /// </summary>
     public void FinishedPreCombat()
     {
         dialog.SetActive(false);
@@ -412,10 +416,41 @@ public class NpcManager : MonoBehaviour
         StartCombat();
     }
 
+    /// <summary>
+    /// Starts the combat.
+    /// </summary>
     private void StartCombat()
     {
-        Debug.Log("Combat started");
-        // Use battlemanager here.
+        PlayerController.Instance.StandStill();
+        StartCoroutine(StartBattle());
+    }
+
+    /// <summary>
+    /// Starts the combatcoroutine.
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator StartBattle()
+    {
+        TransitionManager.Instance.BattleFade(transitionType);
+        yield return new WaitForSeconds(1.2f);
+        BattleManager.Instance.StartCombat(possibleBioms, possibleEncounters.Encounter, this);
+    }
+
+    /// <summary>
+    /// Finished the combat.
+    /// </summary>
+    public void FinishedCombat()
+    {
+        StartCoroutine(FinishCombat());
+    }
+
+    /// <summary>
+    /// Finishes the combat. Lets the player move agian.
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator FinishCombat()
+    {
+        yield return new WaitForSeconds(1.2f);
         // if the player has won, the npc cant fight anymore.
         canFight = false;
         isFighting = false;
@@ -424,21 +459,20 @@ public class NpcManager : MonoBehaviour
         dialog.SetActive(true);
     }
 
-    public void FinishedCombat()
-    {
-
-    }
-
-
+    /// <summary>
+    /// For dialog after combat.
+    /// </summary>
     public void FinishedPostCombat()
     {
-
         isTalking = false;
         ClearEmoji();
         PlayerController.Instance.CanMove = true;
         dialog.SetActive(false);
     }
 
+    /// <summary>
+    /// Clear shown emojis.
+    /// </summary>
     private void ClearEmoji()
     {
         if (emojiHolder.childCount > 0)
@@ -448,37 +482,50 @@ public class NpcManager : MonoBehaviour
             {
                 case Emotion.None:
                     break;
+
                 case Emotion.Angry:
-                        ObjectPool.Instance.AddToPool(tmp, Emotion.Angry.ToString());
+                    ObjectPool.Instance.AddToPool(tmp, Emotion.Angry.ToString());
                     break;
+
                 case Emotion.Attention:
-                        ObjectPool.Instance.AddToPool(tmp, Emotion.Attention.ToString());
+                    ObjectPool.Instance.AddToPool(tmp, Emotion.Attention.ToString());
                     break;
+
                 case Emotion.GoodMood:
-                        ObjectPool.Instance.AddToPool(tmp, Emotion.GoodMood.ToString());
+                    ObjectPool.Instance.AddToPool(tmp, Emotion.GoodMood.ToString());
                     break;
+
                 case Emotion.Kill:
-                        ObjectPool.Instance.AddToPool(tmp, Emotion.Kill.ToString());
+                    ObjectPool.Instance.AddToPool(tmp, Emotion.Kill.ToString());
                     break;
+
                 case Emotion.Love:
-                        ObjectPool.Instance.AddToPool(tmp, Emotion.Love.ToString());
+                    ObjectPool.Instance.AddToPool(tmp, Emotion.Love.ToString());
                     break;
+
                 case Emotion.Sleepy:
-                        ObjectPool.Instance.AddToPool(tmp, Emotion.Sleepy.ToString());
+                    ObjectPool.Instance.AddToPool(tmp, Emotion.Sleepy.ToString());
                     break;
+
                 case Emotion.Talking:
-                        ObjectPool.Instance.AddToPool(tmp, Emotion.Talking.ToString());
+                    ObjectPool.Instance.AddToPool(tmp, Emotion.Talking.ToString());
                     break;
+
                 case Emotion.Waiting:
-                        ObjectPool.Instance.AddToPool(tmp, Emotion.Waiting.ToString());
-                    break;              
+                    ObjectPool.Instance.AddToPool(tmp, Emotion.Waiting.ToString());
+                    break;
+
                 default:
                     break;
             }
-        }      
+        }
         activeEmotion = Emotion.None;
     }
 
+    /// <summary>
+    /// Show emoji.
+    /// </summary>
+    /// <param name="emo">The emotion type.</param>
     public void ShowEmotion(Emotion emo)
     {
         if (activeEmotion == emo)
@@ -486,36 +533,44 @@ public class NpcManager : MonoBehaviour
         ClearEmoji();
         GameObject tmp = null;
 
-        //GameObject tmp = new GameObject();
         switch (emo)
         {
             case Emotion.Angry:
                 tmp = ObjectPool.Instance.GetFromPool(Emotion.Angry.ToString());
                 break;
+
             case Emotion.Attention:
                 tmp = ObjectPool.Instance.GetFromPool(Emotion.Attention.ToString());
                 break;
+
             case Emotion.GoodMood:
                 tmp = ObjectPool.Instance.GetFromPool(Emotion.GoodMood.ToString());
                 break;
+
             case Emotion.Kill:
-                tmp = ObjectPool.Instance.GetFromPool(Emotion.Kill.ToString());                
+                tmp = ObjectPool.Instance.GetFromPool(Emotion.Kill.ToString());
                 break;
+
             case Emotion.Love:
                 tmp = ObjectPool.Instance.GetFromPool(Emotion.Love.ToString());
                 break;
+
             case Emotion.Sleepy:
                 tmp = ObjectPool.Instance.GetFromPool(Emotion.Sleepy.ToString());
                 break;
+
             case Emotion.Talking:
                 tmp = ObjectPool.Instance.GetFromPool(Emotion.Talking.ToString());
                 break;
+
             case Emotion.Waiting:
                 tmp = ObjectPool.Instance.GetFromPool(Emotion.Waiting.ToString());
                 break;
+
             case Emotion.None:
                 ClearEmoji();
                 break;
+
             default:
                 break;
         }
@@ -525,7 +580,6 @@ public class NpcManager : MonoBehaviour
             tmp.transform.localPosition = Vector3.zero;
             tmp.SetActive(true);
         }
-            activeEmotion = emo;
+        activeEmotion = emo;
     }
-
 }

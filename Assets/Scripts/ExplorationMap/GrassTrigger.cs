@@ -1,27 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+/// <summary>
+/// Class for moveable grass.
+/// </summary>
 public class GrassTrigger : MonoBehaviour
 {
-    Animator anim;
+    private Animator anim;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /// <summary>
+    /// Move the grass.
+    /// </summary>
+    /// <param name="collision"></param>
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            
             if (transform.position.x < PlayerController.Instance.transform.position.x)
             {
                 anim.SetInteger("PlayerPos", -1);
@@ -33,6 +32,10 @@ public class GrassTrigger : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Player left trigger.
+    /// </summary>
+    /// <param name="collision"></param>
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

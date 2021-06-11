@@ -7,8 +7,10 @@ public enum DamageType { None, Blade, Pierce, Impact, Arcane, Fire, Ice, Thunder
 public enum DefenseType { None, Paved, Desert, Grass, Ocean, Ice, Forest, Swamp, Mountain }
 public enum StatsBuffType { None, Health, HealthRecovery, Energy, EnergyRecovery, BonusExp, CritChance, CritMult, DmgReduction, EvasionChance, Initiative }
 public enum WeaponType { All, Weapon, Magic, Claw, Tooth, Tail, Wing, Body, Special }
-public enum WeaponTarget { All, Self, Allys, SingleEnemy, AllEnemies }
-public enum WeaponEffect { Lifeleech, HealthRecovery, EnergyRecovery, Initiative, Defense }
+public enum WeaponTarget { All, Ally, Allys, Enemy, Enemies }
+public enum WeaponEffect { Lifeleech, Energyleech, HealthRecovery, EnergyRecovery, Initiative, Defense}
+public enum SpecialRequirement { None, Health, Energy, HealthRec, EnergyRec, XpGain, DamageDealt }
+
 
 public class InventoryManager : MonoBehaviour
 {

@@ -17,7 +17,7 @@ public struct ResistanceBonus
     [SerializeField] DamageType resistanceType;
     [SerializeField] float resistanceAmount;
 
-    public DamageType ResistanceType { get => resistanceType;}
+    public DamageType ResistanceType { get => resistanceType; }
     public float ResistanceAmount { get => resistanceAmount; set => resistanceAmount = value; }
 }
 [System.Serializable]
@@ -63,4 +63,6 @@ public class Equipment : ScriptableObject
     public StarSignBonus[] DevotionBonus { get => devotionBonus;}
     public StatsBuffBonus[] StatsBonus { get => statsBonus; set => statsBonus = value; }
     public ResistanceBonus[] ResistanceBonus { get => resistanceBonus; set => resistanceBonus = value; }
+    public DefenseBonus[] DefenseMainBonus { get => defenseMainBonus; set => defenseMainBonus = value; }
+    public DefenseBonus[] DefenseSubBonus { get => defenseSubBonus; set => defenseSubBonus = value; }
 }

@@ -1,21 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+/// <summary>
+/// Class to move a crystal popup.
+/// </summary>
 public class FloatingCrystal : MonoBehaviour
 {
-    SpriteRenderer rend;
-    [SerializeField] float maxLiveTime;
-    float timer;
-    [SerializeField] float speed;
-    Vector3 pos = new Vector3();
-    Color oldColor;
-    Color invisibleColor;
+    private SpriteRenderer rend;
+    [SerializeField] private float maxLiveTime;
+    private float timer;
+    [SerializeField] private float speed;
+    private Vector3 pos = new Vector3();
+    private Color oldColor;
+    private Color invisibleColor;
 
-    [SerializeField] Crystals item;
+    [SerializeField] private Crystal item;
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         rend = GetComponent<SpriteRenderer>();
         oldColor = rend.material.color;
@@ -30,7 +31,7 @@ public class FloatingCrystal : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (timer < maxLiveTime)
         {
@@ -38,8 +39,7 @@ public class FloatingCrystal : MonoBehaviour
             pos.y += speed * Time.deltaTime;
             transform.localPosition = pos;
 
-
-            rend.material.color = Color.Lerp(oldColor, invisibleColor, (timer / maxLiveTime)*0.8f);
+            rend.material.color = Color.Lerp(oldColor, invisibleColor, (timer / maxLiveTime) * 0.8f);
         }
         else
         {

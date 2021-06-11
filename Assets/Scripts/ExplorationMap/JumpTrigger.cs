@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// Shows me in which direction an action should be performed.
@@ -12,20 +10,26 @@ public enum Direction { Right, Left, Up, Down, None }
 /// </summary>
 public class JumpTrigger : MonoBehaviour
 {
-
     #region Fields
+
     [Tooltip("The SO Editorsettings, for global gizmo settings.")]
-    [SerializeField] EditorSettings settings;
+    [SerializeField] private EditorSettings settings;
+
     [Tooltip("The direction the action should be performed.")]
-    [SerializeField] Direction direction;
+    [SerializeField] private Direction direction;
+
     [Tooltip("How far the player should jump.")]
-    [SerializeField] float jumpRange = 1f;
+    [SerializeField] private float jumpRange = 1f;
+
     [Tooltip("How depth the jump goes, only useful for vertical jumps.")]
-    [SerializeField] float jumpDepth = 0f;
+    [SerializeField] private float jumpDepth = 0f;
+
     [Tooltip("The players bootslevel has to be greater equal than this to be able to perform this action. 0 = default jump, 2 = large jump, 3 = powerjump.")]
-    [SerializeField] byte requiredBootsLevel = 0;
-    Vector2 targetPosition;
-    #endregion
+    [SerializeField] private byte requiredBootsLevel = 0;
+
+    private Vector2 targetPosition;
+
+    #endregion Fields
 
     /// <summary>
     /// Checks if player enters the trigger and presses the right button to perform a jump action.
@@ -49,6 +53,7 @@ public class JumpTrigger : MonoBehaviour
                             player.Jump(targetPosition);
                         }
                         break;
+
                     case Direction.Left:
                         if (player.HorizontalFacing == -1)
                         {
@@ -56,6 +61,7 @@ public class JumpTrigger : MonoBehaviour
                             player.Jump(targetPosition);
                         }
                         break;
+
                     case Direction.Up:
                         if (player.VerticalFacing == 1)
                         {
@@ -63,6 +69,7 @@ public class JumpTrigger : MonoBehaviour
                             player.Jump(targetPosition);
                         }
                         break;
+
                     case Direction.Down:
                         if (player.VerticalFacing == -1)
                         {
@@ -70,10 +77,11 @@ public class JumpTrigger : MonoBehaviour
                             player.Jump(targetPosition);
                         }
                         break;
+
                     default:
                         break;
                 }
-            }            
+            }
         }
     }
 
@@ -97,27 +105,30 @@ public class JumpTrigger : MonoBehaviour
                     targetPos.x += jumpRange;
                     targetPos.y += jumpDepth;
                     break;
+
                 case Direction.Left:
                     actionIndicator.x += 0.1f;
                     targetPos.x -= jumpRange;
                     targetPos.y += jumpDepth;
                     break;
+
                 case Direction.Up:
                     actionIndicator.y -= 0.1f;
                     targetPos.y += jumpRange + jumpDepth;
                     break;
+
                 case Direction.Down:
                     actionIndicator.y += 0.1f;
                     targetPos.y -= jumpRange;
                     targetPos.y += jumpDepth;
                     break;
+
                 default:
                     break;
             }
             Gizmos.DrawSphere(actionIndicator, 0.05f);
             // Draw the target of the jump.
             Gizmos.DrawSphere(targetPos, 0.08f);
-
-        }      
+        }
     }
 }

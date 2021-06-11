@@ -1,28 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-
+/// <summary>
+/// Will move the player to new location.
+/// </summary>
 public class AreaTransitionTrigger : MonoBehaviour
 {
     [Tooltip("This will tell if the player is just teleportet to target, or if a new scene has to be loaded. If unchecked sceneToLoad can stay empty.")]
-    [SerializeField] bool isTeleporter;
-    [SerializeField] string sceneToLoad;
-    [SerializeField] Transform entrancePoint;
-    [SerializeField] Transitions transitionType;
+    [SerializeField] private bool isTeleporter;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private string sceneToLoad;
+    [SerializeField] private Transform entrancePoint;
+    [SerializeField] private Transitions transitionType;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /// <summary>
+    /// Will move the player to new location.
+    /// </summary>
+    /// <param name="collision"></param>
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))

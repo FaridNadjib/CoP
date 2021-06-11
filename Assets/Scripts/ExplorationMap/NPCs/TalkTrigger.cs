@@ -1,22 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// This class handles the trigger area of an npc, whihc lets the player interact with him.
 /// </summary>
 public class TalkTrigger : MonoBehaviour
 {
-
     #region Fields
+
     [Tooltip("The SO Editorsettings, for global gizmo settings.")]
-    [SerializeField] EditorSettings settings;
+    [SerializeField] private EditorSettings settings;
+
     [Tooltip("The npc this trigger belongs too.")]
-    [SerializeField] NpcManager npc;
-    
+    [SerializeField] private NpcManager npc;
 
-    #endregion
-
+    #endregion Fields
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -27,16 +24,14 @@ public class TalkTrigger : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-
-
         if (collision.CompareTag("Player") && !npc.IsFighting)
         {
             // Does the player stands in the way of the npc? Then stop moving.
-            if(npc.CaulculateFacingDirection(PlayerController.Instance.transform.position) == npc.CurrentFacing)
+            if (npc.CaulculateFacingDirection(PlayerController.Instance.transform.position) == npc.CurrentFacing)
             {
                 npc.WayBlocked = true;
                 npc.MoveCharacter(false);
-            }             
+            }
         }
     }
 
@@ -51,7 +46,6 @@ public class TalkTrigger : MonoBehaviour
 
             // Unsubscribe from event.
             PlayerController.Instance.OnInteracting -= StartInteraction;
-
         }
     }
 
@@ -67,15 +61,14 @@ public class TalkTrigger : MonoBehaviour
             npc.IsTalking = true;
             npc.CurrentFacing = npc.CaulculateFacingDirection(PlayerController.Instance.transform.position);
             npc.MoveCharacter(false);
-        }else if (!npc.IsTalking && !npc.IsFighting && npc.CaulculateFacingDirection(PlayerController.Instance.transform.position) == PlayerController.Instance.FacingDirection)
+        }
+        else if (!npc.IsTalking && !npc.IsFighting && npc.CaulculateFacingDirection(PlayerController.Instance.transform.position) == PlayerController.Instance.FacingDirection)
         {
             npc.EngagePlayer();
             npc.CurrentFacing = npc.CaulculateFacingDirection(PlayerController.Instance.transform.position);
             npc.MoveCharacter(false);
         }
-        
     }
-
 
     /// <summary>
     /// Draw gizmos to visualize the moveable object areas.

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// This class checks if the player is able to move a cabinet for example.
@@ -10,15 +8,19 @@ using UnityEngine;
 public class MovingObjectTrigger : MonoBehaviour
 {
     #region Fields
+
     [Tooltip("The SO Editorsettings, for global gizmo settings.")]
-    [SerializeField] EditorSettings settings;
-    Rigidbody2D rb;
+    [SerializeField] private EditorSettings settings;
+
+    private Rigidbody2D rb;
+
     [Tooltip("Can the player move this? 0 = push small objects, 1 = push large objects, 2 = push heavy objects.")]
-    [SerializeField] byte requiredGripLevel;
-    #endregion
+    [SerializeField] private byte requiredGripLevel;
+
+    #endregion Fields
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         rb = GetComponentInParent<Rigidbody2D>();
         rb.isKinematic = true;
@@ -33,7 +35,7 @@ public class MovingObjectTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             PlayerController player = collision.GetComponent<PlayerController>();
-            if(player.GloveGripLevel >= requiredGripLevel)
+            if (player.GloveGripLevel >= requiredGripLevel)
                 rb.isKinematic = false;
         }
     }

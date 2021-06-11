@@ -19,31 +19,34 @@ public class PlayerController : MonoBehaviour
     private bool isJumping;
     private Vector2 jumpTargetPosition;
 
-    Quaternion rotation = new Quaternion();
-    Vector3 angle = new Vector3();
+    private Quaternion rotation = new Quaternion();
+    private Vector3 angle = new Vector3();
 
     [Tooltip("Which actions the player can perform, smaller numbers can be performed as well. 0 = normal jumps, 1 = canSprint, 2 = large jump, 3 = powerjump.")]
     [SerializeField] private byte bootsLevel;
+
     [Tooltip("Which actions the player can perform, smaller numbers can be performed as well. 0 = push small objects, 1 = push large objects, 2 = push heavy objects.")]
     [SerializeField] private byte gloveGripLevel;
+
     [Tooltip("The scale of the spritemask sphere. 1.5f is default which means blind in the dark. 8 - 9 seems good max value.")]
     [SerializeField] private float playerSpriteMaskSize = 1.5f;
+
     [Tooltip("The spritemaskobject.")]
-    [SerializeField] Transform playerSpriteMask;
-    [SerializeField] Transform emotionHolder;
-    [SerializeField] Transform itemIndicator;
-    [SerializeField] Transform interactionTrigger;
+    [SerializeField] private Transform playerSpriteMask;
 
-    Vector3 teleportLocation;
+    [SerializeField] private Transform emotionHolder;
+    [SerializeField] private Transform itemIndicator;
+    [SerializeField] private Transform interactionTrigger;
 
-    bool isInteracting;
-    Direction facingDirection;
+    private Vector3 teleportLocation;
+    private Vector3 safeSpotLocation;
 
+    private bool isInteracting;
+    private Direction facingDirection;
 
-    bool isFighting;
+    private bool isFighting;
+
     #endregion Private Fields
-
-
 
     #region Properties
 
@@ -61,14 +64,16 @@ public class PlayerController : MonoBehaviour
     public Transform ItemIndicator { get => itemIndicator; set => itemIndicator = value; }
     public Vector3 TeleportLocation { get => teleportLocation; set => teleportLocation = value; }
     public bool IsFighting { get => isFighting; set => isFighting = value; }
+    public Vector3 SafeSpotLocation { get => safeSpotLocation; set => safeSpotLocation = value; }
 
     #endregion Properties
 
-
     public delegate void Interaction();
+
     public Interaction OnInteracting;
 
     #region Singleton
+
     public static PlayerController Instance;
 
     private void Awake()
@@ -80,8 +85,8 @@ public class PlayerController : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
     }
-    #endregion
 
+    #endregion Singleton
 
     // Start is called before the first frame update
     private void Start()
@@ -101,12 +106,13 @@ public class PlayerController : MonoBehaviour
             {
                 horizontalMovement = Input.GetAxisRaw("Horizontal");
                 anim.SetFloat("xMovement", horizontalMovement);
-                if(horizontalMovement == 1)
+                if (horizontalMovement == 1)
                 {
                     angle.z = 90;
                     rotation.eulerAngles = angle;
                     interactionTrigger.rotation = rotation;
-                }else if (horizontalMovement == -1)
+                }
+                else if (horizontalMovement == -1)
                 {
                     angle.z = -90;
                     rotation.eulerAngles = angle;
@@ -138,13 +144,17 @@ public class PlayerController : MonoBehaviour
                 SaveFaceDirection();
             }
 
-
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 OnInteracting?.Invoke();
             }
+
+            // Open the menu.
+            if (Input.GetKeyDown(KeyCode.Tab))
+                UIManager.Instance.ToggleChampionMenu(true);
         }
-        
+        else if (!CanMove && !IsFighting && Input.GetKeyDown(KeyCode.Tab))
+            UIManager.Instance.ToggleChampionMenu(false);
 
         // Set sprintspeed.
         if (Input.GetKeyDown(KeyCode.LeftShift) && bootsLevel >= 1)
@@ -170,9 +180,6 @@ public class PlayerController : MonoBehaviour
                 Physics2D.IgnoreLayerCollision(8, 9, false);
             }
         }
-
-        
-
     }
 
     private void FixedUpdate()
@@ -240,26 +247,41 @@ public class PlayerController : MonoBehaviour
             case Direction.Right:
                 anim.SetFloat("horizontalFacing", -1f);
                 break;
+
             case Direction.Left:
                 anim.SetFloat("horizontalFacing", 1f);
                 break;
+
             case Direction.Up:
                 anim.SetFloat("verticalFacing", -1f);
                 break;
+
             case Direction.Down:
                 anim.SetFloat("verticalFacing", 1f);
                 break;
+
             default:
                 break;
         }
-        
     }
 
+    /// <summary>
+    /// Makes the player unable to move.
+    /// </summary>
     public void StandStill()
     {
         canMove = false;
         rb.velocity = Vector2.zero;
         anim.SetFloat("xMovement", 0f);
         anim.SetFloat("yMovement", 0f);
+    }
+
+    /// <summary>
+    /// Saves the latest respawn position.
+    /// </summary>
+    /// <param name="pos">The position to spawn the player next time.</param>
+    public void SetSafeSpotLocation(Vector3 pos)
+    {
+        SafeSpotLocation = pos;
     }
 }

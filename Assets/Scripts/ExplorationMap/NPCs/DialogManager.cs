@@ -1,8 +1,6 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
-using System;
+using UnityEngine;
 
 /// <summary>
 /// This class will hold all text from npcs and will manage it.
@@ -10,74 +8,54 @@ using System;
 public class DialogManager : MonoBehaviour
 {
     [Tooltip("The npc this trigger belongs too.")]
-    [SerializeField] NpcManager npc;
-    [SerializeField] Interactable item;
+    [SerializeField] private NpcManager npc;
+
+    [SerializeField] private Interactable item;
 
     [Header("Dialog:")]
     [Tooltip("The text a npc can talk before any combat.")]
-    [SerializeField] Dialog preCombatDialog;
+    [SerializeField] private Dialog preCombatDialog;
+
     [Tooltip("The text a npc can talk after combat and if he has no combat at all.")]
-    [SerializeField] Dialog dialog;
-    [SerializeField] int lastLineIndex;
-    int dialogIndex;
+    [SerializeField] private Dialog dialog;
 
-    //Alternative:
-    //private TextMeshProUGUI dialogTextField => UIManager.Instance.GetDialogTextField();
+    [SerializeField] private int lastLineIndex;
+    private int dialogIndex;
+
     private TextMeshProUGUI dialogTextField;
-
     [SerializeField] private float normalSpeed = 0.22f;
-    float speed;
-    bool finishedLine;
+    private float speed;
+    private bool finishedLine;
+    private bool endDialog;
 
-    bool endDialog;
-
-    private void Start()
-    {
-        //currentLine = dialogTextField.text;
-        //currentLine = preCombatDialog[0];
-        //currentLine = dialog[0];
-
-        //dialogTextField = UIManager.Instance.GetDialogTextField();
-
-        
-
-    }
-
-    
-
+    /// <summary>
+    /// Start dialog on enabled.
+    /// </summary>
     private void OnEnable()
     {
-        if(UIManager.Instance != null)
+        if (UIManager.Instance != null)
             UIManager.Instance.ShowDialogScreen(true);
 
         dialogTextField = UIManager.Instance.GetDialogTextField();
         speed = normalSpeed;
         dialogTextField.text = "";
 
-        finishedLine = false ;
+        finishedLine = false;
         if (npc != null && npc.CanFight)
-        {
             StartCoroutine("TextTyping", preCombatDialog.dialogs[dialogIndex].text);
-            
-        }
         else
-        {
             StartCoroutine("TextTyping", dialog.dialogs[dialogIndex].text);
-        }
-        Debug.Log("How often?");
-        
     }
 
     private void OnDisable()
     {
         UIManager.Instance.ShowDialogScreen(false);
-
     }
 
     private void Update()
     {
-
-        if(Input.GetKeyDown(KeyCode.Space) && endDialog)
+        // Let the player scroll through the dialoglines.
+        if (Input.GetKeyDown(KeyCode.Space) && endDialog)
         {
             if (npc != null && npc.CanFight)
             {
@@ -85,13 +63,14 @@ public class DialogManager : MonoBehaviour
                 dialogIndex = 0;
                 npc.FinishedPreCombat();
             }
-            else if(npc != null)
+            else if (npc != null)
             {
                 endDialog = false;
                 dialogIndex = lastLineIndex;
-                if(npc != null)
+                if (npc != null)
                     npc.FinishedPostCombat();
-            }else if(item != null)
+            }
+            else if (item != null)
             {
                 endDialog = false;
                 dialogIndex = lastLineIndex;
@@ -113,11 +92,14 @@ public class DialogManager : MonoBehaviour
         {
             speed = 0.01f;
         }
-
     }
 
-
-    IEnumerator TextTyping(string message)
+    /// <summary>
+    /// Start the text flow.
+    /// </summary>
+    /// <param name="message"></param>
+    /// <returns></returns>
+    private IEnumerator TextTyping(string message)
     {
         dialogTextField.text = "";
         speed = normalSpeed;
@@ -127,14 +109,15 @@ public class DialogManager : MonoBehaviour
         {
             npc.ShowEmotion(preCombatDialog.dialogs[dialogIndex].emotion);
         }
-        else if(npc != null)
+        else if (npc != null)
         {
             npc.ShowEmotion(dialog.dialogs[dialogIndex].emotion);
-        }else if(item != null)
+        }
+        else if (item != null)
         {
             item.ShowEmotion(dialog.dialogs[dialogIndex].emotion);
         }
-        
+
         foreach (var singleChar in message.ToCharArray())
         {
             yield return new WaitForSecondsRealtime(speed);
@@ -153,5 +136,4 @@ public class DialogManager : MonoBehaviour
             endDialog = true;
         }
     }
-
 }

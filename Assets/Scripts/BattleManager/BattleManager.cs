@@ -1,49 +1,61 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using System.Linq;
+using UnityEngine;
 
+/// <summary>
+/// This class will control how the battles will run, sort the enemys and watches the battleloop.
+/// </summary>
 public class BattleManager : MonoBehaviour
 {
-    [SerializeField] GameObject pavedArea1;
-    [SerializeField] GameObject pavedArea2;
-    [SerializeField] GameObject desert1;
-    [SerializeField] GameObject desert2;
-    [SerializeField] GameObject grassland1;
-    [SerializeField] GameObject grassland2;
-    [SerializeField] GameObject ocean1;
-    [SerializeField] GameObject ocean2;
-    [SerializeField] GameObject ice1;
-    [SerializeField] GameObject ice2;
-    [SerializeField] GameObject forest1;
-    [SerializeField] GameObject forest2;
-    [SerializeField] GameObject swamp1;
-    [SerializeField] GameObject swamp2;
-    [SerializeField] GameObject mountain1;
-    [SerializeField] GameObject mountain2;
-    [SerializeField] GameObject mountain3;
-    [SerializeField] GameObject mountain4;
+    #region BattleMaps
 
-    [SerializeField] Transform enemyHolder;
+    [Header("Battlemaps:")]
+    [SerializeField] private GameObject[] battlemaps;
 
-    DefenseType currentMainBiom;
-    DefenseType currentSubBiom;
-    Transform[] spawnPositionsLeft;
-    Transform[] spawnPositionsRight;
+    private DefenseType currentMainBiom;
+    private DefenseType currentSubBiom;
+    [SerializeField] private Transform[] spawnPositionsLeft;
+    [SerializeField] private Transform[] spawnPositionsRight;
 
-    List<GameObject> enemyTeam;
-    List<Champion> championsInBattle;
+    #endregion BattleMaps
+
+    [Header("EnemyHolder:")]
+    [SerializeField] private Transform enemyHolder;
+
+    [SerializeField] private Transform attackEffectsHolder;
+
+    [Header("EnemyHolder:")]
+    [SerializeField] private string[] enemyActions;
+
+    private NpcManager currentNpc;
+    private List<GameObject> enemyTeam;
+    private List<Champion> championsInBattle;
 
     // Reward related:
-    int battleRewardGold;
-    float battleRewardExp;
-    float levelDifference;
-    List<MightCrystalLevel> battleRewardCrystals;
+    private int battleRewardGold;
 
-    bool inCombat;
-    int currentTurn = 0;
+    private float battleRewardExp;
+    private float levelDifference;
+    private float levelPenalty = 0.13f;
+    private int[] battleRewardCrystals;
+
+    // Battleloop related:
+    private bool inCombat;
+
+    private int currentTurn = 0;
+    private bool isWaiting;
+
+    private bool playerWon;
+
+    #region Properties
+
+    public Transform AttackEffectsHolder { get => attackEffectsHolder; }
+
+    #endregion Properties
 
     #region Singleton
+
     public static BattleManager Instance;
 
     private void Awake()
@@ -55,57 +67,501 @@ public class BattleManager : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
     }
-    #endregion
+
+    #endregion Singleton
 
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
+        // Setup.
         enemyTeam = new List<GameObject>();
-        
+        battleRewardCrystals = new int[System.Enum.GetNames(typeof(Crystal)).Length];
+
+        TransitionManager.Instance.OnBattleEndFading += (bool status) => { DeactivateBattleMaps(); };
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         // The actual battleloop: is continues til one team is dead.
         if (inCombat)
         {
-            Debug.Log("In combat now.");
-            championsInBattle[currentTurn].SelectChampion(true);
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (!isWaiting)
             {
-                championsInBattle[currentTurn].SelectChampion(false);
-                currentTurn++;
+                if (championsInBattle[currentTurn].IsAlive)
+                {
+                    // Regenerate the champion.
+                    championsInBattle[currentTurn].Regenerate();
+                    // Did the champion died after regeneration?
+                    if (!championsInBattle[currentTurn].IsAlive)
+                    {
+                        UIManager.Instance.ShowBattleScreenUIEnemy(championsInBattle[currentTurn]);
+                        string m = $"{championsInBattle[currentTurn].ChampionName} died from poison.";
+                        UIManager.Instance.ShowEnemyAction(m);
+                        isWaiting = true;
+                        UIManager.Instance.ShowContinueButton(true);
+                    }
+                    else
+                    {
+                        // Check if champion can make any moves, else skip him.
+                        if (championsInBattle[currentTurn].HasMoveAvailable())
+                        {
+                            // Activate the next champion and ui based on his team.
+                            if (championsInBattle[currentTurn].IsPlayer)
+                                UIManager.Instance.ShowBattleScreenUIPlayer(championsInBattle[currentTurn]);
+                            else
+                            {
+                                string m = $"{championsInBattle[currentTurn].ChampionName} {enemyActions[Random.Range(1, enemyActions.Length)]}";
+                                UIManager.Instance.ShowEnemyAction(m);
+                                UIManager.Instance.ShowBattleScreenUIEnemy(championsInBattle[currentTurn]);
+                                // Let the ai play the enemys move.
+                                AIAttackCalculation();
+                            }
+
+                            championsInBattle[currentTurn].SelectChampion(true);
+                            isWaiting = true;
+                        }
+                        else
+                        {
+                            if (!championsInBattle[currentTurn].IsPlayer)
+                            {
+                                string m = $"{championsInBattle[currentTurn].ChampionName} muss sich ausruhen.";
+                                UIManager.Instance.ShowEnemyAction(m);
+                                UIManager.Instance.ShowBattleScreenUIEnemy(championsInBattle[currentTurn]);
+                                UIManager.Instance.ShowContinueButton(true);
+                                isWaiting = true;
+                            }
+                            else
+                            {
+                                // Show the UI though he has no moves, so he has to  skip the turn basically.
+                                UIManager.Instance.ShowBattleScreenUIPlayer(championsInBattle[currentTurn]);
+                            }
+                        }
+                    }
+                }
+                else
+                    EndTurn();
             }
         }
     }
 
-    public void StartCombat(Biom[] possibleBioms, GameObject[] enemyTeam)
+    /// <summary>
+    /// Ends the turn and checks for victory conditions.
+    /// </summary>
+    public void EndTurn()
     {
-        // Set the map. Eventually check for null otherwise error.
-        int r = Random.Range(0, possibleBioms.Length);       
-        SetBattleMap(possibleBioms[r]);
-
-        // Place the playerchampions.
-        if(PlayerInventory.Instance.CurrentChampions.Count == 2)
+        // Deactivate dead champions.
+        for (int i = 0; i < championsInBattle.Count; i++)
+            if (!championsInBattle[i].IsAlive)
+                championsInBattle[i].gameObject.SetActive(false);
+        // Check if battle is over.
+        if (CheckBattleInProgress())
         {
-            PlayerInventory.Instance.CurrentChampions[0].transform.position = spawnPositionsLeft[1].position;
-            PlayerInventory.Instance.CurrentChampions[1].transform.position = spawnPositionsLeft[2].position;
+            // Update the turncount.
+            championsInBattle[currentTurn].SelectChampion(false);
+            currentTurn++;
+            // Full round complete, resort the list.
+            if (currentTurn == championsInBattle.Count)
+                currentTurn = 0;
+
+            isWaiting = false;
         }
         else
         {
-            for (int i = 0; i < PlayerInventory.Instance.CurrentChampions.Count; i++)
+            // Handle what happens after the battle is over.
+            if (playerWon)
             {
-                PlayerInventory.Instance.CurrentChampions[i].transform.position = spawnPositionsLeft[i].position;
+                // Calculate the reward.
+                CalculateBattleReward();
+
+                // Give the contenders list for ui.
+                List<Champion> champs = new List<Champion>();
+                for (int i = 0; i < championsInBattle.Count; i++)
+                    if (championsInBattle[i].IsPlayer)
+                        champs.Add(championsInBattle[i]);
+                // Destroy ai champions.
+                for (int i = 0; i < championsInBattle.Count; i++)
+                    if (!championsInBattle[i].IsPlayer)
+                        Destroy(championsInBattle[i].gameObject);
+                    else
+                        championsInBattle[i].gameObject.SetActive(false);
+
+                // Add the reward to the champs and player.
+                for (int i = 0; i < champs.Count; i++)
+                {
+                    if (champs[i].IsAlive)
+                        champs[i].AddExperience(battleRewardExp);
+                    else
+                        champs[i].AddExperience(battleRewardExp * 0.5f);
+                }
+                battleRewardCrystals[0] = battleRewardGold;
+
+                for (int i = 0; i < battleRewardCrystals.Length; i++)
+                    PlayerInventory.Instance.AddCrystals((Crystal)i, battleRewardCrystals[i]);
+
+                // Show the reward screen.
+                UIManager.Instance.ShowRewardScreen(champs, battleRewardGold, battleRewardExp, battleRewardCrystals);
+            }
+            else
+            {
+                // The player lost, so heal all his champs and respawn him in last safespot.
+                for (int i = 0; i < PlayerInventory.Instance.CurrentChampions.Count; i++)
+                    PlayerInventory.Instance.CurrentChampions[i].GetComponent<Champion>().FullHealChampion();
+
+                // Destroy ai champions.
+                for (int i = 0; i < championsInBattle.Count; i++)
+                    if (!championsInBattle[i].IsPlayer)
+                        Destroy(championsInBattle[i].gameObject);
+                    else
+                        championsInBattle[i].gameObject.SetActive(false);
+                // Respawn the player.
+                UIManager.Instance.HideBattleUIScreen();
+                TransitionManager.Instance.TeleportPlayer("", PlayerController.Instance.SafeSpotLocation, true, Transitions.Random);
+                inCombat = false;
+                PlayerController.Instance.IsFighting = false;
             }
         }
+    }
+
+    /// <summary>
+    /// Ends the battle and brings player back to exploration map.
+    /// </summary>
+    public void EndBattle()
+    {
+        UIManager.Instance.HideBattleUIScreen();
+        TransitionManager.Instance.TeleportPlayer("", PlayerController.Instance.gameObject.transform.position, true, Transitions.Random);
+        inCombat = false;
+        PlayerController.Instance.IsFighting = false;
+        // Activate the npc if any.
+        if (currentNpc != null)
+        {
+            currentNpc.FinishedCombat();
+            currentNpc = null;
+        }
+    }
+
+    #region AI related.
+
+    /// <summary>
+    /// Starts the coroutine for the ais turn.
+    /// </summary>
+    private void AIAttackCalculation()
+    {
+        StartCoroutine(AICalculation());
+    }
+
+    /// <summary>
+    /// Performs the ais turn.
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator AICalculation()
+    {
+        yield return new WaitForSeconds(0.9f);
+
+        Weapon w = null;
+        Champion c = null;
+
+        // Pick a random Weapon.
+        for (int i = 0; i < 100; i++)
+        {
+            for (int j = 0; j < championsInBattle[currentTurn].Weapons.Length; j++)
+            {
+                if (championsInBattle[currentTurn].Weapons[j] != null && championsInBattle[currentTurn].Weapons[j].EnergyCost <= championsInBattle[currentTurn].CurrentEnergy)
+                {
+                    float r = Random.Range(0.0f, 1.0f);
+                    if (r <= 0.2f)
+                    {
+                        w = championsInBattle[currentTurn].Weapons[j];
+                        break;
+                    }
+                }
+            }
+            if (w != null)
+                break;
+        }
+        // In case i couldnt find a target skip this turn.
+        if (w == null)
+        {
+            UIManager.Instance.ShowEnemyAction("Setzt aus.");
+            yield return new WaitForSeconds(1.0f);
+            EndTurn();
+            yield break;
+        }
+
+        // If singletarget pick a random target. Then call the corresponding attack method.
+        if (w.TargetType == WeaponTarget.Ally || w.TargetType == WeaponTarget.Enemy)
+        {
+            if (w.TargetType == WeaponTarget.Ally)
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    for (int j = 0; j < championsInBattle.Count; j++)
+                    {
+                        if (!championsInBattle[j].IsPlayer && championsInBattle[j].IsAlive)
+                        {
+                            float r = Random.Range(0.0f, 1.0f);
+                            if (r <= 0.2f)
+                                c = championsInBattle[j];
+                            break;
+                        }
+                    }
+                    if (c != null)
+                        break;
+                }
+            }
+            else if (w.TargetType == WeaponTarget.Enemy)
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    for (int j = 0; j < championsInBattle.Count; j++)
+                    {
+                        if (championsInBattle[j].IsPlayer && championsInBattle[j].IsAlive)
+                        {
+                            float r = Random.Range(0.0f, 1.0f);
+                            if (r <= 0.2f)
+                                c = championsInBattle[j];
+                            break;
+                        }
+                    }
+                    if (c != null)
+                        break;
+                }
+            }
+            if (c == null)
+            {
+                UIManager.Instance.ShowEnemyAction("Setzt aus.");
+                yield return new WaitForSeconds(1.0f);
+                EndTurn();
+                yield break;
+            }
+            // Display what the ai will do.
+            string m = $"{championsInBattle[currentTurn].ChampionName} greift <color=blue>{c.ChampionName}</color> mit <color=red><size=40>{w.ItemName}</size></color> an.";
+            UIManager.Instance.ShowEnemyAction(m);
+            AttackSingle(c, w, false);
+        }
+        else
+        {
+            if (w == null)
+            {
+                UIManager.Instance.ShowEnemyAction("Setzt aus.");
+                yield return new WaitForSeconds(1.0f);
+                EndTurn();
+                yield break;
+            }
+            // Display what the ai will do.
+            string m = $"{championsInBattle[currentTurn].ChampionName} greift mit <color=red><size=40>{w.ItemName}</size></color> an.";
+            UIManager.Instance.ShowEnemyAction(m);
+            AIAttackMultiple(w);
+        }
+    }
+
+    /// <summary>
+    /// This method calls the champions attack method for multiple targets based on the weapon.
+    /// </summary>
+    /// <param name="weapon"></param>
+    public void AIAttackMultiple(Weapon weapon)
+    {
+        // Pay energy cost once.
+        championsInBattle[currentTurn].SpendEnergy(weapon.EnergyCost);
+
+        // Then apply attack method to all targets.
+        if (weapon.TargetType == WeaponTarget.Allys)
+        {
+            for (int i = 0; i < championsInBattle.Count; i++)
+            {
+                if (!championsInBattle[i].IsPlayer && championsInBattle[i].IsAlive)
+                    championsInBattle[currentTurn].AttackMultiple(championsInBattle[i], weapon, false);
+            }
+        }
+        else if (weapon.TargetType == WeaponTarget.Enemies)
+        {
+            for (int i = 0; i < championsInBattle.Count; i++)
+            {
+                if (championsInBattle[i].IsPlayer && championsInBattle[i].IsAlive)
+                    championsInBattle[currentTurn].AttackMultiple(championsInBattle[i], weapon, false);
+            }
+        }
+        else if (weapon.TargetType == WeaponTarget.All)
+        {
+            for (int i = 0; i < championsInBattle.Count; i++)
+                if (championsInBattle[i].IsAlive && championsInBattle[i] != championsInBattle[currentTurn])
+                    championsInBattle[currentTurn].AttackMultiple(championsInBattle[i], weapon, false);
+        }
+
+        // Wait some extra time and tell the player what the ai did.
+        championsInBattle[currentTurn].AttackMultipleDelay(weapon, false);
+    }
+
+    #endregion AI related.
+
+    /// <summary>
+    /// Checks if the battle is going to continue.
+    /// </summary>
+    /// <returns>True if battle is going on.</returns>
+    private bool CheckBattleInProgress()
+    {
+        bool playersAlive = false;
+        bool enemiesAlive = false;
+        for (int i = 0; i < championsInBattle.Count; i++)
+            if (championsInBattle[i].IsPlayer && championsInBattle[i].IsAlive)
+                playersAlive = true;
+            else if (championsInBattle[i].IsAlive)
+                enemiesAlive = true;
+
+        // If enemies and players are alive, continue battle.
+        if (playersAlive && enemiesAlive)
+            return true;
+        else if (playersAlive && !enemiesAlive)
+        {
+            // Won the battle.
+            playerWon = true;
+            return false;
+        }
+        else
+        {
+            // Lost the battle.
+            playerWon = false;
+            return false;
+        }
+    }
+
+    #region Attack related.
+
+    /// <summary>
+    /// This method calls the champions attack methods based on the target type of the used weapn.
+    /// </summary>
+    /// <param name="weapon">The used weapon for that attack.</param>
+    public void AttackMultiple(Weapon weapon)
+    {
+        // Pay energy cost once.
+        championsInBattle[currentTurn].SpendEnergy(weapon.EnergyCost);
+
+        // Then apply attack method to all targets.
+        if (weapon.TargetType == WeaponTarget.Allys)
+        {
+            for (int i = 0; i < championsInBattle.Count; i++)
+            {
+                if (championsInBattle[i].IsPlayer && championsInBattle[i].IsAlive)
+                    championsInBattle[currentTurn].AttackMultiple(championsInBattle[i], weapon);
+            }
+        }
+        else if (weapon.TargetType == WeaponTarget.Enemies)
+        {
+            for (int i = 0; i < championsInBattle.Count; i++)
+            {
+                if (!championsInBattle[i].IsPlayer && championsInBattle[i].IsAlive)
+                    championsInBattle[currentTurn].AttackMultiple(championsInBattle[i], weapon);
+            }
+        }
+        else if (weapon.TargetType == WeaponTarget.All)
+        {
+            for (int i = 0; i < championsInBattle.Count; i++)
+                if (championsInBattle[i].IsAlive && championsInBattle[i] != championsInBattle[currentTurn])
+                    championsInBattle[currentTurn].AttackMultiple(championsInBattle[i], weapon);
+        }
+
+        // Inform when attacks will be over.
+        championsInBattle[currentTurn].AttackMultipleDelay(weapon);
+    }
+
+    /// <summary>
+    /// Attacks a single target.
+    /// </summary>
+    /// <param name="target">The target.</param>
+    /// <param name="weapon">The weapon to use.</param>
+    /// <param name="notAI">If its ai or not.</param>
+    public void AttackSingle(Champion target, Weapon weapon, bool notAI = true)
+    {
+        championsInBattle[currentTurn].Attack(target, weapon, notAI);
+    }
+
+    #endregion Attack related.
+
+    #region Targeting
+
+    /// <summary>
+    /// Sets which champions can be targeted.
+    /// </summary>
+    /// <param name="type"></param>
+    public void EnableTargeting(WeaponTarget type)
+    {
+        if (type == WeaponTarget.Ally)
+        {
+            for (int i = 0; i < championsInBattle.Count; i++)
+                if (championsInBattle[i].IsPlayer && championsInBattle[i].IsAlive)
+                    championsInBattle[i].TargetingEnabled(true);
+        }
+        else if (type == WeaponTarget.Enemy)
+        {
+            for (int i = 0; i < championsInBattle.Count; i++)
+                if (!championsInBattle[i].IsPlayer && championsInBattle[i].IsAlive)
+                    championsInBattle[i].TargetingEnabled(true);
+        }
+    }
+
+    /// <summary>
+    /// Disables all targeting.
+    /// </summary>
+    public void DisableTargeting()
+    {
+        for (int i = 0; i < championsInBattle.Count; i++)
+            championsInBattle[i].TargetingEnabled(false);
+    }
+
+    #endregion Targeting
+
+    #region Battlemap related
+
+    /// <summary>
+    /// This class sets the battlemap and initializez the right bioms.
+    /// </summary>
+    /// <param name="biom"></param>
+    private void SetBattleMap(Biom biom)
+    {
+        // Set a default value for the map.
+        BattleBiom tmpBiom = battlemaps[(int)biom - 1].GetComponent<BattleBiom>();
+        battlemaps[(int)biom - 1].SetActive(true);
+        currentMainBiom = tmpBiom.MainBiom;
+        currentSubBiom = tmpBiom.SubBiom;
+    }
+
+    /// <summary>
+    /// This method deactivates all the battlemaps.
+    /// </summary>
+    private void DeactivateBattleMaps()
+    {
+        for (int i = 0; i < battlemaps.Length; i++)
+            battlemaps[i].SetActive(false);
+    }
+
+    #endregion Battlemap related
+
+    #region Battle setup related.
+
+    /// <summary>
+    /// This map will be called by triggers in the gameworld to start a battle.
+    /// </summary>
+    /// <param name="possibleBioms">The possible bioms the battle coult take place.</param>
+    /// <param name="enemyTeam">The enemies to spawn.</param>
+    public void StartCombat(Biom[] possibleBioms, GameObject[] enemyTeam, NpcManager npc = null)
+    {
+        // Save the current npc if any, to tell him when fight is over.
+        currentNpc = npc;
+
+        // Reset battlerewardcrystals.
+        for (int i = 0; i < battleRewardCrystals.Length; i++)
+            battleRewardCrystals[i] = 0;
+
+        // Set the map. Eventually check for null otherwise error.
+        int r = Random.Range(0, possibleBioms.Length);
+        SetBattleMap(possibleBioms[r]);
+
         // Instantiate and place the enemy champions.
         this.enemyTeam.Clear();
         for (int i = 0; i < enemyTeam.Length; i++)
         {
             GameObject tmp = Instantiate(enemyTeam[i], enemyHolder);
             this.enemyTeam.Add(tmp);
-            
         }
         if (this.enemyTeam.Count == 2)
         {
@@ -115,151 +571,50 @@ public class BattleManager : MonoBehaviour
         else
         {
             for (int i = 0; i < this.enemyTeam.Count; i++)
-            {
                 this.enemyTeam[i].transform.position = spawnPositionsRight[i].position;
-            }
         }
-
-        
-
         // Get all participating champions in a sorted list, then start the battle loop.
         GetChampionsInBattle();
-
     }
 
-
-
-
-    private void SetBattleMap(Biom biom)
-    {
-        // Set a default value for the map.
-        BattleBiom tmpBiom = grassland1.GetComponent<BattleBiom>();
-
-        switch (biom)
-        {
-            case Biom.PavedArea1:
-                tmpBiom = pavedArea1.GetComponent<BattleBiom>();
-                pavedArea1.SetActive(true);
-                break;
-            case Biom.PavedArea2:
-                tmpBiom = pavedArea2.GetComponent<BattleBiom>();
-                pavedArea2.SetActive(true);
-                break;
-            case Biom.Desert1:
-                tmpBiom = desert1.GetComponent<BattleBiom>();
-                desert1.SetActive(true);
-                break;
-            case Biom.Desert2:
-                tmpBiom = desert2.GetComponent<BattleBiom>();
-                desert2.SetActive(true);
-                break;
-            case Biom.Grassland1:
-                tmpBiom = grassland1.GetComponent<BattleBiom>();
-                grassland1.SetActive(true);
-                break;
-            case Biom.GrassLand2:
-                tmpBiom = grassland2.GetComponent<BattleBiom>();
-                grassland2.SetActive(true);
-                break;
-            case Biom.Ocean1:
-                tmpBiom = ocean1.GetComponent<BattleBiom>();
-                ocean1.SetActive(true);
-                break;
-            case Biom.Ocean2:
-                tmpBiom = ocean2.GetComponent<BattleBiom>();
-                ocean2.SetActive(true);
-                break;
-            case Biom.Ice1:
-                tmpBiom = ice1.GetComponent<BattleBiom>();
-                ice1.SetActive(true);
-                break;
-            case Biom.Ice2:
-                tmpBiom = ice2.GetComponent<BattleBiom>();
-                ice2.SetActive(true);
-                break;
-            case Biom.Forest1:
-                tmpBiom = forest1.GetComponent<BattleBiom>();
-                forest1.SetActive(true);
-                break;
-            case Biom.Forest2:
-                tmpBiom = forest2.GetComponent<BattleBiom>();
-                forest2.SetActive(true);
-                break;
-            case Biom.Swamp1:
-                tmpBiom = swamp1.GetComponent<BattleBiom>();
-                swamp1.SetActive(true);
-                break;
-            case Biom.Swamp2:
-                tmpBiom = swamp2.GetComponent<BattleBiom>();
-                swamp2.SetActive(true);
-                break;
-            case Biom.Mountain1:
-                tmpBiom = mountain1.GetComponent<BattleBiom>();
-                mountain1.SetActive(true);
-                break;
-            case Biom.Mountain2:
-                tmpBiom = mountain2.GetComponent<BattleBiom>();
-                mountain2.SetActive(true);
-                break;
-            case Biom.Mountain3:
-                tmpBiom = mountain3.GetComponent<BattleBiom>();
-                mountain3.SetActive(true);
-                break;
-            case Biom.Mountain4:
-                tmpBiom = mountain4.GetComponent<BattleBiom>();
-                mountain4.SetActive(true);
-                break;
-            default:
-                break;
-
-        }
-        currentMainBiom = tmpBiom.MainBiom;
-        currentSubBiom = tmpBiom.SubBiom;
-        spawnPositionsLeft = tmpBiom.LeftSpawnPositions;
-        spawnPositionsRight = tmpBiom.RightSpawnPositions;
-    }
-
-    private void DeactivateBattleMaps()
-    {
-        pavedArea1.SetActive(false);
-        pavedArea2.SetActive(false);
-        desert1.SetActive(false);
-        desert2.SetActive(false);
-        grassland1.SetActive(false);
-        grassland2.SetActive(false);
-        ocean1.SetActive(false);
-        ocean2.SetActive(false);
-        ice1.SetActive(false);
-        ice2.SetActive(false);
-        forest1.SetActive(false);
-        forest2.SetActive(false);
-        swamp1.SetActive(false);
-        swamp2.SetActive(false);
-        mountain1.SetActive(false);
-        mountain2.SetActive(false);
-        mountain3.SetActive(false);
-        mountain4.SetActive(false);
-    }
-
-
+    /// <summary>
+    /// This class will prepare a sortet list of all champions and the gives the ok to actually start the battle.
+    /// </summary>
     private void GetChampionsInBattle()
     {
         championsInBattle = new List<Champion>();
-        
         // Save the champion scripts of all battle participants in one list for easy access.
         for (int i = 0; i < PlayerInventory.Instance.CurrentChampions.Count; i++)
         {
-            championsInBattle.Add(PlayerInventory.Instance.CurrentChampions[i].GetComponent<Champion>());
+            if (PlayerInventory.Instance.CurrentChampions[i].GetComponent<Champion>().IsAlive)
+                championsInBattle.Add(PlayerInventory.Instance.CurrentChampions[i].GetComponent<Champion>());
         }
+        for (int i = 0; i < championsInBattle.Count; i++)
+            championsInBattle[i].gameObject.SetActive(true);
+
+        // Place the playerchampions.
+        if (championsInBattle.Count == 2)
+        {
+            championsInBattle[0].transform.position = spawnPositionsLeft[1].position;
+            championsInBattle[1].transform.position = spawnPositionsLeft[2].position;
+        }
+        else
+        {
+            for (int i = 0; i < championsInBattle.Count; i++)
+                championsInBattle[i].transform.position = spawnPositionsLeft[i].position;
+        }
+
         for (int i = 0; i < enemyTeam.Count; i++)
         {
             championsInBattle.Add(enemyTeam[i].GetComponent<Champion>());
+            // Init the enemies here.
+            enemyTeam[i].GetComponent<Champion>().InitializeChampion();
         }
         // Flip the facing of enemies.
         for (int i = 0; i < championsInBattle.Count; i++)
         {
             if (!championsInBattle[i].IsPlayer)
-                championsInBattle[i].FlipChampion();           
+                championsInBattle[i].FlipChampion();
         }
         // Sort the current list by the champions initiative.
         List<Champion> sortetChampions = championsInBattle.OrderByDescending(champ => champ.Initiative).ToList();
@@ -269,49 +624,61 @@ public class BattleManager : MonoBehaviour
         for (int i = 0; i < championsInBattle.Count; i++)
             championsInBattle[i].SetChampionDefense(currentMainBiom, currentSubBiom);
 
-        // Calculate the battlereward.
-
-
         // Everything prepared, set in combat to true to start the main battleloop in update. Reset the turn counter.
         inCombat = true;
         currentTurn = 0;
+        isWaiting = false;
+        playerWon = false;
     }
 
-    private void SortChampions()
-    {
-        // Sort the current list by the champions initiative.
-        List<Champion> sortetChampions = championsInBattle.OrderByDescending(champ => champ.Initiative).ToList();
-        championsInBattle = sortetChampions;
-    }
+    #endregion Battle setup related.
 
+    #region Reward related.
+
+    /// <summary>
+    /// This method calculates the battlereward for the player.
+    /// </summary>
     private void CalculateBattleReward()
     {
+        // Reset the values.
         battleRewardGold = 0;
         battleRewardExp = 0.0f;
-        battleRewardCrystals = new List<MightCrystalLevel>();
-        bool inList;
-        
+
+        int playerLevel = 0;
+        int enemyLevel = 0;
+
+        // Add the new values.
         for (int i = 0; i < championsInBattle.Count; i++)
         {
             if (!championsInBattle[i].IsPlayer)
             {
-                battleRewardGold += championsInBattle[i].GoldReward;
+                battleRewardGold += Random.Range((championsInBattle[i].GoldReward - 20), (championsInBattle[i].GoldReward + 1));
                 battleRewardExp += championsInBattle[i].ExpReward;
-                //inList = false;
-                //for (int j = 0; j < championsInBattle[i].CrystalReward.Length; j++)
-                //{
-                //    for (int k = 0; k < battleRewardCrystals.Count; k++)
-                //    {
-                //        if (championsInBattle[i].CrystalReward[j].MightCrystal == battleRewardCrystals[k].MightCrystal)
-                //        {
-                //            inList = true;
-                //            battleRewardCrystals[k].Amount += championsInBattle[i].CrystalReward[j].Amount;
-                //        }
+                for (int j = 0; j < championsInBattle[i].CrystalReward.Length; j++)
+                    battleRewardCrystals[(int)championsInBattle[i].CrystalReward[j].MightCrystal] += championsInBattle[i].CrystalReward[j].Amount;
 
-                //    }
-                //}
+                enemyLevel += championsInBattle[i].Level;
             }
+            else
+                playerLevel += championsInBattle[i].Level;
         }
+
+        // Calculate level difference.
+        levelDifference = enemyLevel - playerLevel;
+        battleRewardExp += levelDifference * levelPenalty * battleRewardExp;
+        if (battleRewardExp < 100f)
+            battleRewardExp = 100f;
     }
 
+    /// <summary>
+    /// Adds crystals to the current rewardpool.
+    /// </summary>
+    /// <param name="crystal">The type.</param>
+    /// <param name="amount">The amount.</param>
+    public void AddCrystalRewards(int crystal, int amount)
+    {
+        battleRewardCrystals[crystal] += amount;
+    }
+
+    #endregion Reward related.
 }

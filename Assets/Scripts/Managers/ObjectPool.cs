@@ -26,6 +26,7 @@ public class ObjectPool : MonoBehaviour
     [SerializeField] GameObject talkingPrefab;
     [SerializeField] GameObject waitingPrefab;
 
+    [Header("Crystal related Prefabs:")]
     [SerializeField] GameObject goldPrefab;
     [SerializeField] GameObject attackPrefab;
     [SerializeField] GameObject alignmentPrefab;
@@ -37,6 +38,9 @@ public class ObjectPool : MonoBehaviour
     [SerializeField] GameObject holyPrefab;
     [SerializeField] GameObject hunterPrefab;
     [SerializeField] GameObject seadragonPrefab;
+
+    [Header("Attacks related prefabs:")]
+    [SerializeField] GameObject textPopup;
 
     // Pools for every poolable object in game.
     // Emoji related pools.
@@ -60,6 +64,8 @@ public class ObjectPool : MonoBehaviour
     Queue<GameObject> holyPool = new Queue<GameObject>();
     Queue<GameObject> hunterPool = new Queue<GameObject>();
     Queue<GameObject> seadragonPool = new Queue<GameObject>();
+
+    Queue<GameObject> textPopupPool = new Queue<GameObject>();
     #endregion
 
     #region Singleton
@@ -102,28 +108,32 @@ public class ObjectPool : MonoBehaviour
         prefabDictionary.Add(Emotion.Waiting.ToString(), waitingPrefab);
 
         // Add all crystal related pools to the pool dictionary. And add the corresponding prefab to the prefab dictionary.
-        poolDictionary.Add(Crystals.Gold.ToString(), goldPool);
-        prefabDictionary.Add(Crystals.Gold.ToString(), goldPrefab);
-        poolDictionary.Add(Crystals.Attack.ToString(), attackPool);
-        prefabDictionary.Add(Crystals.Attack.ToString(), attackPrefab);
-        poolDictionary.Add(Crystals.Alignment.ToString(), alignmentPool);
-        prefabDictionary.Add(Crystals.Alignment.ToString(), alignmentPrefab);
-        poolDictionary.Add(Crystals.Fire.ToString(), firePool);
-        prefabDictionary.Add(Crystals.Fire.ToString(), firePrefab);
-        poolDictionary.Add(Crystals.Ice.ToString(), icePool);
-        prefabDictionary.Add(Crystals.Ice.ToString(), icePrefab);
-        poolDictionary.Add(Crystals.Lightning.ToString(), lightningPool);
-        prefabDictionary.Add(Crystals.Lightning.ToString(), lightningPrefab);
-        poolDictionary.Add(Crystals.Wind.ToString(), windPool);
-        prefabDictionary.Add(Crystals.Wind.ToString(), windPrefab);
-        poolDictionary.Add(Crystals.Destruction.ToString(), destructionPool);
-        prefabDictionary.Add(Crystals.Destruction.ToString(), destructionPrefab);
-        poolDictionary.Add(Crystals.Holy.ToString(), holyPool);
-        prefabDictionary.Add(Crystals.Holy.ToString(), holyPrefab);
-        poolDictionary.Add(Crystals.Hunter.ToString(), hunterPool);
-        prefabDictionary.Add(Crystals.Hunter.ToString(), hunterPrefab);
-        poolDictionary.Add(Crystals.Seadragon.ToString(), seadragonPool);
-        prefabDictionary.Add(Crystals.Seadragon.ToString(), seadragonPrefab);
+        poolDictionary.Add(Crystal.Gold.ToString(), goldPool);
+        prefabDictionary.Add(Crystal.Gold.ToString(), goldPrefab);
+        poolDictionary.Add(Crystal.Attack.ToString(), attackPool);
+        prefabDictionary.Add(Crystal.Attack.ToString(), attackPrefab);
+        poolDictionary.Add(Crystal.Darkness.ToString(), alignmentPool);
+        prefabDictionary.Add(Crystal.Darkness.ToString(), alignmentPrefab);
+        poolDictionary.Add(Crystal.Fire.ToString(), firePool);
+        prefabDictionary.Add(Crystal.Fire.ToString(), firePrefab);
+        poolDictionary.Add(Crystal.Ice.ToString(), icePool);
+        prefabDictionary.Add(Crystal.Ice.ToString(), icePrefab);
+        poolDictionary.Add(Crystal.Lightning.ToString(), lightningPool);
+        prefabDictionary.Add(Crystal.Lightning.ToString(), lightningPrefab);
+        poolDictionary.Add(Crystal.Wind.ToString(), windPool);
+        prefabDictionary.Add(Crystal.Wind.ToString(), windPrefab);
+        poolDictionary.Add(Crystal.Destruction.ToString(), destructionPool);
+        prefabDictionary.Add(Crystal.Destruction.ToString(), destructionPrefab);
+        poolDictionary.Add(Crystal.Holy.ToString(), holyPool);
+        prefabDictionary.Add(Crystal.Holy.ToString(), holyPrefab);
+        poolDictionary.Add(Crystal.Hunter.ToString(), hunterPool);
+        prefabDictionary.Add(Crystal.Hunter.ToString(), hunterPrefab);
+        poolDictionary.Add(Crystal.Seadragon.ToString(), seadragonPool);
+        prefabDictionary.Add(Crystal.Seadragon.ToString(), seadragonPrefab);
+
+        // Add all attack related pools to the dictionary.
+        poolDictionary.Add("textPopup", textPopupPool);
+        prefabDictionary.Add("textPopup", textPopup);
     }
 
     /// <summary>

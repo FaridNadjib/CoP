@@ -1,26 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// This class handles the FoV from an npc.
 /// </summary>
 public class VisionTrigger : MonoBehaviour
 {
-
     #region Fields
-    [Tooltip("The SO Editorsettings, for global gizmo settings.")]
-    [SerializeField] EditorSettings settings;
-    [Tooltip("The npc this trigger belongs too.")]
-    [SerializeField] NpcManager npc;
 
-    [SerializeField] BoxCollider2D col;
-    #endregion
+    [Tooltip("The SO Editorsettings, for global gizmo settings.")]
+    [SerializeField] private EditorSettings settings;
+
+    [Tooltip("The npc this trigger belongs too.")]
+    [SerializeField] private NpcManager npc;
+
+    [SerializeField] private BoxCollider2D col;
+
+    #endregion Fields
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         col = GetComponent<BoxCollider2D>();
-        if (collision.CompareTag("Player") && npc.CanFight)
+        if (collision.CompareTag("Player") && npc.CanFight && PlayerController.Instance.CanMove)
         {
             npc.EngagePlayer();
         }
@@ -38,7 +38,7 @@ public class VisionTrigger : MonoBehaviour
             Vector3 scale = new Vector3(col.size.x * transform.parent.localScale.x, col.size.y * transform.parent.localScale.y, 1f);
             Vector3 offset = transform.position + transform.rotation * ((Vector3)col.offset);
 
-            Gizmos.DrawCube(offset, transform.rotation* scale);
+            Gizmos.DrawCube(offset, transform.rotation * scale);
         }
     }
 }
