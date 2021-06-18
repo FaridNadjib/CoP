@@ -1,0 +1,933 @@
+fileFormatVersion: 2
+guid: 36d0994d75a1c8f4cb99f4ec80511f33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7474231293571362612
+    second: Visustella_City2_A5_0
+  - first:
+      213: 349161157501942508
+    second: Visustella_City2_A5_1
+  - first:
+      213: 344292128487742482
+    second: Visustella_City2_A5_2
+  - first:
+      213: -3719071743882821744
+    second: Visustella_City2_A5_3
+  - first:
+      213: 1323788793062303344
+    second: Visustella_City2_A5_4
+  - first:
+      213: -8400011063480228579
+    second: Visustella_City2_A5_5
+  - first:
+      213: 2908446766638852554
+    second: Visustella_City2_A5_6
+  - first:
+      213: -6912265830126610120
+    second: Visustella_City2_A5_7
+  - first:
+      213: -2996954696211280632
+    second: Visustella_City2_A5_8
+  - first:
+      213: 6967017471849181551
+    second: Visustella_City2_A5_9
+  - first:
+      213: -2104548187803197715
+    second: Visustella_City2_A5_10
+  - first:
+      213: -9116552576710830712
+    second: Visustella_City2_A5_11
+  - first:
+      213: 6195489320458194318
+    second: Visustella_City2_A5_12
+  - first:
+      213: 8378597840321483127
+    second: Visustella_City2_A5_13
+  - first:
+      213: 7662948344662746940
+    second: Visustella_City2_A5_14
+  - first:
+      213: -534488051152193185
+    second: Visustella_City2_A5_15
+  - first:
+      213: -3734906584753811680
+    second: Visustella_City2_A5_16
+  - first:
+      213: -1540986518437523192
+    second: Visustella_City2_A5_17
+  - first:
+      213: 3050594744356841388
+    second: Visustella_City2_A5_18
+  - first:
+      213: -3811637047107189199
+    second: Visustella_City2_A5_19
+  - first:
+      213: -7920045306671512154
+    second: Visustella_City2_A5_20
+  - first:
+      213: -6441084059444126481
+    second: Visustella_City2_A5_21
+  - first:
+      213: 8125425959101323913
+    second: Visustella_City2_A5_22
+  - first:
+      213: -1458678154443960304
+    second: Visustella_City2_A5_23
+  - first:
+      213: -3217189640402697238
+    second: Visustella_City2_A5_24
+  - first:
+      213: -8804475030737217900
+    second: Visustella_City2_A5_25
+  - first:
+      213: -3147749123662976727
+    second: Visustella_City2_A5_26
+  - first:
+      213: 3247400052495627403
+    second: Visustella_City2_A5_27
+  - first:
+      213: 2540497326395071381
+    second: Visustella_City2_A5_28
+  - first:
+      213: -3169210285084057225
+    second: Visustella_City2_A5_29
+  - first:
+      213: -1899029621384769779
+    second: Visustella_City2_A5_30
+  - first:
+      213: 1667214549150403567
+    second: Visustella_City2_A5_31
+  - first:
+      213: -936392765038173464
+    second: Visustella_City2_A5_32
+  - first:
+      213: -8742957351758461645
+    second: Visustella_City2_A5_33
+  - first:
+      213: -72312664205084414
+    second: Visustella_City2_A5_34
+  - first:
+      213: -2879333168330190572
+    second: Visustella_City2_A5_35
+  - first:
+      213: -2737196945500986196
+    second: Visustella_City2_A5_36
+  - first:
+      213: 2871756763096827153
+    second: Visustella_City2_A5_37
+  - first:
+      213: -9137508090329523643
+    second: Visustella_City2_A5_38
+  - first:
+      213: -7388150744378741833
+    second: Visustella_City2_A5_39
+  - first:
+      213: 1239008022704466849
+    second: Visustella_City2_A5_40
+  - first:
+      213: -6827596203846791360
+    second: Visustella_City2_A5_41
+  - first:
+      213: -7529972616218670639
+    second: Visustella_City2_A5_42
+  - first:
+      213: 8888696720587613340
+    second: Visustella_City2_A5_43
+  - first:
+      213: -570705058676261090
+    second: Visustella_City2_A5_44
+  - first:
+      213: -2124383725568918311
+    second: Visustella_City2_A5_45
+  - first:
+      213: -4681639508515292989
+    second: Visustella_City2_A5_46
+  - first:
+      213: 2203363228575337700
+    second: Visustella_City2_A5_47
+  - first:
+      213: 2625403092814340663
+    second: Visustella_City2_A5_48
+  - first:
+      213: -1084939743329186661
+    second: Visustella_City2_A5_49
+  - first:
+      213: 9060868194747809239
+    second: Visustella_City2_A5_50
+  - first:
+      213: -6907387305364437567
+    second: Visustella_City2_A5_51
+  - first:
+      213: -6689954025306779568
+    second: Visustella_City2_A5_52
+  - first:
+      213: 6734010240741687737
+    second: Visustella_City2_A5_53
+  - first:
+      213: -5082703777800575349
+    second: Visustella_City2_A5_54
+  - first:
+      213: -3477172974809865059
+    second: Visustella_City2_A5_55
+  - first:
+      213: -2293469819793563468
+    second: Visustella_City2_A5_56
+  - first:
+      213: -6526919115797106222
+    second: Visustella_City2_A5_57
+  - first:
+      213: -7922663779442143388
+    second: Visustella_City2_A5_58
+  - first:
+      213: 7176253568295434027
+    second: Visustella_City2_A5_59
+  - first:
+      213: 2295741064356305597
+    second: Visustella_City2_A5_60
+  - first:
+      213: -3308558433363692957
+    second: Visustella_City2_A5_61
+  - first:
+      213: -4586784469541003156
+    second: Visustella_City2_A5_62
+  - first:
+      213: 914843529233407234
+    second: Visustella_City2_A5_63
+  - first:
+      213: -1551644586995328275
+    second: Visustella_City2_A5_64
+  - first:
+      213: -4244167337740728685
+    second: Visustella_City2_A5_65
+  - first:
+      213: -8651339059503325557
+    second: Visustella_City2_A5_66
+  - first:
+      213: 5950371687334614506
+    second: Visustella_City2_A5_67
+  - first:
+      213: 299431279142617426
+    second: Visustella_City2_A5_68
+  - first:
+      213: -668807191275901379
+    second: Visustella_City2_A5_69
+  - first:
+      213: -7867958270860242072
+    second: Visustella_City2_A5_70
+  - first:
+      213: -1131375932669847909
+    second: Visustella_City2_A5_71
+  - first:
+      213: 4695679768292524909
+    second: Visustella_City2_A5_72
+  - first:
+      213: -3098351880078827059
+    second: Visustella_City2_A5_73
+  - first:
+      213: 3142472277485799169
+    second: Visustella_City2_A5_74
+  - first:
+      213: 7262370194358744173
+    second: Visustella_City2_A5_75
+  - first:
+      213: -8785748315403972524
+    second: Visustella_City2_A5_76
+  - first:
+      213: 5106821325796757737
+    second: Visustella_City2_A5_77
+  - first:
+      213: 5166534701553451479
+    second: Visustella_City2_A5_78
+  - first:
+      213: -3970074176405936260
+    second: Visustella_City2_A5_79
+  - first:
+      213: -3248096374705725855
+    second: Visustella_City2_A5_80
+  - first:
+      213: -7694919904930296933
+    second: Visustella_City2_A5_81
+  - first:
+      213: 2617501169579506580
+    second: Visustella_City2_A5_82
+  - first:
+      213: 4798424409121715477
+    second: Visustella_City2_A5_83
+  - first:
+      213: 4765010007016332072
+    second: Visustella_City2_A5_84
+  - first:
+      213: 6524616606766999372
+    second: Visustella_City2_A5_85
+  - first:
+      213: 8942044203703748010
+    second: Visustella_City2_A5_86
+  - first:
+      213: 4403719996232181483
+    second: Visustella_City2_A5_87
+  - first:
+      213: -1316910700312306371
+    second: Visustella_City2_A5_88
+  - first:
+      213: 1149972003634240271
+    second: Visustella_City2_A5_89
+  - first:
+      213: -4129410492882950658
+    second: Visustella_City2_A5_90
+  - first:
+      213: -4179001417534504170
+    second: Visustella_City2_A5_91
+  - first:
+      213: 2012459915798307749
+    second: Visustella_City2_A5_92
+  - first:
+      213: -6503670110784753463
+    second: Visustella_City2_A5_93
+  - first:
+      213: 8964467327572988033
+    second: Visustella_City2_A5_94
+  - first:
+      213: -2289702352472144244
+    second: Visustella_City2_A5_95
+  - first:
+      213: 201758406288463761
+    second: Visustella_City2_A5_96
+  - first:
+      213: -3845506055996710664
+    second: Visustella_City2_A5_97
+  - first:
+      213: -1729264619948518556
+    second: Visustella_City2_A5_98
+  - first:
+      213: -8838608101033456488
+    second: Visustella_City2_A5_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Visustella_City2_A5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fed66e2cdc9b760800000000000000
+      internalID: 7474231293571362612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea744a093878d400800000000000000
+      internalID: 349161157501942508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c9971eddb27c400800000000000000
+      internalID: 344292128487742482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ffba314f3336cc0800000000000000
+      internalID: -3719071743882821744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0762f10c4ea0f5210800000000000000
+      internalID: 1323788793062303344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15e8e3617a2d6b80800000000000000
+      internalID: -8400011063480228579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac964a5bce0ec5820800000000000000
+      internalID: 2908446766638852554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8399b3aa9d2b210a0800000000000000
+      internalID: -6912265830126610120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d4364159da866d0800000000000000
+      internalID: -2996954696211280632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61b2815a71dfa060800000000000000
+      internalID: 6967017471849181551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee5c45d2942bc2e0800000000000000
+      internalID: -2104548187803197715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8859af8abbf7b7180800000000000000
+      internalID: -9116552576710830712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d03ab36bccaf550800000000000000
+      internalID: 6195489320458194318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77197341852c64470800000000000000
+      internalID: 8378597840321483127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c376acf5be2485a60800000000000000
+      internalID: 7662948344662746940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59f16603fd1598f0800000000000000
+      internalID: -534488051152193185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f4b72ef32fa2cc0800000000000000
+      internalID: -3734906584753811680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8019ddc0de05d9ae0800000000000000
+      internalID: -1540986518437523192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7201bd1c3e55a20800000000000000
+      internalID: 3050594744356841388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1360572fc485a1bc0800000000000000
+      internalID: -3811637047107189199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a548da71c8561290800000000000000
+      internalID: -7920045306671512154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecd66c9c2cac96a0800000000000000
+      internalID: -6441084059444126481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ad8f40cdf43c070800000000000000
+      internalID: 8125425959101323913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010deba62fbb1cbe0800000000000000
+      internalID: -1458678154443960304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_A5_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae30bb4411f3a53d0800000000000000
+      internalID: -3217189640402697238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

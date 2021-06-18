@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c184bf537526d44dbdad37f8f2a98b2, type: 3}
+  m_Name: t3A 3
+  m_EditorClassIdentifier: 
+  type: 2
+  itemName: Enormer Brustschutz #4
+  itemIcon: {fileID: 21300000, guid: cfc8a1217892d7942a3a1470360b449f, type: 3}
+  itemID: 34
+  price: 165
+  devotionBonus:
+  - devotion: 6
+    devotionAmount: 2
+  - devotion: 8
+    devotionAmount: 2
+  - devotion: 10
+    devotionAmount: 1
+  statsBonus:
+  - statsBuffType: 8
+    statsAmount: 0.08
+  - statsBuffType: 1
+    statsAmount: 20
+  - statsBuffType: 9
+    statsAmount: 0.04
+  - statsBuffType: 3
+    statsAmount: 10
+  resistanceBonus:
+  - resistanceType: 3
+    resistanceAmount: 0.1
+  - resistanceType: 7
+    resistanceAmount: 0.05
+  - resistanceType: 5
+    resistanceAmount: -0.1
+  defenseMainBonus: []
+  defenseSubBonus: []

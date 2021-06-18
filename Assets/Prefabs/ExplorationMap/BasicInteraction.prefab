@@ -86,7 +86,7 @@ MonoBehaviour:
     - text: You found a firecrystal.
       emotion: 0
   lastLineIndex: 2
-  normalSpeed: 0.22
+  normalSpeed: 0.04
 --- !u!1 &7094706250738237656
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,6 +137,7 @@ MonoBehaviour:
   dialog: {fileID: 7094706249778707207}
   crystals: 3
   amount: 2
+  staysActive: 0
 --- !u!61 &7094706250738237734
 BoxCollider2D:
   m_ObjectHideFlags: 0

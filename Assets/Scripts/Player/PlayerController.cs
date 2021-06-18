@@ -180,6 +180,16 @@ public class PlayerController : MonoBehaviour
                 Physics2D.IgnoreLayerCollision(8, 9, false);
             }
         }
+
+        // For testing.
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            PlayerInventory.Instance.Cheat();
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            Application.Quit();
+        }
     }
 
     private void FixedUpdate()

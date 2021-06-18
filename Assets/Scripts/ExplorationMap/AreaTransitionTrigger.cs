@@ -21,6 +21,7 @@ public class AreaTransitionTrigger : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             TransitionManager.Instance.TeleportPlayer(sceneToLoad, entrancePoint.position, isTeleporter, transitionType);
+            AudioManager.Instance.PlayEffectClip(8);
         }
     }
 }

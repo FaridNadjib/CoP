@@ -414,6 +414,7 @@ public class NpcManager : MonoBehaviour
         dialog.SetActive(false);
         ClearEmoji();
         StartCombat();
+        AudioManager.Instance.PlayEffectClip(10);
     }
 
     /// <summary>
@@ -433,7 +434,7 @@ public class NpcManager : MonoBehaviour
     {
         TransitionManager.Instance.BattleFade(transitionType);
         yield return new WaitForSeconds(1.2f);
-        BattleManager.Instance.StartCombat(possibleBioms, possibleEncounters.Encounter, this);
+        BattleManager.Instance.StartCombat(possibleBioms, possibleEncounters, this);
     }
 
     /// <summary>

@@ -41,6 +41,7 @@ public class TextPopup : MonoBehaviour
     /// <param name="damageType"></param>
     public void ShowDamage(float damage, int damageType)
     {
+        damageNumber.text = "";
         damageNumber.color = damageColors[damageType];
         damageNumber.fontSize = fontSizes[damageType];
         if((int)damage != 0)

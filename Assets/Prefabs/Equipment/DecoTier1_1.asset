@@ -19,10 +19,18 @@ MonoBehaviour:
   price: 26
   devotionBonus:
   - devotion: 2
-    devotionAmount: 1
+    devotionAmount: 0
   - devotion: 4
     devotionAmount: 2
-  statsBonus: []
+  statsBonus:
+  - statsBuffType: 1
+    statsAmount: 0
+  - statsBuffType: 2
+    statsAmount: 2
+  - statsBuffType: 3
+    statsAmount: 15
+  - statsBuffType: 4
+    statsAmount: 2
   resistanceBonus: []
   defenseMainBonus: []
   defenseSubBonus: []

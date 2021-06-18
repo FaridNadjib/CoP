@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad753dea2c3e4064c98f9742c3395359, type: 3}
+  m_Name: GesandterMerkurs
+  m_EditorClassIdentifier: 
+  championName: Gesandter Merkurs
+  title: 
+  description: "Seine Mut wird nur durch seine Wut \xFCbertroffen."
+  championSprite: {fileID: 21300000, guid: 33c65c2fea6d605498dd79402bbab63b, type: 3}
+  maxHealthBase: 25
+  healthRecoveryBase: 2
+  healthGrowRate: 4
+  maxEnergyBase: 20
+  energyRecoveryBase: 2
+  energyGrowRate: 4
+  initiativeBase: 3
+  possibleDevotions: 0100000008000000
+  evasionChanceBase: 0.01
+  dmgReductionBase: 0.02
+  criticalChanceBase: 0.01
+  criticalMultBase: 0.02
+  resistancesBase:
+  - resistanceType: 4
+    resistanceAmount: 0.1
+  - resistanceType: 6
+    resistanceAmount: 0.1
+  - resistanceType: 2
+    resistanceAmount: -0.1
+  defenseMainBase:
+  - defenseType: 2
+    defenseAmount: 0.1
+  - defenseType: 1
+    defenseAmount: 0.1
+  - defenseType: 8
+    defenseAmount: 0.05
+  defenseSubBase:
+  - defenseType: 2
+    defenseAmount: 0.05
+  crystalLevelRequirements:
+  - mightCrystal: 2
+    amount: 110
+  - mightCrystal: 7
+    amount: 65
+  - mightCrystal: 1
+    amount: 90
+  crystalLevelBoni:
+  - mightCrystal: 2
+    amount: 40
+  - mightCrystal: 9
+    amount: 25
+  - mightCrystal: 1
+    amount: 30
+  - mightCrystal: 7
+    amount: 40
+  possibleEvolutions: []
+  specialUpgradeTypes: []

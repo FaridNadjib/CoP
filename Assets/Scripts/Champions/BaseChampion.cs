@@ -65,6 +65,11 @@ public class BaseChampion : ScriptableObject
     [Header("Possible Evolutions:")]
     [SerializeField] private BaseChampion[] possibleEvolutions;
 
+    [SerializeField] private SpecialUpgradeChances[] specialUpgradeTypes;
+
+
+    [SerializeField] WeaponType[] usableWeapons;
+
     #region Properties
 
     public string ChampionName { get => championName; }
@@ -89,6 +94,8 @@ public class BaseChampion : ScriptableObject
     public MightCrystalLevel[] CrystalLevelRequirements { get => crystalLevelRequirements; }
     public MightCrystalLevel[] CrystalLevelBoni { get => crystalLevelBoni; }
     public BaseChampion[] PossibleEvolutions { get => possibleEvolutions; }
+    public SpecialUpgradeChances[] SpecialUpgradeTypes { get => specialUpgradeTypes; set => specialUpgradeTypes = value; }
+    public WeaponType[] UsableWeapons { get => usableWeapons; set => usableWeapons = value; }
 
     #endregion Properties
 }

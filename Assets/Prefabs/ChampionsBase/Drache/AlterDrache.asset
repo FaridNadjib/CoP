@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad753dea2c3e4064c98f9742c3395359, type: 3}
+  m_Name: AlterDrache
+  m_EditorClassIdentifier: 
+  championName: Alter Drache
+  title: 
+  description: "Seine Mut wird nur durch seine Wut \xFCbertroffen."
+  championSprite: {fileID: 21300000, guid: ef1d1519ad7394241b4396cb5762e5b7, type: 3}
+  maxHealthBase: 35
+  healthRecoveryBase: 3
+  healthGrowRate: 3
+  maxEnergyBase: 24
+  energyRecoveryBase: 3
+  energyGrowRate: 3
+  initiativeBase: 3
+  possibleDevotions: 0300000009000000
+  evasionChanceBase: 0.01
+  dmgReductionBase: 0.01
+  criticalChanceBase: 0.05
+  criticalMultBase: 0.025
+  resistancesBase:
+  - resistanceType: 7
+    resistanceAmount: 0.1
+  - resistanceType: 5
+    resistanceAmount: 0.1
+  - resistanceType: 4
+    resistanceAmount: -0.1
+  defenseMainBase:
+  - defenseType: 8
+    defenseAmount: 0.1
+  - defenseType: 1
+    defenseAmount: 0.1
+  - defenseType: 8
+    defenseAmount: 0.05
+  defenseSubBase:
+  - defenseType: 2
+    defenseAmount: 0.05
+  crystalLevelRequirements:
+  - mightCrystal: 5
+    amount: 60
+  - mightCrystal: 1
+    amount: 90
+  - mightCrystal: 10
+    amount: 80
+  crystalLevelBoni:
+  - mightCrystal: 2
+    amount: 15
+  - mightCrystal: 1
+    amount: 30
+  - mightCrystal: 10
+    amount: 30
+  - mightCrystal: 5
+    amount: 50
+  possibleEvolutions: []
+  specialUpgradeTypes: []

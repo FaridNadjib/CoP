@@ -20,11 +20,27 @@ MonoBehaviour:
   devotionBonus:
   - devotion: 5
     devotionAmount: 2
-  statsBonus: []
-  resistanceBonus: []
+  - devotion: 3
+    devotionAmount: 5
+  statsBonus:
+  - statsBuffType: 1
+    statsAmount: 10
+  - statsBuffType: 8
+    statsAmount: 0.05
+  resistanceBonus:
+  - resistanceType: 1
+    resistanceAmount: 0.1
+  - resistanceType: 3
+    resistanceAmount: 0.2
+  - resistanceType: 5
+    resistanceAmount: -0.1
   defenseMainBonus:
-  - defenseType: 4
+  - defenseType: 1
     defenseAmount: 0.2
-  defenseSubBonus:
   - defenseType: 2
+    defenseAmount: 0.5
+  defenseSubBonus:
+  - defenseType: 3
+    defenseAmount: 0.1
+  - defenseType: 7
     defenseAmount: 0.05

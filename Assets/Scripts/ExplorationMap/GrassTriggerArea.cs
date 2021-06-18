@@ -6,9 +6,14 @@
 [System.Serializable]
 public struct Encounters
 {
-    [SerializeField] private GameObject[] encounter;
+    
+    [Space, SerializeField] int[] levels;
+    [Space, SerializeField] private GameObject[] encounter;
+    [Space, SerializeField] BaseChampion[] evolved;  
 
     public GameObject[] Encounter { get => encounter; }
+    public BaseChampion[] Evolved { get => evolved; set => evolved = value; }
+    public int[] Levels { get => levels; set => levels = value; }
 }
 
 /// <summary>
@@ -21,6 +26,7 @@ public class GrassTriggerArea : MonoBehaviour
     private float timer;
     private float rng;
     private bool searchRift;
+    bool isActive;
 
     private bool readyToBattle;
 
@@ -46,6 +52,8 @@ public class GrassTriggerArea : MonoBehaviour
                 rng = Random.Range(0f, 1f);
                 if (rng <= occuranceChance)
                 {
+                    readyToBattle = false;
+                    AudioManager.Instance.PlayEffectClip(10);
                     // Starts the encounter.
                     PlayerController.Instance.IsFighting = true;
                     PlayerController.Instance.StandStill();
@@ -56,13 +64,15 @@ public class GrassTriggerArea : MonoBehaviour
         }
         else if (PlayerController.Instance.IsFighting == true)
         {
-            if (readyToBattle)
+            if (readyToBattle && BattleManager.Instance.NotInBattle && isActive)
             {
-                readyToBattle = false;
+                isActive = false;
+                BattleManager.Instance.NotInBattle = false;
+                
                 // Rng which encounter the player will face.
                 int r = Random.Range(0, possibleEncounters.Length);
                 //Start the combat via the battlemanager, pass the possible maps and the encounters.
-                BattleManager.Instance.StartCombat(possibleBioms, possibleEncounters[r].Encounter);
+                BattleManager.Instance.StartCombat(possibleBioms, possibleEncounters[r]);
             }
         }
     }
@@ -78,6 +88,7 @@ public class GrassTriggerArea : MonoBehaviour
             if (PlayerController.Instance.CanMove && (PlayerController.Instance.HorizontalFacing != 0 || PlayerController.Instance.VerticalFacing != 0))
             {
                 searchRift = true;
+                isActive = true;
             }
             else
             {
@@ -93,6 +104,9 @@ public class GrassTriggerArea : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
+        {
             searchRift = false;
+            isActive = false;
+        }
     }
 }

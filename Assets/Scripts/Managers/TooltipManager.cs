@@ -31,8 +31,12 @@ public class TooltipManager : MonoBehaviour
     /// <param name="header"></param>
     public static void Show(string content, string header = "")
     {
-        current.tooltip.SetText(content, header);
-        current.tooltip.gameObject.SetActive(true);
+        if(current.tooltip != null)
+        {
+            current.tooltip.SetText(content, header);
+            current.tooltip.gameObject.SetActive(true);
+        }
+        
     }
 
     /// <summary>
@@ -40,6 +44,7 @@ public class TooltipManager : MonoBehaviour
     /// </summary>
     public static void Hide()
     {
-        current.tooltip.gameObject.SetActive(false);
+        if(current.tooltip != null)
+            current.tooltip.gameObject.SetActive(false);
     }
 }

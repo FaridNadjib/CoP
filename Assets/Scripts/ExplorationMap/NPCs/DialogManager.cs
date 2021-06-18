@@ -76,6 +76,7 @@ public class DialogManager : MonoBehaviour
                 dialogIndex = lastLineIndex;
                 item.FinishedInteraction();
             }
+            AudioManager.Instance.PlayEffectClip(7);
         }
         else if (Input.GetKeyDown(KeyCode.Space) && finishedLine && !endDialog)
         {
@@ -87,6 +88,7 @@ public class DialogManager : MonoBehaviour
             {
                 StartCoroutine("TextTyping", dialog.dialogs[dialogIndex].text);
             }
+            AudioManager.Instance.PlayEffectClip(7);
         }
         else if (Input.GetKeyDown(KeyCode.Space) && !finishedLine)
         {
@@ -122,6 +124,7 @@ public class DialogManager : MonoBehaviour
         {
             yield return new WaitForSecondsRealtime(speed);
             dialogTextField.text += singleChar;
+            AudioManager.Instance.PlayEffectClip(9, false);
         }
         dialogIndex++;
         finishedLine = true;

@@ -1,27 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This class represents a shop.
+/// </summary>
 public class ShopArea : MonoBehaviour
 {
-    [SerializeField] string description;
+    [SerializeField] private string description;
 
-    [SerializeField] Champion[] champions;
+    [SerializeField] private GameObject[] champions;
 
-    [SerializeField] Equipment[] equipment;
+    [SerializeField] private Equipment[] equipment;
 
-    [SerializeField] Weapon[] weapons;
+    [SerializeField] private Weapon[] weapons;
 
-    public string Description { get => description; set => description = value; }
-    public Champion[] Champions { get => champions; set => champions = value; }
-    public Equipment[] Equipment { get => equipment; set => equipment = value; }
-    public Weapon[] Weapons { get => weapons; set => weapons = value; }
+    [SerializeField] private CrystalItem[] crystals;
 
+    public string Description { get => description;}
+    public GameObject[] Champions { get => champions;}
+    public Equipment[] Equipment { get => equipment;}
+    public Weapon[] Weapons { get => weapons;}
+    public CrystalItem[] Crystals { get => crystals;}
+
+    /// <summary>
+    /// Called once the shop is activated.
+    /// </summary>
     public void OpenShop()
     {
-        Debug.Log("Shop is open now...");
         PlayerController.Instance.StandStill();
+        PlayerController.Instance.IsFighting = true;
         UIManager.Instance.ShowShopScreen(this);
-
     }
 }

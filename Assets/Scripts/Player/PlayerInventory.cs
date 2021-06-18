@@ -55,8 +55,11 @@ public class PlayerInventory : MonoBehaviour
     {
         // Set the inventory crystals.
         inventoryCrystals = new int[System.Enum.GetNames(typeof(Crystal)).Length];
-
+        allChampions = new List<GameObject>();
         currentChampions = new List<GameObject>();
+
+        PlayerInventory.Instance.AddCrystals(Crystal.Gold, 1000);
+
 
         GameObject tmp = Instantiate(test, championHolder);
         tmp.GetComponent<Champion>().IsPlayer = true;
@@ -64,17 +67,17 @@ public class PlayerInventory : MonoBehaviour
         tmp.SetActive(false);
         currentChampions.Add(tmp);
 
-        tmp = Instantiate(test, championHolder);
-        tmp.GetComponent<Champion>().IsPlayer = true;
-        tmp.GetComponent<Champion>().InitializeChampion();
-        tmp.SetActive(false);
-        currentChampions.Add(tmp);
+        //tmp = Instantiate(test, championHolder);
+        //tmp.GetComponent<Champion>().IsPlayer = true;
+        //tmp.GetComponent<Champion>().InitializeChampion();
+        //tmp.SetActive(false);
+        //currentChampions.Add(tmp);
 
-        tmp = Instantiate(test, championHolder);
-        tmp.GetComponent<Champion>().IsPlayer = true;
-        tmp.GetComponent<Champion>().InitializeChampion();
-        tmp.SetActive(false);
-        currentChampions.Add(tmp);
+        //tmp = Instantiate(test, championHolder);
+        //tmp.GetComponent<Champion>().IsPlayer = true;
+        //tmp.GetComponent<Champion>().InitializeChampion();
+        //tmp.SetActive(false);
+        //currentChampions.Add(tmp);
     }
 
     /// <summary>
@@ -105,5 +108,21 @@ public class PlayerInventory : MonoBehaviour
     public void SpendCurrency(Crystal crystal, int amount)
     {
         inventoryCrystals[(int)crystal] -= amount;
+    }
+
+    public void Cheat()
+    {
+        PlayerInventory.Instance.AddCrystals(Crystal.Gold, 1000);
+        PlayerInventory.Instance.AddCrystals(Crystal.Attack, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Destruction, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Holy, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Lightning, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Hunter, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Fire, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Ice, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Darkness, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Wind, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Seadragon, 50);
+        PlayerInventory.Instance.AddCrystals(Crystal.Ice, 50);
     }
 }

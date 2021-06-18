@@ -80,6 +80,7 @@ public class Champion : MonoBehaviour
 
     [SerializeField] private SpecialUpgradeChances[] specialUpgradeTypes;
     private List<SpecialUpgrades> possibleUpgradeChoices;
+    private List<int> possibleUpgradeIndices;
     private int spuPoints;
     private int skillPoints;
     [SerializeField] private int skillPointsPerLevel;
@@ -88,7 +89,6 @@ public class Champion : MonoBehaviour
 
     // Speed:
     [SerializeField] private int initiativeBase;
-
     private int initiativeCurrent;
     private int initiativeBuff;
     private int initiative;
@@ -103,6 +103,7 @@ public class Champion : MonoBehaviour
     private float devotionBonus;
 
     // Mightlevels:
+    [Tooltip("Every champion should have 10 of the basic mightlevels.")]
     [SerializeField] private MightCrystalLevel[] mightLevels;
 
     [Header("Block and Critical:")]
@@ -139,7 +140,6 @@ public class Champion : MonoBehaviour
     [Header("Defenses:")]
     // Defenses:
     [SerializeField] private DefenseBonus[] defenseMainBase;
-
     [SerializeField] private DefenseBonus[] defenseSubBase;
     [SerializeField] private DefenseBonus[] defenseMainCurrent;
     [SerializeField] private DefenseBonus[] defenseSubCurrent;
@@ -151,17 +151,10 @@ public class Champion : MonoBehaviour
     #endregion Defenses
 
     [Header("Equipment:")]
-    // Equipment:
-    //[SerializeField] Equipment head;
-    //[SerializeField] Equipment decoration;
-    //[SerializeField] Equipment armor;
-    //[SerializeField] Equipment legs;
     [SerializeField] private Equipment[] equipment;
 
     [Header("Weapons:")]
-    // Weapons:
     [SerializeField] private WeaponType[] usableWeapons;
-
     [SerializeField] private Weapon[] weapons;
     // weapons...
 
@@ -175,7 +168,9 @@ public class Champion : MonoBehaviour
     [Header("Possible Evolutions:")]
     [SerializeField] private BaseChampion[] possibleEvolutions;
 
-    [SerializeField] private float attack;
+    [Header("Effects related:")]
+    [SerializeField] GameObject hurtEffect;
+    [SerializeField] StarsignEffect starsignActivation;
 
     #endregion Private fields.
 
@@ -194,7 +189,7 @@ public class Champion : MonoBehaviour
     public bool IsPlayer { get => isPlayer; set => isPlayer = value; }
     public bool IsAlive { get => isAlive; set => isAlive = value; }
     public float ExpReward { get => expReward; }
-    public int GoldReward { get => goldReward; }
+    public int GoldReward { get => goldReward; set => goldReward = value; }
     public MightCrystalLevel[] CrystalReward { get => crystalReward; }
     public int Level { get => level; set => level = value; }
     public int Initiative { get => initiative; set => initiative = value; }
@@ -233,6 +228,21 @@ public class Champion : MonoBehaviour
     public float MaxExp { get => maxExp; set => maxExp = value; }
     public float ExpBuff { get => expBuff; set => expBuff = value; }
     public int Price { get => price; set => price = value; }
+    public string Description { get => description; set => description = value; }
+    public Starsign[] PossibleDevotions { get => possibleDevotions; set => possibleDevotions = value; }
+    public int SpuPoints { get => spuPoints; set => spuPoints = value; }
+    public MightCrystalLevel[] MightLevels { get => mightLevels; set => mightLevels = value; }
+    public int SkillPoints { get => skillPoints; set => skillPoints = value; }
+    public BaseChampion[] PossibleEvolutions { get => possibleEvolutions; set => possibleEvolutions = value; }
+    public Equipment[] Equipment { get => equipment; set => equipment = value; }
+    public WeaponType[] UsableWeapons { get => usableWeapons; set => usableWeapons = value; }
+    public float SpecialReqMultiplier { get => specialReqMultiplier; set => specialReqMultiplier = value; }
+    public DefenseBonus[] DefenseMainBase { get => defenseMainBase; set => defenseMainBase = value; }
+    public DefenseBonus[] DefenseSubBase { get => defenseSubBase; set => defenseSubBase = value; }
+    public DefenseBonus[] DefenseMainCurrent { get => defenseMainCurrent; set => defenseMainCurrent = value; }
+    public DefenseBonus[] DefenseSubCurrent { get => defenseSubCurrent; set => defenseSubCurrent = value; }
+    public SpecialUpgradeChances[] SpecialUpgradeTypes { get => specialUpgradeTypes; set => specialUpgradeTypes = value; }
+    public List<int> PossibleUpgradeIndices { get => possibleUpgradeIndices; set => possibleUpgradeIndices = value; }
 
     #endregion Properties.
 
@@ -244,8 +254,14 @@ public class Champion : MonoBehaviour
     public void InitializeChampion()
     {
         UpdateBorder();
-        SetChampionValues();
+        UpdateChampionValues();
         FullHealChampion();
+        OnHealthChanged += (float ratio) => {
+            if (ratio < 0.45f)
+                hurtEffect.SetActive(true);
+            else
+                hurtEffect.SetActive(false);
+        };
     }
 
     /// <summary>
@@ -254,6 +270,9 @@ public class Champion : MonoBehaviour
     public void FlipChampion()
     {
         championSprite.flipX = true;
+        Vector3 tmpScale = hurtEffect.transform.localScale;
+        tmpScale.x *= -1;
+        hurtEffect.transform.localScale = tmpScale;
     }
 
     /// <summary>
@@ -294,7 +313,6 @@ public class Champion : MonoBehaviour
             devotion = possibleDevotions[1];
             devotionAmount = devotionAmount2;
         }
-        Debug.Log("Devotion amount and sign:" + devotionAmount + devotion.ToString());
         return devotion;
     }
 
@@ -491,15 +509,19 @@ public class Champion : MonoBehaviour
     /// <summary>
     /// Sets the base champion values.
     /// </summary>
-    public void SetChampionValues()
+    public void UpdateChampionValues()
     {
+        // Set all current values.
+        ResetCurrentValues();
         for (int i = 0; i < equipment.Length; i++)
-            EquipItem(equipment[i], true);
+            EquipItem(equipment[i]);
 
         maxHealth = maxHealthBase + maxHealthCurrent;
-        CurrentHealth = maxHealth;
         MaxEnergy = maxEnergyBase + maxEnergyCurrent;
-        CurrentEnergy = MaxEnergy;
+        if (CurrentHealth > maxHealth)
+            CurrentHealth = maxHealth;
+        if (currentEnergy > MaxEnergy)
+            currentEnergy = MaxEnergy;
         healthRecovery = healthRecoveryBase + healthRecoveryCurrent;
         energyRecovery = energyRecoveryBase + energyRecoveryCurrent;
 
@@ -512,6 +534,16 @@ public class Champion : MonoBehaviour
 
         for (int i = 0; i < resistances.Length; i++)
             resistances[i].ResistanceAmount = resistancesBase[i].ResistanceAmount + resistancesCurrent[i].ResistanceAmount;
+
+        if(SpecialWeapon != null)
+            currentSpecialReq = SpecialWeapon.SpecialRequirement;
+
+    }
+
+    public void SetSpecialRequirement()
+    {
+        if (SpecialWeapon != null)
+            currentSpecialReq = SpecialWeapon.SpecialRequirement;
     }
 
     #endregion Initialization related.
@@ -554,88 +586,108 @@ public class Champion : MonoBehaviour
     /// </summary>
     /// <param name="item">The item to equip.</param>
     /// <param name="equip">True euip, false unequip.</param>
-    public void EquipItem(Equipment item, bool equip)
+    private void EquipItem(Equipment item)
     {
         if (item == null)
-            return;
+            return;       
 
-        int onOrOff = 1;
-        if (equip)
-            onOrOff = 1;
-        else
-            onOrOff = -1;
         // Adds statsboni.
         for (int i = 0; i < item.StatsBonus.Length; i++)
         {
             switch (item.StatsBonus[i].StatsBuffType)
             {
                 case StatsBuffType.Health:
-                    maxHealthCurrent += item.StatsBonus[i].StatsAmount * onOrOff;
+                    maxHealthCurrent += item.StatsBonus[i].StatsAmount;
                     break;
 
                 case StatsBuffType.HealthRecovery:
-                    healthRecoveryCurrent += item.StatsBonus[i].StatsAmount * onOrOff;
+                    healthRecoveryCurrent += item.StatsBonus[i].StatsAmount;
                     break;
 
                 case StatsBuffType.Energy:
-                    maxEnergyCurrent += item.StatsBonus[i].StatsAmount * onOrOff;
+                    maxEnergyCurrent += item.StatsBonus[i].StatsAmount;
                     break;
 
                 case StatsBuffType.EnergyRecovery:
-                    energyRecoveryCurrent += item.StatsBonus[i].StatsAmount * onOrOff;
+                    energyRecoveryCurrent += item.StatsBonus[i].StatsAmount;
                     break;
 
                 case StatsBuffType.BonusExp:
-                    expBuff += item.StatsBonus[i].StatsAmount * onOrOff;
+                    expBuff += item.StatsBonus[i].StatsAmount;
                     break;
 
                 case StatsBuffType.CritChance:
-                    criticalChanceCurrent += item.StatsBonus[i].StatsAmount * onOrOff;
+                    criticalChanceCurrent += item.StatsBonus[i].StatsAmount;
                     break;
 
                 case StatsBuffType.CritMult:
-                    criticalMultCurrent += item.StatsBonus[i].StatsAmount * onOrOff;
+                    criticalMultCurrent += item.StatsBonus[i].StatsAmount;
                     break;
 
                 case StatsBuffType.DmgReduction:
-                    dmgReductionCurrent += item.StatsBonus[i].StatsAmount * onOrOff;
+                    dmgReductionCurrent += item.StatsBonus[i].StatsAmount;
                     break;
 
                 case StatsBuffType.EvasionChance:
-                    evasionChanceCurrent += item.StatsBonus[i].StatsAmount * onOrOff;
+                    evasionChanceCurrent += item.StatsBonus[i].StatsAmount;
                     break;
 
                 case StatsBuffType.Initiative:
-                    initiativeCurrent += (int)item.StatsBonus[i].StatsAmount * onOrOff;
+                    initiativeCurrent += (int)item.StatsBonus[i].StatsAmount;
                     break;
 
                 default:
                     break;
             }
         }
+               
         // Add resistance bonus from item.
         for (int i = 0; i < item.ResistanceBonus.Length; i++)
             for (int j = 0; j < resistancesCurrent.Length; j++)
                 if (item.ResistanceBonus[i].ResistanceType == resistancesCurrent[j].ResistanceType)
                 {
-                    resistancesCurrent[j].ResistanceAmount = item.ResistanceBonus[i].ResistanceAmount;
+                    resistancesCurrent[j].ResistanceAmount += item.ResistanceBonus[i].ResistanceAmount;
                     break;
                 }
+
         // Add defense.
         for (int i = 0; i < item.DefenseMainBonus.Length; i++)
             for (int j = 0; j < defenseMainCurrent.Length; j++)
                 if (item.DefenseMainBonus[i].DefenseType == defenseMainCurrent[j].DefenseType)
                 {
-                    defenseMainCurrent[j].DefenseAmount = item.DefenseMainBonus[i].DefenseAmount;
+                    defenseMainCurrent[j].DefenseAmount += item.DefenseMainBonus[i].DefenseAmount;
                     break;
                 }
         for (int i = 0; i < item.DefenseSubBonus.Length; i++)
             for (int j = 0; j < defenseSubCurrent.Length; j++)
                 if (item.DefenseSubBonus[i].DefenseType == defenseSubCurrent[j].DefenseType)
                 {
-                    defenseSubCurrent[j].DefenseAmount = item.DefenseSubBonus[i].DefenseAmount;
+                    defenseSubCurrent[j].DefenseAmount += item.DefenseSubBonus[i].DefenseAmount;
                     break;
                 }
+    }
+
+    private void ResetCurrentValues()
+    {
+        // Reset current equipmentstats.
+        maxHealthCurrent = 0.0f;
+        healthRecoveryCurrent = 0.0f;
+        maxEnergyCurrent = 0.0f;
+        energyRecoveryCurrent = 0.0f;
+        expBuff = 0.0f;
+        criticalChanceCurrent = 0.0f;
+        criticalMultCurrent = 0.0f;
+        dmgReductionCurrent = 0.0f;
+        evasionChanceCurrent = 0.0f;
+        initiativeCurrent = 0;
+        // Reset resis.
+        for (int i = 0; i < resistancesCurrent.Length; i++)
+            resistancesCurrent[i].ResistanceAmount = 0.0f;
+        // Reset defense.
+        for (int i = 0; i < defenseMainCurrent.Length; i++)
+            defenseMainCurrent[i].DefenseAmount = 0.0f;
+        for (int i = 0; i < defenseSubCurrent.Length; i++)
+            defenseSubCurrent[i].DefenseAmount = 0.0f;
     }
 
     #region Evolution and levelup related.
@@ -669,7 +721,7 @@ public class Champion : MonoBehaviour
     /// Adds the stats from evolution to the champion.
     /// </summary>
     /// <param name="evo">The evolved form.</param>
-    public void EvolveChampion(BaseChampion evo)
+    public void EvolveChampion(BaseChampion evo, bool evolveAI = false)
     {
         championName = evo.ChampionName;
         title = evo.Title;
@@ -724,6 +776,41 @@ public class Champion : MonoBehaviour
                 }
 
         possibleEvolutions = evo.PossibleEvolutions;
+        if(evo.SpecialUpgradeTypes != null)
+            specialUpgradeTypes = evo.SpecialUpgradeTypes;
+
+        if (evo.UsableWeapons != null)
+            usableWeapons = evo.UsableWeapons;
+
+        // Evovlve ai champs.
+        if (evolveAI)
+        {
+            for (int i = 0; i < evo.CrystalLevelRequirements.Length; i++)
+            {
+                for (int j = 0; j < mightLevels.Length; j++)
+                {
+                    if (evo.CrystalLevelRequirements[i].MightCrystal == mightLevels[j].MightCrystal)
+                    {
+                        mightLevels[j].Amount += evo.CrystalLevelRequirements[i].Amount;
+                        break;
+                    }
+                }
+            }
+        }
+    }
+
+    public void LevelAI()
+    {
+        maxHealthBase += Random.Range(1f, healthGrowRate);
+        maxEnergyBase += Random.Range(1f, energyGrowRate);
+        UpdateChampionValues();
+    }
+    public void SetBaseAiMightLevel(int amount)
+    {
+        for (int i = 0; i < mightLevels.Length; i++)
+        {
+            mightLevels[i].Amount += Random.Range((amount - 10), (amount + 5));
+        }
     }
 
     /// <summary>
@@ -751,6 +838,9 @@ public class Champion : MonoBehaviour
             currentExp -= (maxExp * divident);
             level += divident;
             skillPoints += (skillPointsPerLevel * divident);
+            maxHealthBase += Random.Range(1f,healthGrowRate) * (float)divident;           
+            maxEnergyBase += Random.Range(1f, energyGrowRate) * (float)divident;
+            UpdateChampionValues();
 
             // Check if the champion leveld up a certain amount of times, if enable special upgrade.
             if (level % 4 == 0)
@@ -772,9 +862,13 @@ public class Champion : MonoBehaviour
     /// <summary>
     /// Creates a list with possible upgrades.
     /// </summary>
-    private void GetRandomSpecialUpgrades()
+    public List<SpecialUpgrades> GetRandomSpecialUpgrades()
     {
-        List<SpecialUpgrades> possibleUpgradeChoices = new List<SpecialUpgrades>();
+        // alt.
+        //PossibleUpgradeIndices = new List<int>();
+        //PossibleUpgradeIndices.Clear();
+
+        possibleUpgradeChoices = new List<SpecialUpgrades>();
         bool finished = false;
         float r = 0;
         for (int i = 0; i < 100; i++)
@@ -784,6 +878,7 @@ public class Champion : MonoBehaviour
             {
                 if (r >= specialUpgradeTypes[j].ChanceFrom && r <= specialUpgradeTypes[j].ChanceTo)
                 {
+                    // Alternative with no doubles.
                     if (!possibleUpgradeChoices.Contains(specialUpgradeTypes[j].SpecialUpgradeType))
                     {
                         possibleUpgradeChoices.Add(specialUpgradeTypes[j].SpecialUpgradeType);
@@ -793,18 +888,28 @@ public class Champion : MonoBehaviour
                             break;
                         }
                     }
+                    // Alternative no2.
+                    //possibleUpgradeChoices.Add(specialUpgradeTypes[j].SpecialUpgradeType);
+                    //PossibleUpgradeIndices.Add(j);
+                    //if (possibleUpgradeChoices.Count >= 3)
+                    //{
+                    //    finished = true;
+                    //    break;
+                    //}
                 }
             }
             if (finished)
                 break;
         }
+
+        return possibleUpgradeChoices;
     }
 
     /// <summary>
     /// Adds the special upgrade to the champion stats.
     /// </summary>
     /// <param name="type">The type.</param>
-    private void AddSpecialUpgrade(SpecialUpgrades type)
+    public void AddSpecialUpgrade(SpecialUpgrades type)
     {
         SpecialUpgradeChances special = specialUpgradeTypes[0];
         for (int i = 0; i < specialUpgradeTypes.Length; i++)
@@ -815,6 +920,17 @@ public class Champion : MonoBehaviour
                 break;
             }
         }
+
+        // Alternative with doubles:
+        //int index = 0;
+        //for (int i = 0; i < possibleUpgradeChoices.Count; i++)
+        //    if (possibleUpgradeChoices[i] == type)
+        //    {
+        //        index = i;
+        //        break;
+        //    }
+
+        //special = specialUpgradeTypes[index];
 
         switch (special.SpecialUpgradeType)
         {
@@ -946,15 +1062,22 @@ public class Champion : MonoBehaviour
             default:
                 break;
         }
+        UpdateChampionValues();
     }
 
     /// <summary>
-    /// Upgrade button method.
+    /// Spends skillpoints to upgrade mightlevels.
     /// </summary>
-    /// <param name="index"></param>
-    public void OnUpgradeMightLevelButton(int index)
+    /// <param name="index">The index to upgrade, should be from 0 to 9.</param>
+    /// <returns></returns>
+    public void UpgradeMightLevel(int index)
     {
-        mightLevels[index].Amount += 3;
+        if (skillPoints > 0)
+        {
+            mightLevels[index].Amount += 3;
+            skillPoints--;
+        }
+
     }
 
     #endregion Evolution and levelup related.
@@ -1007,6 +1130,10 @@ public class Champion : MonoBehaviour
         float resistanceMultiplier = CalculateResistanceMultiplier(other, w);
         finalPower = power + power * devotionBonus;
         finalPower -= finalPower * resistanceMultiplier;
+
+        // Activate the starsign.
+        starsignActivation.ShowSatrsignBonus(devotionBonus);
+
         // Start the Coroutine with the calculated value, it will not end the turn on its own.
         StartCoroutine(MultipleAttacksDelayed(finalPower, w, other, notAI));
     }
@@ -1020,14 +1147,46 @@ public class Champion : MonoBehaviour
     /// <returns></returns>
     private IEnumerator MultipleAttacksDelayed(float damage, Weapon w, Champion other, bool notAI)
     {
+        // Init combat.
+        if(w.BattleEffectSelf != BattleEffects.None)
+        {
+            GameObject tmpSelfEffect = null;
+            tmpSelfEffect = ObjectPool.Instance.GetFromPool(w.BattleEffectSelf.ToString());
+            if (tmpSelfEffect != null)
+            {
+                tmpSelfEffect.transform.parent = BattleManager.Instance.AttackEffectsHolder;
+                tmpSelfEffect.transform.position = transform.position;
+                tmpSelfEffect.SetActive(true);
+            }
+        }
+        AudioManager.PlayClipOnce(w.CastSound);
+        yield return new WaitForSeconds(w.StartDelay);
+        Vector2 effectPos = new Vector2();
+
         for (int i = 0; i < w.NumberOfAttacks; i++)
         {
             float finalPower = damage;
-            GameObject tmp;
-            if (w.TargetEffect != null)
+
+            // Apply battleeffect.
+            if (w.BattleEffectTarget != BattleEffects.None)
             {
-                tmp = Instantiate(w.TargetEffect, transform.position, Quaternion.identity);
-                Destroy(tmp, w.AttackDelay);
+                GameObject tmpSelfTarget = null;
+                tmpSelfTarget = ObjectPool.Instance.GetFromPool(w.BattleEffectTarget.ToString());
+                if (tmpSelfTarget != null)
+                {
+                    tmpSelfTarget.transform.parent = BattleManager.Instance.AttackEffectsHolder;
+                    if (w.RandomEffectPositions)
+                    {
+                        effectPos = new Vector2(Random.Range((other.transform.position.x - 1.7f), (other.transform.position.x + 1.7f)), Random.Range((other.transform.position.y - 1.0f), (other.transform.position.y + 1.4f)));
+                        tmpSelfTarget.transform.position = effectPos;
+                    }
+                    else
+                    {
+                        effectPos = other.transform.position;
+                        tmpSelfTarget.transform.position = effectPos;
+                    }
+                    tmpSelfTarget.SetActive(true);
+                }
             }
             // Wait before applying the damage.
             yield return new WaitForSeconds(w.AttackDelay);
@@ -1074,10 +1233,17 @@ public class Champion : MonoBehaviour
             if (tmpText != null)
             {
                 tmpText.transform.parent = BattleManager.Instance.AttackEffectsHolder;
-                tmpText.transform.position = new Vector2(Random.Range((other.transform.position.x - 1.8f), (other.transform.position.x + 1.8f)), Random.Range((other.transform.position.y - 1.0f), (other.transform.position.y + 1.5f)));
+                if (!w.RandomEffectPositions)
+                    tmpText.transform.position = new Vector2(Random.Range((other.transform.position.x - 1.8f), (other.transform.position.x + 1.8f)), Random.Range((other.transform.position.y - 1.0f), (other.transform.position.y + 1.4f)));
+                else
+                    tmpText.transform.position = new Vector2(effectPos.x + Random.Range(-0.3f,0.3f), effectPos.y + +Random.Range(-0.3f, 0.7f));
                 tmpText.GetComponent<TextPopup>().ShowDamage(finalPower * luck, hittype);
                 tmpText.SetActive(true);
             }
+
+            // Wait for move to finish.
+            yield return new WaitForSeconds(w.EndDelay);
+
 
             // Apply weaponeffects.
             ApplyWeaponBuffs(other, w, finalPower * luck);
@@ -1113,7 +1279,7 @@ public class Champion : MonoBehaviour
     /// <returns></returns>
     private IEnumerator WaitMultipleAttacks(Weapon w, bool notAI)
     {
-        yield return new WaitForSeconds((float)w.NumberOfAttacks * w.AttackDelay + 0.2f);
+        yield return new WaitForSeconds((float)w.NumberOfAttacks * (w.AttackDelay + w.EndDelay) + w.StartDelay + 0.2f);
         // Tell battleManager the attack is finished.
         if (notAI)
             BattleManager.Instance.EndTurn();
@@ -1132,31 +1298,68 @@ public class Champion : MonoBehaviour
 
         // Calculate the base damage.
         float power = GetWeaponPower(w);
-        Debug.Log("WeaponPower with Mightlevel: " + power);
+        //Debug.Log("WeaponPower with Mightlevel: " + power);
         float finalPower = 0.0f;
         CalculateDevotionBonus(other);
-        Debug.Log("Devotionbonus :" + devotionBonus);
+        //Debug.Log("Devotionbonus :" + devotionBonus);
         float resistanceMultiplier = CalculateResistanceMultiplier(other, w);
-        Debug.Log("Resmultipler :" + resistanceMultiplier);
+        //Debug.Log("Resmultipler :" + resistanceMultiplier);
         finalPower = power + power * devotionBonus;
-        Debug.Log("Final power after devotion :" + finalPower);
+        //Debug.Log("Final power after devotion :" + finalPower);
         finalPower -= finalPower * resistanceMultiplier;
-        Debug.Log("Final power after resistance:" + finalPower);
+        //Debug.Log("Final power after resistance:" + finalPower);
+
+        // Activate the starsign.
+        starsignActivation.ShowSatrsignBonus(devotionBonus);
 
         StartCoroutine(SingleAttackDelayed(finalPower, w, other, notAI));
     }
 
     private IEnumerator SingleAttackDelayed(float damage, Weapon w, Champion other, bool notAI)
     {
+        // Init combat.
+        if (w.BattleEffectSelf != BattleEffects.None)
+        {
+            GameObject tmpSelfEffect = null;
+            tmpSelfEffect = ObjectPool.Instance.GetFromPool(w.BattleEffectSelf.ToString());
+            if (tmpSelfEffect != null)
+            {
+                tmpSelfEffect.transform.parent = BattleManager.Instance.AttackEffectsHolder;
+                tmpSelfEffect.transform.position = transform.position;
+                tmpSelfEffect.SetActive(true);
+            }
+        }
+        AudioManager.PlayClipOnce(w.CastSound);
+        yield return new WaitForSeconds(w.StartDelay);
+        Vector2 effectPos = new Vector2();
+
+
         for (int i = 0; i < w.NumberOfAttacks; i++)
         {
             float finalPower = damage;
-            GameObject tmp;
-            if (w.TargetEffect != null)
+
+            // Apply battleeffect.
+            if (w.BattleEffectTarget != BattleEffects.None)
             {
-                tmp = Instantiate(w.TargetEffect, transform.position, Quaternion.identity);
-                Destroy(tmp, w.AttackDelay);
+                GameObject tmpTargt = null;
+                tmpTargt = ObjectPool.Instance.GetFromPool(w.BattleEffectTarget.ToString());
+                if (tmpTargt != null)
+                {
+                    tmpTargt.transform.parent = BattleManager.Instance.AttackEffectsHolder;
+                    if (w.RandomEffectPositions)
+                    {
+                        effectPos = new Vector2(Random.Range((other.transform.position.x - 1.7f), (other.transform.position.x + 1.7f)), Random.Range((other.transform.position.y - 1.0f), (other.transform.position.y + 1.4f)));
+                        tmpTargt.transform.position = effectPos;
+                    }
+                    else
+                    {
+                        effectPos = other.transform.position;
+                        tmpTargt.transform.position = effectPos;
+                    }
+                    tmpTargt.SetActive(true);
+                }
             }
+
             // Wait before applying the damage.
             yield return new WaitForSeconds(w.AttackDelay);
 
@@ -1201,10 +1404,21 @@ public class Champion : MonoBehaviour
             if (tmpText != null)
             {
                 tmpText.transform.parent = BattleManager.Instance.AttackEffectsHolder;
-                tmpText.transform.position = new Vector2(Random.Range((other.transform.position.x - 1.8f), (other.transform.position.x + 1.8f)), Random.Range((other.transform.position.y - 1.0f), (other.transform.position.y + 1.5f)));
+                if (!w.RandomEffectPositions)
+                    tmpText.transform.position = new Vector2(Random.Range((other.transform.position.x - 1.8f), (other.transform.position.x + 1.8f)), Random.Range((other.transform.position.y - 1.0f), (other.transform.position.y + 1.4f)));
+                else
+                    tmpText.transform.position = new Vector2(effectPos.x + Random.Range(-0.3f, 0.3f), effectPos.y + +Random.Range(-0.2f, 0.7f));
                 tmpText.GetComponent<TextPopup>().ShowDamage(finalPower * luck, hittype);
                 tmpText.SetActive(true);
             }
+
+            // Wait for move to finish.
+            yield return new WaitForSeconds(w.EndDelay);
+
+            
+
+
+
 
             // Apply buffs.
             ApplyWeaponBuffs(other, w, finalPower * luck);
@@ -1303,6 +1517,7 @@ public class Champion : MonoBehaviour
             if (r <= w.CrystalManifestations[i].ManifestationChance)
             {
                 Debug.Log(w.CrystalManifestations[i].MightCrystal + " added times: ");
+                // Play sound to make player notice.
                 BattleManager.Instance.AddCrystalRewards((int)(w.CrystalManifestations[i].MightCrystal), 1);
             }
         }

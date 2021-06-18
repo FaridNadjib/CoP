@@ -1,0 +1,5607 @@
+fileFormatVersion: 2
+guid: 1374daeeed99bef48abef748633b0ffb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5797563126463513351
+    second: Visustella_City2_C_0
+  - first:
+      213: 4795564378872958338
+    second: Visustella_City2_C_1
+  - first:
+      213: 2725604716771144298
+    second: Visustella_City2_C_2
+  - first:
+      213: -3964704132664028080
+    second: Visustella_City2_C_3
+  - first:
+      213: 5200368389098117855
+    second: Visustella_City2_C_4
+  - first:
+      213: -6856341038062695315
+    second: Visustella_City2_C_5
+  - first:
+      213: -7571014923148752080
+    second: Visustella_City2_C_6
+  - first:
+      213: -4901848572593887829
+    second: Visustella_City2_C_7
+  - first:
+      213: 5723244144731732794
+    second: Visustella_City2_C_8
+  - first:
+      213: 8341574484548239158
+    second: Visustella_City2_C_9
+  - first:
+      213: 4338515430541039480
+    second: Visustella_City2_C_10
+  - first:
+      213: 3419880749183997548
+    second: Visustella_City2_C_11
+  - first:
+      213: 1374232319853385769
+    second: Visustella_City2_C_12
+  - first:
+      213: 4449668009209680151
+    second: Visustella_City2_C_13
+  - first:
+      213: -6217538062151272231
+    second: Visustella_City2_C_14
+  - first:
+      213: 4704634650041715065
+    second: Visustella_City2_C_15
+  - first:
+      213: 5453834372525895564
+    second: Visustella_City2_C_16
+  - first:
+      213: -6355492723300977641
+    second: Visustella_City2_C_17
+  - first:
+      213: 6489032589178238231
+    second: Visustella_City2_C_18
+  - first:
+      213: -6579656205036741451
+    second: Visustella_City2_C_19
+  - first:
+      213: 9216576284947061782
+    second: Visustella_City2_C_20
+  - first:
+      213: -2966366737783511154
+    second: Visustella_City2_C_21
+  - first:
+      213: 3859995376657380866
+    second: Visustella_City2_C_22
+  - first:
+      213: 784741450701256574
+    second: Visustella_City2_C_23
+  - first:
+      213: 2242145381948706436
+    second: Visustella_City2_C_24
+  - first:
+      213: 6892556673955629467
+    second: Visustella_City2_C_25
+  - first:
+      213: -8859760120342742700
+    second: Visustella_City2_C_26
+  - first:
+      213: -2550799803559632536
+    second: Visustella_City2_C_27
+  - first:
+      213: 4019546974919358595
+    second: Visustella_City2_C_28
+  - first:
+      213: -8450626006017655069
+    second: Visustella_City2_C_29
+  - first:
+      213: -7360264512747162464
+    second: Visustella_City2_C_30
+  - first:
+      213: 7461992160827197673
+    second: Visustella_City2_C_31
+  - first:
+      213: 4267910211531656022
+    second: Visustella_City2_C_32
+  - first:
+      213: -8062923543507639730
+    second: Visustella_City2_C_33
+  - first:
+      213: -5131028921513292175
+    second: Visustella_City2_C_34
+  - first:
+      213: -3026174372600634719
+    second: Visustella_City2_C_35
+  - first:
+      213: 7143513326635045777
+    second: Visustella_City2_C_36
+  - first:
+      213: -116301327861278381
+    second: Visustella_City2_C_37
+  - first:
+      213: 7304771063972417388
+    second: Visustella_City2_C_38
+  - first:
+      213: -8292800623992859177
+    second: Visustella_City2_C_39
+  - first:
+      213: 7938368920291571543
+    second: Visustella_City2_C_40
+  - first:
+      213: -5250418555732304655
+    second: Visustella_City2_C_41
+  - first:
+      213: 7021231403318330737
+    second: Visustella_City2_C_42
+  - first:
+      213: 8638018748047946613
+    second: Visustella_City2_C_43
+  - first:
+      213: 5442796561242534242
+    second: Visustella_City2_C_44
+  - first:
+      213: 5271997893986088826
+    second: Visustella_City2_C_45
+  - first:
+      213: 7484977049423202042
+    second: Visustella_City2_C_46
+  - first:
+      213: -6573156050525817246
+    second: Visustella_City2_C_47
+  - first:
+      213: -4794086727819711525
+    second: Visustella_City2_C_48
+  - first:
+      213: -6232302748372960596
+    second: Visustella_City2_C_49
+  - first:
+      213: -8847314713805503301
+    second: Visustella_City2_C_50
+  - first:
+      213: -2922451274774399912
+    second: Visustella_City2_C_51
+  - first:
+      213: -1872329508796740520
+    second: Visustella_City2_C_52
+  - first:
+      213: -3160682971964053768
+    second: Visustella_City2_C_53
+  - first:
+      213: 7773816661390363931
+    second: Visustella_City2_C_54
+  - first:
+      213: -1687321205869411387
+    second: Visustella_City2_C_55
+  - first:
+      213: 3520993897554967268
+    second: Visustella_City2_C_56
+  - first:
+      213: -3207028020868583018
+    second: Visustella_City2_C_57
+  - first:
+      213: -6149946318385367330
+    second: Visustella_City2_C_58
+  - first:
+      213: 6982141062399727514
+    second: Visustella_City2_C_59
+  - first:
+      213: -80053029936284049
+    second: Visustella_City2_C_60
+  - first:
+      213: -7675702707285248719
+    second: Visustella_City2_C_61
+  - first:
+      213: 4030225131178547457
+    second: Visustella_City2_C_62
+  - first:
+      213: 374441458222527109
+    second: Visustella_City2_C_63
+  - first:
+      213: 3817218145500271934
+    second: Visustella_City2_C_64
+  - first:
+      213: 1770869568777782539
+    second: Visustella_City2_C_65
+  - first:
+      213: 589909921309158999
+    second: Visustella_City2_C_66
+  - first:
+      213: -3965083578046569304
+    second: Visustella_City2_C_67
+  - first:
+      213: -6222664739480688041
+    second: Visustella_City2_C_68
+  - first:
+      213: -8994859923226753552
+    second: Visustella_City2_C_69
+  - first:
+      213: -6052131737118418716
+    second: Visustella_City2_C_70
+  - first:
+      213: -2808804991683832296
+    second: Visustella_City2_C_71
+  - first:
+      213: -6992825716204222385
+    second: Visustella_City2_C_72
+  - first:
+      213: -5098475175630141884
+    second: Visustella_City2_C_73
+  - first:
+      213: -3827077695774115822
+    second: Visustella_City2_C_74
+  - first:
+      213: 5826575628369885419
+    second: Visustella_City2_C_75
+  - first:
+      213: 1222825775158766091
+    second: Visustella_City2_C_76
+  - first:
+      213: -1997023589409040660
+    second: Visustella_City2_C_77
+  - first:
+      213: 8863132543909635410
+    second: Visustella_City2_C_78
+  - first:
+      213: 4589921294615655800
+    second: Visustella_City2_C_79
+  - first:
+      213: -527527403413061278
+    second: Visustella_City2_C_80
+  - first:
+      213: 1157615563139368219
+    second: Visustella_City2_C_81
+  - first:
+      213: -3841520031987888226
+    second: Visustella_City2_C_82
+  - first:
+      213: 6249271443871897546
+    second: Visustella_City2_C_83
+  - first:
+      213: 8051796057424831199
+    second: Visustella_City2_C_84
+  - first:
+      213: -4857310111908618369
+    second: Visustella_City2_C_85
+  - first:
+      213: 5174951166716167884
+    second: Visustella_City2_C_86
+  - first:
+      213: 8394024587806398239
+    second: Visustella_City2_C_87
+  - first:
+      213: 1467190470512070226
+    second: Visustella_City2_C_88
+  - first:
+      213: 8441167502803835278
+    second: Visustella_City2_C_89
+  - first:
+      213: -3624806444245653141
+    second: Visustella_City2_C_90
+  - first:
+      213: -673749003291250035
+    second: Visustella_City2_C_91
+  - first:
+      213: -4117091316796385977
+    second: Visustella_City2_C_92
+  - first:
+      213: 4757423549730401365
+    second: Visustella_City2_C_93
+  - first:
+      213: 8012786734886098318
+    second: Visustella_City2_C_94
+  - first:
+      213: 8466848024622942004
+    second: Visustella_City2_C_95
+  - first:
+      213: 6197989130528550686
+    second: Visustella_City2_C_96
+  - first:
+      213: -3817715812691699336
+    second: Visustella_City2_C_97
+  - first:
+      213: 4518788639798523838
+    second: Visustella_City2_C_98
+  - first:
+      213: 8450685189080428555
+    second: Visustella_City2_C_99
+  - first:
+      213: -3219090613339351101
+    second: Visustella_City2_C_100
+  - first:
+      213: 8872112983464333694
+    second: Visustella_City2_C_101
+  - first:
+      213: -4814742302118660249
+    second: Visustella_City2_C_102
+  - first:
+      213: 3970052893948471193
+    second: Visustella_City2_C_103
+  - first:
+      213: 8169110886542519301
+    second: Visustella_City2_C_104
+  - first:
+      213: 7438099950286565069
+    second: Visustella_City2_C_105
+  - first:
+      213: -532393191156773657
+    second: Visustella_City2_C_106
+  - first:
+      213: 4678177595708663702
+    second: Visustella_City2_C_107
+  - first:
+      213: 4446968285455869074
+    second: Visustella_City2_C_108
+  - first:
+      213: 1591490056351070216
+    second: Visustella_City2_C_109
+  - first:
+      213: -71721757164098921
+    second: Visustella_City2_C_110
+  - first:
+      213: 6611217342967530743
+    second: Visustella_City2_C_111
+  - first:
+      213: -182234702829924716
+    second: Visustella_City2_C_112
+  - first:
+      213: -7829721522259460959
+    second: Visustella_City2_C_113
+  - first:
+      213: 1436581490751563263
+    second: Visustella_City2_C_114
+  - first:
+      213: -5280860395192168637
+    second: Visustella_City2_C_115
+  - first:
+      213: -5315351458686102647
+    second: Visustella_City2_C_116
+  - first:
+      213: -5915051098375386968
+    second: Visustella_City2_C_117
+  - first:
+      213: -2349392758642901778
+    second: Visustella_City2_C_118
+  - first:
+      213: 7397495061723069029
+    second: Visustella_City2_C_119
+  - first:
+      213: -7542533333100873338
+    second: Visustella_City2_C_120
+  - first:
+      213: -8310741877273704194
+    second: Visustella_City2_C_121
+  - first:
+      213: 6115495962782219556
+    second: Visustella_City2_C_122
+  - first:
+      213: 8127899884840750757
+    second: Visustella_City2_C_123
+  - first:
+      213: -5561170658517445985
+    second: Visustella_City2_C_124
+  - first:
+      213: -2665090504317622974
+    second: Visustella_City2_C_125
+  - first:
+      213: -2600958734579349466
+    second: Visustella_City2_C_126
+  - first:
+      213: -8654527966922650768
+    second: Visustella_City2_C_127
+  - first:
+      213: 2720719400897485534
+    second: Visustella_City2_C_128
+  - first:
+      213: 2679079522409104096
+    second: Visustella_City2_C_129
+  - first:
+      213: -5228926518301162984
+    second: Visustella_City2_C_130
+  - first:
+      213: 8883777458515034312
+    second: Visustella_City2_C_131
+  - first:
+      213: 5877365795775272666
+    second: Visustella_City2_C_132
+  - first:
+      213: -4226843771503185247
+    second: Visustella_City2_C_133
+  - first:
+      213: 286733158246488419
+    second: Visustella_City2_C_134
+  - first:
+      213: -6620190818150094518
+    second: Visustella_City2_C_135
+  - first:
+      213: 6939825202970262612
+    second: Visustella_City2_C_136
+  - first:
+      213: 7550395806789407954
+    second: Visustella_City2_C_137
+  - first:
+      213: 7135860461438468437
+    second: Visustella_City2_C_138
+  - first:
+      213: 5265366833808260251
+    second: Visustella_City2_C_139
+  - first:
+      213: 5578295778182680267
+    second: Visustella_City2_C_140
+  - first:
+      213: 6709298231498848826
+    second: Visustella_City2_C_141
+  - first:
+      213: -4599050520942344519
+    second: Visustella_City2_C_142
+  - first:
+      213: 5939197498280601679
+    second: Visustella_City2_C_143
+  - first:
+      213: 8392645396047152340
+    second: Visustella_City2_C_144
+  - first:
+      213: -6457011882793631937
+    second: Visustella_City2_C_145
+  - first:
+      213: -5138123545770128468
+    second: Visustella_City2_C_146
+  - first:
+      213: 7255387205883834147
+    second: Visustella_City2_C_147
+  - first:
+      213: 5317835829120360892
+    second: Visustella_City2_C_148
+  - first:
+      213: 5080384038335511874
+    second: Visustella_City2_C_149
+  - first:
+      213: 7462112559351756402
+    second: Visustella_City2_C_150
+  - first:
+      213: -2773225345411449168
+    second: Visustella_City2_C_151
+  - first:
+      213: -6850821312065652689
+    second: Visustella_City2_C_152
+  - first:
+      213: 1512312084313977241
+    second: Visustella_City2_C_153
+  - first:
+      213: 3183262700580381847
+    second: Visustella_City2_C_154
+  - first:
+      213: 9012508965344778667
+    second: Visustella_City2_C_155
+  - first:
+      213: -27429462075754430
+    second: Visustella_City2_C_156
+  - first:
+      213: -5046583007643442832
+    second: Visustella_City2_C_157
+  - first:
+      213: 3416685764811669780
+    second: Visustella_City2_C_158
+  - first:
+      213: -9173134788866834806
+    second: Visustella_City2_C_159
+  - first:
+      213: 3675719158829304445
+    second: Visustella_City2_C_160
+  - first:
+      213: 4279476514772772462
+    second: Visustella_City2_C_161
+  - first:
+      213: -8488329106533236604
+    second: Visustella_City2_C_162
+  - first:
+      213: -1713315258960460075
+    second: Visustella_City2_C_163
+  - first:
+      213: -4216840964710118672
+    second: Visustella_City2_C_164
+  - first:
+      213: 1350884590923304711
+    second: Visustella_City2_C_165
+  - first:
+      213: 8247774300541638212
+    second: Visustella_City2_C_166
+  - first:
+      213: -3577765271247482109
+    second: Visustella_City2_C_167
+  - first:
+      213: 6345194393063920491
+    second: Visustella_City2_C_168
+  - first:
+      213: 2734428304718258688
+    second: Visustella_City2_C_169
+  - first:
+      213: -2893592121076644808
+    second: Visustella_City2_C_170
+  - first:
+      213: -8812239095429334026
+    second: Visustella_City2_C_171
+  - first:
+      213: 3107678568135257651
+    second: Visustella_City2_C_172
+  - first:
+      213: -3023866527240240973
+    second: Visustella_City2_C_173
+  - first:
+      213: 8994467844036786807
+    second: Visustella_City2_C_174
+  - first:
+      213: 2118075864793551762
+    second: Visustella_City2_C_175
+  - first:
+      213: -9072913601610288729
+    second: Visustella_City2_C_176
+  - first:
+      213: 1256571443962099498
+    second: Visustella_City2_C_177
+  - first:
+      213: -711521882975906671
+    second: Visustella_City2_C_178
+  - first:
+      213: 7904826699812994213
+    second: Visustella_City2_C_179
+  - first:
+      213: 2110812954104894085
+    second: Visustella_City2_C_180
+  - first:
+      213: -6059818326661976260
+    second: Visustella_City2_C_181
+  - first:
+      213: -5208145792633198602
+    second: Visustella_City2_C_182
+  - first:
+      213: -7627083959526476856
+    second: Visustella_City2_C_183
+  - first:
+      213: -7530724241710981402
+    second: Visustella_City2_C_184
+  - first:
+      213: 3017089142790337137
+    second: Visustella_City2_C_185
+  - first:
+      213: 4364690312757415313
+    second: Visustella_City2_C_186
+  - first:
+      213: -4003953033436203228
+    second: Visustella_City2_C_187
+  - first:
+      213: 1894357634416269532
+    second: Visustella_City2_C_188
+  - first:
+      213: -893985953860856452
+    second: Visustella_City2_C_189
+  - first:
+      213: -5678680087890034971
+    second: Visustella_City2_C_190
+  - first:
+      213: 5741988299432594892
+    second: Visustella_City2_C_191
+  - first:
+      213: 7632674344871762394
+    second: Visustella_City2_C_192
+  - first:
+      213: -3804550509783370801
+    second: Visustella_City2_C_193
+  - first:
+      213: -6774237136738909070
+    second: Visustella_City2_C_194
+  - first:
+      213: -3162239486170946629
+    second: Visustella_City2_C_195
+  - first:
+      213: -1457262502666189305
+    second: Visustella_City2_C_196
+  - first:
+      213: -1342700327603529563
+    second: Visustella_City2_C_197
+  - first:
+      213: -8410054761995909607
+    second: Visustella_City2_C_198
+  - first:
+      213: -3832229788125738147
+    second: Visustella_City2_C_199
+  - first:
+      213: -7802712973441392132
+    second: Visustella_City2_C_200
+  - first:
+      213: -5609352947615701554
+    second: Visustella_City2_C_201
+  - first:
+      213: 1995080915887245360
+    second: Visustella_City2_C_202
+  - first:
+      213: 6245014878534404726
+    second: Visustella_City2_C_203
+  - first:
+      213: 5312553011179003455
+    second: Visustella_City2_C_204
+  - first:
+      213: -8271985743479181178
+    second: Visustella_City2_C_205
+  - first:
+      213: 4698982287019099243
+    second: Visustella_City2_C_206
+  - first:
+      213: -5292379356859840218
+    second: Visustella_City2_C_207
+  - first:
+      213: 6882532314007239308
+    second: Visustella_City2_C_208
+  - first:
+      213: 8205540822063294200
+    second: Visustella_City2_C_209
+  - first:
+      213: -869598613172649374
+    second: Visustella_City2_C_210
+  - first:
+      213: 7670367425814669557
+    second: Visustella_City2_C_211
+  - first:
+      213: 6490665550386128404
+    second: Visustella_City2_C_212
+  - first:
+      213: -7822435983731383102
+    second: Visustella_City2_C_213
+  - first:
+      213: 5350796296170238246
+    second: Visustella_City2_C_214
+  - first:
+      213: -5774915987946270350
+    second: Visustella_City2_C_215
+  - first:
+      213: 2575738748139645147
+    second: Visustella_City2_C_216
+  - first:
+      213: -5491604154455713165
+    second: Visustella_City2_C_217
+  - first:
+      213: 2374257660965721614
+    second: Visustella_City2_C_218
+  - first:
+      213: -848118551409344
+    second: Visustella_City2_C_219
+  - first:
+      213: -3305331349116396648
+    second: Visustella_City2_C_220
+  - first:
+      213: 1252113889016190229
+    second: Visustella_City2_C_221
+  - first:
+      213: 982923538293855408
+    second: Visustella_City2_C_222
+  - first:
+      213: -1209270376489886018
+    second: Visustella_City2_C_223
+  - first:
+      213: 5094849411780020385
+    second: Visustella_City2_C_224
+  - first:
+      213: -5021986437698734414
+    second: Visustella_City2_C_225
+  - first:
+      213: 8637610889840083782
+    second: Visustella_City2_C_226
+  - first:
+      213: 1080852844581097286
+    second: Visustella_City2_C_227
+  - first:
+      213: 58993724743967873
+    second: Visustella_City2_C_228
+  - first:
+      213: -547706236679878457
+    second: Visustella_City2_C_229
+  - first:
+      213: -4267704070745896012
+    second: Visustella_City2_C_230
+  - first:
+      213: -3398793256975949462
+    second: Visustella_City2_C_231
+  - first:
+      213: -4583375307744269522
+    second: Visustella_City2_C_232
+  - first:
+      213: 569706409167531065
+    second: Visustella_City2_C_233
+  - first:
+      213: 544062635812742895
+    second: Visustella_City2_C_234
+  - first:
+      213: 2502039962603060040
+    second: Visustella_City2_C_235
+  - first:
+      213: -6966139830276733258
+    second: Visustella_City2_C_236
+  - first:
+      213: -5144648156089159838
+    second: Visustella_City2_C_237
+  - first:
+      213: 3080385478512534087
+    second: Visustella_City2_C_238
+  - first:
+      213: -541581507923584782
+    second: Visustella_City2_C_239
+  - first:
+      213: -2778124043955181845
+    second: Visustella_City2_C_240
+  - first:
+      213: -1824868854929948887
+    second: Visustella_City2_C_241
+  - first:
+      213: 6755012219990661484
+    second: Visustella_City2_C_242
+  - first:
+      213: 8868222285100211878
+    second: Visustella_City2_C_243
+  - first:
+      213: -8478532187980090187
+    second: Visustella_City2_C_244
+  - first:
+      213: -7597473274130572265
+    second: Visustella_City2_C_245
+  - first:
+      213: -1547431308144922851
+    second: Visustella_City2_C_246
+  - first:
+      213: -7199465164083745054
+    second: Visustella_City2_C_247
+  - first:
+      213: 2454454845179731840
+    second: Visustella_City2_C_248
+  - first:
+      213: 1331837799399384543
+    second: Visustella_City2_C_249
+  - first:
+      213: -2344209502418374700
+    second: Visustella_City2_C_250
+  - first:
+      213: -6332139801666876250
+    second: Visustella_City2_C_251
+  - first:
+      213: 1892558461088779986
+    second: Visustella_City2_C_252
+  - first:
+      213: 4058740067344328905
+    second: Visustella_City2_C_253
+  - first:
+      213: 202356302937634734
+    second: Visustella_City2_C_254
+  - first:
+      213: 8287391614019521407
+    second: Visustella_City2_C_255
+  - first:
+      213: -8936580474644968185
+    second: Visustella_City2_C_256
+  - first:
+      213: -8217166663178876499
+    second: Visustella_City2_C_257
+  - first:
+      213: -1817013388150433583
+    second: Visustella_City2_C_258
+  - first:
+      213: 8086778356445018872
+    second: Visustella_City2_C_259
+  - first:
+      213: -1948207060067984347
+    second: Visustella_City2_C_260
+  - first:
+      213: -3778537442220447832
+    second: Visustella_City2_C_261
+  - first:
+      213: 4319351188498869599
+    second: Visustella_City2_C_262
+  - first:
+      213: 7053646420496153788
+    second: Visustella_City2_C_263
+  - first:
+      213: -4838422160152472096
+    second: Visustella_City2_C_264
+  - first:
+      213: -693604866707749384
+    second: Visustella_City2_C_265
+  - first:
+      213: 4765241993682149296
+    second: Visustella_City2_C_266
+  - first:
+      213: 616446956830938146
+    second: Visustella_City2_C_267
+  - first:
+      213: -6186891049768350514
+    second: Visustella_City2_C_268
+  - first:
+      213: 4613208299651453870
+    second: Visustella_City2_C_269
+  - first:
+      213: 2770474886916128580
+    second: Visustella_City2_C_270
+  - first:
+      213: 3121233212151475219
+    second: Visustella_City2_C_271
+  - first:
+      213: 2796640480320608017
+    second: Visustella_City2_C_272
+  - first:
+      213: -469470284587246541
+    second: Visustella_City2_C_273
+  - first:
+      213: 5515504514787554134
+    second: Visustella_City2_C_274
+  - first:
+      213: -8231529560336567283
+    second: Visustella_City2_C_275
+  - first:
+      213: -6937996505306144924
+    second: Visustella_City2_C_276
+  - first:
+      213: -8401785147206814935
+    second: Visustella_City2_C_277
+  - first:
+      213: -6700952843124300906
+    second: Visustella_City2_C_278
+  - first:
+      213: -2497785313537991928
+    second: Visustella_City2_C_279
+  - first:
+      213: -8748871380729796425
+    second: Visustella_City2_C_280
+  - first:
+      213: -9208059097644135527
+    second: Visustella_City2_C_281
+  - first:
+      213: -6158516853128317459
+    second: Visustella_City2_C_282
+  - first:
+      213: -7977595862957982389
+    second: Visustella_City2_C_283
+  - first:
+      213: 1394103883722250065
+    second: Visustella_City2_C_284
+  - first:
+      213: 5737275157342024901
+    second: Visustella_City2_C_285
+  - first:
+      213: -280380039375639180
+    second: Visustella_City2_C_286
+  - first:
+      213: 1568647720087894169
+    second: Visustella_City2_C_287
+  - first:
+      213: -5863746381554778663
+    second: Visustella_City2_C_288
+  - first:
+      213: 9041584205009134974
+    second: Visustella_City2_C_289
+  - first:
+      213: -5853102793474940638
+    second: Visustella_City2_C_290
+  - first:
+      213: -1300342061780047188
+    second: Visustella_City2_C_291
+  - first:
+      213: -8986085997525306536
+    second: Visustella_City2_C_292
+  - first:
+      213: -6954533120242797872
+    second: Visustella_City2_C_293
+  - first:
+      213: 2647718135301874862
+    second: Visustella_City2_C_294
+  - first:
+      213: 4473715430242245061
+    second: Visustella_City2_C_295
+  - first:
+      213: 758529570141558887
+    second: Visustella_City2_C_296
+  - first:
+      213: -5498639056260641591
+    second: Visustella_City2_C_297
+  - first:
+      213: -4904959844386986454
+    second: Visustella_City2_C_298
+  - first:
+      213: 8710182435998757294
+    second: Visustella_City2_C_299
+  - first:
+      213: -8627607973972988868
+    second: Visustella_City2_C_300
+  - first:
+      213: 6522801479715326659
+    second: Visustella_City2_C_301
+  - first:
+      213: 7225379750940889639
+    second: Visustella_City2_C_302
+  - first:
+      213: 4177117287495251149
+    second: Visustella_City2_C_303
+  - first:
+      213: 3206758880692246656
+    second: Visustella_City2_C_304
+  - first:
+      213: 525385367899743117
+    second: Visustella_City2_C_305
+  - first:
+      213: 7774692788841500747
+    second: Visustella_City2_C_306
+  - first:
+      213: -5863549473655506715
+    second: Visustella_City2_C_307
+  - first:
+      213: -8736302962575941409
+    second: Visustella_City2_C_308
+  - first:
+      213: -5196908757371334204
+    second: Visustella_City2_C_309
+  - first:
+      213: 3592393140786576078
+    second: Visustella_City2_C_310
+  - first:
+      213: 1943129265730298133
+    second: Visustella_City2_C_311
+  - first:
+      213: 3349037645420279904
+    second: Visustella_City2_C_312
+  - first:
+      213: -7284678949618282095
+    second: Visustella_City2_C_313
+  - first:
+      213: 1661177548457582363
+    second: Visustella_City2_C_314
+  - first:
+      213: 2486570962363642749
+    second: Visustella_City2_C_315
+  - first:
+      213: 6383001018910044677
+    second: Visustella_City2_C_316
+  - first:
+      213: 5856356006769968285
+    second: Visustella_City2_C_317
+  - first:
+      213: -8014141707831968701
+    second: Visustella_City2_C_318
+  - first:
+      213: 2778318919445886125
+    second: Visustella_City2_C_319
+  - first:
+      213: 7341268275368482051
+    second: Visustella_City2_C_320
+  - first:
+      213: -4592930428837924033
+    second: Visustella_City2_C_321
+  - first:
+      213: 6944966031473934873
+    second: Visustella_City2_C_322
+  - first:
+      213: -7691408309891820876
+    second: Visustella_City2_C_323
+  - first:
+      213: 8756789208129473356
+    second: Visustella_City2_C_324
+  - first:
+      213: -6252601081054237425
+    second: Visustella_City2_C_325
+  - first:
+      213: -5793241926302194249
+    second: Visustella_City2_C_326
+  - first:
+      213: 5064450276360665600
+    second: Visustella_City2_C_327
+  - first:
+      213: 7900759181801162230
+    second: Visustella_City2_C_328
+  - first:
+      213: 4066072043572997404
+    second: Visustella_City2_C_329
+  - first:
+      213: 8932631484268348797
+    second: Visustella_City2_C_330
+  - first:
+      213: 4759686543924423688
+    second: Visustella_City2_C_331
+  - first:
+      213: 528242245079590282
+    second: Visustella_City2_C_332
+  - first:
+      213: 6933911590904960146
+    second: Visustella_City2_C_333
+  - first:
+      213: -7012572794490936555
+    second: Visustella_City2_C_334
+  - first:
+      213: -219344233172298687
+    second: Visustella_City2_C_335
+  - first:
+      213: -4321487965075275652
+    second: Visustella_City2_C_336
+  - first:
+      213: 1715646701483515695
+    second: Visustella_City2_C_337
+  - first:
+      213: 5210130919155073400
+    second: Visustella_City2_C_338
+  - first:
+      213: -8779356205772220386
+    second: Visustella_City2_C_339
+  - first:
+      213: -6575754346724896369
+    second: Visustella_City2_C_340
+  - first:
+      213: -4744586634741216925
+    second: Visustella_City2_C_341
+  - first:
+      213: -8035108277756102265
+    second: Visustella_City2_C_342
+  - first:
+      213: -8328339610619824521
+    second: Visustella_City2_C_343
+  - first:
+      213: -3313897549781655699
+    second: Visustella_City2_C_344
+  - first:
+      213: 1699463095799420705
+    second: Visustella_City2_C_345
+  - first:
+      213: 3439188942763032259
+    second: Visustella_City2_C_346
+  - first:
+      213: -3892275425375967269
+    second: Visustella_City2_C_347
+  - first:
+      213: 3598752365913187654
+    second: Visustella_City2_C_348
+  - first:
+      213: -1822185593385981544
+    second: Visustella_City2_C_349
+  - first:
+      213: -516099330007426995
+    second: Visustella_City2_C_350
+  - first:
+      213: 3298452007563681255
+    second: Visustella_City2_C_351
+  - first:
+      213: 7811596562460114373
+    second: Visustella_City2_C_352
+  - first:
+      213: -3195303641955900819
+    second: Visustella_City2_C_353
+  - first:
+      213: 7823415212330510137
+    second: Visustella_City2_C_354
+  - first:
+      213: 6538484289914223577
+    second: Visustella_City2_C_355
+  - first:
+      213: 4497878437940239039
+    second: Visustella_City2_C_356
+  - first:
+      213: 376191261442807897
+    second: Visustella_City2_C_357
+  - first:
+      213: 3701646485628014227
+    second: Visustella_City2_C_358
+  - first:
+      213: 5492830680829876586
+    second: Visustella_City2_C_359
+  - first:
+      213: 5307081523513125495
+    second: Visustella_City2_C_360
+  - first:
+      213: -5189700070969172026
+    second: Visustella_City2_C_361
+  - first:
+      213: -5847828312302892143
+    second: Visustella_City2_C_362
+  - first:
+      213: -4059408843790212491
+    second: Visustella_City2_C_363
+  - first:
+      213: 2534527479563370402
+    second: Visustella_City2_C_364
+  - first:
+      213: 5690962571514306091
+    second: Visustella_City2_C_365
+  - first:
+      213: 9074101653314039467
+    second: Visustella_City2_C_366
+  - first:
+      213: -5678706272366785198
+    second: Visustella_City2_C_367
+  - first:
+      213: -4182834786561747559
+    second: Visustella_City2_C_368
+  - first:
+      213: 5576194085700345927
+    second: Visustella_City2_C_369
+  - first:
+      213: -4673886796950752219
+    second: Visustella_City2_C_370
+  - first:
+      213: 2731772738812870526
+    second: Visustella_City2_C_371
+  - first:
+      213: 5181330961285580446
+    second: Visustella_City2_C_372
+  - first:
+      213: 6908630799334347709
+    second: Visustella_City2_C_373
+  - first:
+      213: 8755742122462405338
+    second: Visustella_City2_C_374
+  - first:
+      213: -2123149292662947023
+    second: Visustella_City2_C_375
+  - first:
+      213: 9115031138496647737
+    second: Visustella_City2_C_376
+  - first:
+      213: -2980579247308414300
+    second: Visustella_City2_C_377
+  - first:
+      213: 6657695946431915019
+    second: Visustella_City2_C_378
+  - first:
+      213: 2417583624020119574
+    second: Visustella_City2_C_379
+  - first:
+      213: 5507257889307894332
+    second: Visustella_City2_C_380
+  - first:
+      213: -8822220283824377571
+    second: Visustella_City2_C_381
+  - first:
+      213: -5172332556905589095
+    second: Visustella_City2_C_382
+  - first:
+      213: -7153450965973417509
+    second: Visustella_City2_C_383
+  - first:
+      213: 1418376815818044703
+    second: Visustella_City2_C_384
+  - first:
+      213: -1476281331950208641
+    second: Visustella_City2_C_385
+  - first:
+      213: -7290229030355793820
+    second: Visustella_City2_C_386
+  - first:
+      213: 1120927041659906302
+    second: Visustella_City2_C_387
+  - first:
+      213: -8230515210873508525
+    second: Visustella_City2_C_388
+  - first:
+      213: 3126952796011207058
+    second: Visustella_City2_C_389
+  - first:
+      213: 3242540197134657162
+    second: Visustella_City2_C_390
+  - first:
+      213: -914624236828558798
+    second: Visustella_City2_C_391
+  - first:
+      213: 5454143850936748587
+    second: Visustella_City2_C_392
+  - first:
+      213: 720539822709639347
+    second: Visustella_City2_C_393
+  - first:
+      213: -2380531201781701297
+    second: Visustella_City2_C_394
+  - first:
+      213: 539837965653429433
+    second: Visustella_City2_C_395
+  - first:
+      213: 2610623178969296342
+    second: Visustella_City2_C_396
+  - first:
+      213: 3668614251129300548
+    second: Visustella_City2_C_397
+  - first:
+      213: -5950869080009661074
+    second: Visustella_City2_C_398
+  - first:
+      213: -4023065140265255463
+    second: Visustella_City2_C_399
+  - first:
+      213: 5432077721484095776
+    second: Visustella_City2_C_400
+  - first:
+      213: 5904091797554190981
+    second: Visustella_City2_C_401
+  - first:
+      213: 5767043670980798008
+    second: Visustella_City2_C_402
+  - first:
+      213: 3757086849634401858
+    second: Visustella_City2_C_403
+  - first:
+      213: 6647521481303690035
+    second: Visustella_City2_C_404
+  - first:
+      213: 3230097371438196341
+    second: Visustella_City2_C_405
+  - first:
+      213: -6550607522359753345
+    second: Visustella_City2_C_406
+  - first:
+      213: 8007668572736273821
+    second: Visustella_City2_C_407
+  - first:
+      213: -7998126362833291467
+    second: Visustella_City2_C_408
+  - first:
+      213: 8244442510567520349
+    second: Visustella_City2_C_409
+  - first:
+      213: 1463959385572158367
+    second: Visustella_City2_C_410
+  - first:
+      213: 7353345312906763686
+    second: Visustella_City2_C_411
+  - first:
+      213: -7810943015557590203
+    second: Visustella_City2_C_412
+  - first:
+      213: -8841637580859550173
+    second: Visustella_City2_C_413
+  - first:
+      213: 863722695770302586
+    second: Visustella_City2_C_414
+  - first:
+      213: 6394907696166051392
+    second: Visustella_City2_C_415
+  - first:
+      213: 5175100020931634541
+    second: Visustella_City2_C_416
+  - first:
+      213: 895892008600499241
+    second: Visustella_City2_C_417
+  - first:
+      213: 8549962474647836808
+    second: Visustella_City2_C_418
+  - first:
+      213: -7125275799092332124
+    second: Visustella_City2_C_419
+  - first:
+      213: -6246582938820663075
+    second: Visustella_City2_C_420
+  - first:
+      213: -6694823808007275098
+    second: Visustella_City2_C_421
+  - first:
+      213: -1481587553319479132
+    second: Visustella_City2_C_422
+  - first:
+      213: -8186986896974120438
+    second: Visustella_City2_C_423
+  - first:
+      213: 8816507010920638335
+    second: Visustella_City2_C_424
+  - first:
+      213: -3518686891773723216
+    second: Visustella_City2_C_425
+  - first:
+      213: 6070243187328179944
+    second: Visustella_City2_C_426
+  - first:
+      213: 912836756000582014
+    second: Visustella_City2_C_427
+  - first:
+      213: 8310371545309328466
+    second: Visustella_City2_C_428
+  - first:
+      213: -6544392282518036219
+    second: Visustella_City2_C_429
+  - first:
+      213: -5874564478264636834
+    second: Visustella_City2_C_430
+  - first:
+      213: -3358637154358197875
+    second: Visustella_City2_C_431
+  - first:
+      213: -2574200627518873004
+    second: Visustella_City2_C_432
+  - first:
+      213: 2662880301664046989
+    second: Visustella_City2_C_433
+  - first:
+      213: 874436645842366436
+    second: Visustella_City2_C_434
+  - first:
+      213: -2108557329527465055
+    second: Visustella_City2_C_435
+  - first:
+      213: -8403957924600363741
+    second: Visustella_City2_C_436
+  - first:
+      213: -1240871909396299452
+    second: Visustella_City2_C_437
+  - first:
+      213: 3629977948551374810
+    second: Visustella_City2_C_438
+  - first:
+      213: 3936822222416317547
+    second: Visustella_City2_C_439
+  - first:
+      213: -6515719862198156640
+    second: Visustella_City2_C_440
+  - first:
+      213: 5511592340295353107
+    second: Visustella_City2_C_441
+  - first:
+      213: -2584522369722868423
+    second: Visustella_City2_C_442
+  - first:
+      213: 8369924941753743372
+    second: Visustella_City2_C_443
+  - first:
+      213: 7198718502990618221
+    second: Visustella_City2_C_444
+  - first:
+      213: 2755495889465010470
+    second: Visustella_City2_C_445
+  - first:
+      213: -1753559512157798229
+    second: Visustella_City2_C_446
+  - first:
+      213: -7600336990419094763
+    second: Visustella_City2_C_447
+  - first:
+      213: 8291539449727609600
+    second: Visustella_City2_C_448
+  - first:
+      213: 2729114923169567890
+    second: Visustella_City2_C_449
+  - first:
+      213: -8643403212821106904
+    second: Visustella_City2_C_450
+  - first:
+      213: -2024522882015171090
+    second: Visustella_City2_C_451
+  - first:
+      213: -672898918329302609
+    second: Visustella_City2_C_452
+  - first:
+      213: -447501516682238761
+    second: Visustella_City2_C_453
+  - first:
+      213: 7505595154349910827
+    second: Visustella_City2_C_454
+  - first:
+      213: 524857137272336568
+    second: Visustella_City2_C_455
+  - first:
+      213: 8251770426220106941
+    second: Visustella_City2_C_456
+  - first:
+      213: 1875445720059110711
+    second: Visustella_City2_C_457
+  - first:
+      213: 3856471288166031884
+    second: Visustella_City2_C_458
+  - first:
+      213: -9170530827853761223
+    second: Visustella_City2_C_459
+  - first:
+      213: -28191850635939451
+    second: Visustella_City2_C_460
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Visustella_City2_C_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703c2cb52f4157050800000000000000
+      internalID: 5797563126463513351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d4d3405644d8240800000000000000
+      internalID: 4795564378872958338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62f54d8c0b43d520800000000000000
+      internalID: 2725604716771144298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0549905e89a8af8c0800000000000000
+      internalID: -3964704132664028080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda1d554f7b6b2840800000000000000
+      internalID: 5200368389098117855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c075ff62269d0a0800000000000000
+      internalID: -6856341038062695315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b89845a0a5ee690800000000000000
+      internalID: -7571014923148752080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba529cfb1b229fbb0800000000000000
+      internalID: -4901848572593887829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_8
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bb1910a3c0d6f40800000000000000
+      internalID: 5723244144731732794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fb5f25cc933c370800000000000000
+      internalID: 8341574484548239158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87713f13cc0853c30800000000000000
+      internalID: 4338515430541039480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c661f4d0c6bd57f20800000000000000
+      internalID: 3419880749183997548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928d8bf8301421310800000000000000
+      internalID: 1374232319853385769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711dc51aa7560cd30800000000000000
+      internalID: 4449668009209680151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8b00c031ed6b9a0800000000000000
+      internalID: -6217538062151272231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9790bb9b9483a4140800000000000000
+      internalID: 4704634650041715065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fa8365779efab40800000000000000
+      internalID: 5453834372525895564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_17
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714b01f7a01ccc7a0800000000000000
+      internalID: -6355492723300977641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715f6ed62ccad0a50800000000000000
+      internalID: 6489032589178238231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc1792ca8d50b4a0800000000000000
+      internalID: -6579656205036741451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c1f85bc4bd7ef70800000000000000
+      internalID: 9216576284947061782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8721e02b2955d6d0800000000000000
+      internalID: -2966366737783511154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206305c0855719530800000000000000
+      internalID: 3859995376657380866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77b2911136f3ea00800000000000000
+      internalID: 784741450701256574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_24
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ec5d17853bd1f10800000000000000
+      internalID: 2242145381948706436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b998f51d6c747af50800000000000000
+      internalID: 6892556673955629467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4597ccf8c1fcb0580800000000000000
+      internalID: -8859760120342742700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86121b7e71db99cd0800000000000000
+      internalID: -2550799803559632536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_28
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388701e5dac48c730800000000000000
+      internalID: 4019546974919358595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeb3adbb6859ba80800000000000000
+      internalID: -8450626006017655069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4bac80c661bd990800000000000000
+      internalID: -7360264512747162464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8cadeb5525e8760800000000000000
+      internalID: 7461992160827197673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b4b9b99b9aa3b30800000000000000
+      internalID: 4267910211531656022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42e712a1cdba1090800000000000000
+      internalID: -8062923543507639730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec1f8916ceac8b0800000000000000
+      internalID: -5131028921513292175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2afb4017ed006d0800000000000000
+      internalID: -3026174372600634719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193d95ac58bd22360800000000000000
+      internalID: 7143513326635045777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_37
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3591ce9fe80d26ef0800000000000000
+      internalID: -116301327861278381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fc0a19492cf5560800000000000000
+      internalID: 7304771063972417388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_39
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d594c505cd0aec80800000000000000
+      internalID: -8292800623992859177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757faf54970ca2e60800000000000000
+      internalID: 7938368920291571543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcd4773424c227b0800000000000000
+      internalID: -5250418555732304655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1754b90e2cc607160800000000000000
+      internalID: 7021231403318330737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573ff80094860e770800000000000000
+      internalID: 8638018748047946613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2613491a2a2b88b40800000000000000
+      internalID: 5442796561242534242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_45
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77f5aff626e92940800000000000000
+      internalID: 5271997893986088826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_46
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af642d628faffd760800000000000000
+      internalID: 7484977049423202042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_47
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266f23be56577c4a0800000000000000
+      internalID: -6573156050525817246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb24ed658bf77db0800000000000000
+      internalID: -4794086727819711525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaf986aba96289a0800000000000000
+      internalID: -6232302748372960596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb449839426083580800000000000000
+      internalID: -8847314713805503301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8543fa5ac0e5177d0800000000000000
+      internalID: -2922451274774399912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c40b55b362406e0800000000000000
+      internalID: -1872329508796740520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_53
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6e470459ff224d0800000000000000
+      internalID: -3160682971964053768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_54
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d8f2be01522eb60800000000000000
+      internalID: 7773816661390363931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_55
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c38b269d4e6598e0800000000000000
+      internalID: -1687321205869411387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaf4187b451dd030800000000000000
+      internalID: 3520993897554967268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691776fa1095e73d0800000000000000
+      internalID: -3207028020868583018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_58
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed63be0486007aaa0800000000000000
+      internalID: -6149946318385367330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_59
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a971104ad4c85e060800000000000000
+      internalID: 6982141062399727514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e3473813893eef0800000000000000
+      internalID: -80053029936284049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13532ca2e0d6a7590800000000000000
+      internalID: -7675702707285248719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109dfbc576c3ee730800000000000000
+      internalID: 4030225131178547457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582788ab588423500800000000000000
+      internalID: 374441458222527109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3518b8cdab79f430800000000000000
+      internalID: 3817218145500271934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_65
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b058c868d74639810800000000000000
+      internalID: 1770869568777782539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_66
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e6c1da2f7cf2800800000000000000
+      internalID: 589909921309158999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4acc16e7139f8c0800000000000000
+      internalID: -3965083578046569304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75aa7e67367a4a9a0800000000000000
+      internalID: -6222664739480688041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_69
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f50caf7e86db2380800000000000000
+      internalID: -8994859923226753552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_70
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8503b2042820ca0800000000000000
+      internalID: -6052131737118418716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_71
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8165753edbe1509d0800000000000000
+      internalID: -2808804991683832296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_72
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f484e698f0e74fe90800000000000000
+      internalID: -6992825716204222385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_73
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4460b6437d39e39b0800000000000000
+      internalID: -5098475175630141884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2183097cc1d73eac0800000000000000
+      internalID: -3827077695774115822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_75
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be87fe9d9a72cd050800000000000000
+      internalID: 5826575628369885419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aa78e409958f010800000000000000
+      internalID: 1222825775158766091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_77
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6d23940a52944e0800000000000000
+      internalID: -1997023589409040660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25520fcf61c200b70800000000000000
+      internalID: 8863132543909635410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8753198591da2bf30800000000000000
+      internalID: 4589921294615655800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_80
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261c74e1f98dda8f0800000000000000
+      internalID: -527527403413061278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_81
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15c26ba83da01010800000000000000
+      internalID: 1157615563139368219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_82
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f80d752ed20bac0800000000000000
+      internalID: -3841520031987888226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_83
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac71af4a44fd9b650800000000000000
+      internalID: 6249271443871897546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_84
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2a2be9ad9bdbf60800000000000000
+      internalID: 8051796057424831199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_85
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f16c7303e579cb0800000000000000
+      internalID: -4857310111908618369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_86
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc64c160bae11d740800000000000000
+      internalID: 5174951166716167884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_87
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f175810a3e09d7470800000000000000
+      internalID: 8394024587806398239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ec5bc95f18c5410800000000000000
+      internalID: 1467190470512070226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_89
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89913ede1d052570800000000000000
+      internalID: 8441167502803835278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69e0377eb912bdc0800000000000000
+      internalID: -3624806444245653141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_91
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d823d07e9dc56a6f0800000000000000
+      internalID: -673749003291250035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745918ab2472dd6c0800000000000000
+      internalID: -4117091316796385977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_93
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c22c73383c50240800000000000000
+      internalID: 4757423549730401365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_94
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8519d1f413233f60800000000000000
+      internalID: 8012786734886098318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_95
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4374eda4b69408570800000000000000
+      internalID: 8466848024622942004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_96
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fe2ee964ea30650800000000000000
+      internalID: 6197989130528550686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_97
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8799e1b02bfb40bc0800000000000000
+      internalID: -3817715812691699336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_98
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7f24a8356f5be30800000000000000
+      internalID: 4518788639798523838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_99
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b003bc3e76dd64570800000000000000
+      internalID: 8450685189080428555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_100
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c71d14842e7353d0800000000000000
+      internalID: -3219090613339351101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_101
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71d58280c3102b70800000000000000
+      internalID: 8872112983464333694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_102
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767bb25c2699e2db0800000000000000
+      internalID: -4814742302118660249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9976f43a216781730800000000000000
+      internalID: 3970052893948471193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_104
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ca42bc1138e5170800000000000000
+      internalID: 8169110886542519301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_105
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce6eacfe70793760800000000000000
+      internalID: 7438099950286565069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_106
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec8340a63f8c98f0800000000000000
+      internalID: -532393191156773657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_107
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697e76cbcb93ce040800000000000000
+      internalID: 4678177595708663702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_108
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2946606381ec6bd30800000000000000
+      internalID: 4446968285455869074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_109
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8083f5036cb161610800000000000000
+      internalID: 1591490056351070216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_110
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a219d1171310ff0800000000000000
+      internalID: -71721757164098921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f44b7c4523cfbb50800000000000000
+      internalID: 6611217342967530743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_112
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ec218d082987df0800000000000000
+      internalID: -182234702829924716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_113
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac7e7752cd375390800000000000000
+      internalID: -7829721522259460959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_114
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5e5272143cfe310800000000000000
+      internalID: 1436581490751563263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_115
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f4424237d96b6b0800000000000000
+      internalID: -5280860395192168637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_116
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98319a0a2041c36b0800000000000000
+      internalID: -5315351458686102647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_117
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a80d058d5489eda0800000000000000
+      internalID: -5915051098375386968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecf63fcbb7456fd0800000000000000
+      internalID: -2349392758642901778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_119
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ab5b5a09e29a660800000000000000
+      internalID: 7397495061723069029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_120
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689baf545e9835790800000000000000
+      internalID: -7542533333100873338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_121
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef843297b405aac80800000000000000
+      internalID: -8310741877273704194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d38f64d2b9ed450800000000000000
+      internalID: 6115495962782219556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_123
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae0fddb1e91cc070800000000000000
+      internalID: 8127899884840750757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_124
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f921ebb10c0c2d2b0800000000000000
+      internalID: -5561170658517445985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_125
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245a1eb7e42b30bd0800000000000000
+      internalID: -2665090504317622974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628c2f5bfc987ebd0800000000000000
+      internalID: -2600958734579349466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_127
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b44e0faa0f4e780800000000000000
+      internalID: -8654527966922650768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_128
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda120051efe1c520800000000000000
+      internalID: 2720719400897485534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_129
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2c73a91a00e2520800000000000000
+      internalID: 2679079522409104096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_130
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8120a00290f1f67b0800000000000000
+      internalID: -5228926518301162984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_131
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0496eb784894b70800000000000000
+      internalID: 8883777458515034312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_132
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad657383d09909150800000000000000
+      internalID: 5877365795775272666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_133
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 240
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2fa7e0cfb3755c0800000000000000
+      internalID: -4226843771503185247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3699b9ac94eaaf300800000000000000
+      internalID: 286733158246488419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_135
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a496cd2b68b5024a0800000000000000
+      internalID: -6620190818150094518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_136
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c785ad0463f4060800000000000000
+      internalID: 6939825202970262612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d418498bf468c860800000000000000
+      internalID: 7550395806789407954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_138
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5518bc2484ba70360800000000000000
+      internalID: 7135860461438468437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_139
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cb34dfc37521940800000000000000
+      internalID: 5265366833808260251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_140
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcec3a684761a6d40800000000000000
+      internalID: 5578295778182680267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_141
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a35a4b1373c1d50800000000000000
+      internalID: 6709298231498848826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_142
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b608230be3ec20c0800000000000000
+      internalID: -4599050520942344519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_143
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4867ef48a44c6250800000000000000
+      internalID: 5939197498280601679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_144
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d44535858aa87470800000000000000
+      internalID: 8392645396047152340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_145
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ffb9f37e51466a0800000000000000
+      internalID: -6457011882793631937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_146
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab0d4aabd7b1b8b0800000000000000
+      internalID: -5138123545770128468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_147
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fae9a193050b460800000000000000
+      internalID: 7255387205883834147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_148
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb16090f28fbcc940800000000000000
+      internalID: 5317835829120360892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_149
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d7d87ad56218640800000000000000
+      internalID: 5080384038335511874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_150
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276742636dfbe8760800000000000000
+      internalID: 7462112559351756402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_151
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bef3a4dd368389d0800000000000000
+      internalID: -2773225345411449168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_152
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28b6aa505efce0a0800000000000000
+      internalID: -6850821312065652689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_153
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991b01ff3dfccf410800000000000000
+      internalID: 1512312084313977241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_154
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79428de7f883d2c20800000000000000
+      internalID: 3183262700580381847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_155
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba91666572dd21d70800000000000000
+      internalID: 9012508965344778667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_156
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2483890bc0d8e9ff0800000000000000
+      internalID: -27429462075754430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_157
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071e3e31e7fe6f9b0800000000000000
+      internalID: -5046583007643442832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_158
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411cbb8c9918a6f20800000000000000
+      internalID: 3416685764811669780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_159
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e70d8c28a72b080800000000000000
+      internalID: -9173134788866834806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_160
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a4e14a917c20330800000000000000
+      internalID: 3675719158829304445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_161
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6668af6731c36b30800000000000000
+      internalID: 4279476514772772462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_162
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4804a7496a5633a80800000000000000
+      internalID: -8488329106533236604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_163
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6c76979d41938e0800000000000000
+      internalID: -1713315258960460075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_164
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa43200c75ca75c0800000000000000
+      internalID: -4216840964710118672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_165
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f488ec06e4fb210800000000000000
+      internalID: 1350884590923304711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_166
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446516b170bf57270800000000000000
+      internalID: 8247774300541638212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_167
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303909d0179395ec0800000000000000
+      internalID: -3577765271247482109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_168
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b631065aea8ae0850800000000000000
+      internalID: 6345194393063920491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_169
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00261863e04a2f520800000000000000
+      internalID: 2734428304718258688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_170
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8348b5afb45e7d7d0800000000000000
+      internalID: -2893592121076644808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_171
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbff116b33a4b580800000000000000
+      internalID: -8812239095429334026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_172
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33eebc94131b02b20800000000000000
+      internalID: 3107678568135257651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_173
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0c6a32a611906d0800000000000000
+      internalID: -3023866527240240973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_174
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a7c7379d4c2dc70800000000000000
+      internalID: 8994467844036786807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2931958e6cae46d10800000000000000
+      internalID: 2118075864793551762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_176
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a175325629861280800000000000000
+      internalID: -9072913601610288729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_177
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27b248121d307110800000000000000
+      internalID: 1256571443962099498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_178
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194dd430e9a2026f0800000000000000
+      internalID: -711521882975906671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_179
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac706d700693bd60800000000000000
+      internalID: 7904826699812994213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_180
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58217bcb23d1b4d10800000000000000
+      internalID: 2110812954104894085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_181
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f29e3965337eba0800000000000000
+      internalID: -6059818326661976260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_182
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f727abdef2f8b7b0800000000000000
+      internalID: -5208145792633198602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_183
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c338508c87272690800000000000000
+      internalID: -7627083959526476856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_184
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eed46f933e7d7790800000000000000
+      internalID: -7530724241710981402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_185
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172b4b3179aded920800000000000000
+      internalID: 3017089142790337137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_186
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d8e7ed6be729c30800000000000000
+      internalID: 4364690312757415313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_187
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427ffa01ee91f68c0800000000000000
+      internalID: -4003953033436203228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_188
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd85ee45b3c1a4a10800000000000000
+      internalID: 1894357634416269532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_189
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c755fe1f28ce793f0800000000000000
+      internalID: -893985953860856452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_190
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eefa380c864131b0800000000000000
+      internalID: -5678680087890034971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_191
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd012c9fe3afaf40800000000000000
+      internalID: 5741988299432594892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_192
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9915480e4bce960800000000000000
+      internalID: 7632674344871762394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_193
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3b45ef775833bc0800000000000000
+      internalID: -3804550509783370801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_194
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2740b6037331df1a0800000000000000
+      internalID: -6774237136738909070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visustella_City2_C_195
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3211c01f77d14d0800000000000000
+      internalID: -3162239486170946629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

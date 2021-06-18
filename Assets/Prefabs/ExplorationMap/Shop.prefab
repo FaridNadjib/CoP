@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9073143697081984855
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9073143697081984854}
+  - component: {fileID: 9073143697081984681}
+  - component: {fileID: 9073143697081984853}
+  m_Layer: 0
+  m_Name: Shop
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9073143697081984854
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073143697081984855}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.03, y: 3.38, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &9073143697081984681
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073143697081984855}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.012626171, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2525263, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &9073143697081984853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9073143697081984855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f08cd8a96963544947751494fd2e42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  description: "Willkommen bei Chips for Champions.  Wir haben immer die neuste Auswahl
+    and Kristallplugins f\xFCr deine Champions. Schau dich nur in Ruhe um."
+  champions:
+  - {fileID: 7874694843914839266, guid: 247f235bfd489c24381042a2efad6894, type: 3}
+  - {fileID: 7874694843914839266, guid: 247f235bfd489c24381042a2efad6894, type: 3}
+  - {fileID: 7874694843914839266, guid: 247f235bfd489c24381042a2efad6894, type: 3}
+  equipment:
+  - {fileID: 11400000, guid: a275fd9de749f144084d0a15e183e2cf, type: 2}
+  - {fileID: 11400000, guid: 15473fce8ac69c24faacacdee1b2aac9, type: 2}
+  - {fileID: 11400000, guid: 7099f482337482f419b115aca5c15d06, type: 2}
+  - {fileID: 11400000, guid: f21b231a2de041040b4ff765da96b519, type: 2}
+  - {fileID: 11400000, guid: a275fd9de749f144084d0a15e183e2cf, type: 2}
+  - {fileID: 11400000, guid: 15473fce8ac69c24faacacdee1b2aac9, type: 2}
+  - {fileID: 11400000, guid: 7099f482337482f419b115aca5c15d06, type: 2}
+  - {fileID: 11400000, guid: f21b231a2de041040b4ff765da96b519, type: 2}
+  - {fileID: 11400000, guid: a275fd9de749f144084d0a15e183e2cf, type: 2}
+  - {fileID: 11400000, guid: 15473fce8ac69c24faacacdee1b2aac9, type: 2}
+  - {fileID: 11400000, guid: 7099f482337482f419b115aca5c15d06, type: 2}
+  - {fileID: 11400000, guid: f21b231a2de041040b4ff765da96b519, type: 2}
+  - {fileID: 11400000, guid: 00f2248796831114a94fb3f52e50d616, type: 2}
+  weapons:
+  - {fileID: 11400000, guid: 74290c89ec201c84c961a2811bea8f5e, type: 2}
+  - {fileID: 11400000, guid: 2f819e4d25b2132418b25eda3ee827b4, type: 2}
+  - {fileID: 11400000, guid: 732f81db9a27c44408d38a18a404fe80, type: 2}
+  - {fileID: 11400000, guid: ca3afb9e6cc078c40abd42fc4ed47939, type: 2}
+  - {fileID: 11400000, guid: 3b2588f80613e904f8fd85b23924e72f, type: 2}
+  - {fileID: 11400000, guid: 74290c89ec201c84c961a2811bea8f5e, type: 2}
+  - {fileID: 11400000, guid: 2f819e4d25b2132418b25eda3ee827b4, type: 2}
+  - {fileID: 11400000, guid: 732f81db9a27c44408d38a18a404fe80, type: 2}
+  - {fileID: 11400000, guid: ca3afb9e6cc078c40abd42fc4ed47939, type: 2}
+  - {fileID: 11400000, guid: 3b2588f80613e904f8fd85b23924e72f, type: 2}
+  crystals:
+  - {fileID: 11400000, guid: 2ebcf4691cb4e3a4ea08f3c30b38cda3, type: 2}
+  - {fileID: 11400000, guid: 47d90485553c3d7419764a45db876d23, type: 2}
+  - {fileID: 11400000, guid: 7af6c4e1d5b4d8b40a6b55b0eb2aa9ba, type: 2}
+  - {fileID: 11400000, guid: fbc923ce3095c44478a0dd51db39c558, type: 2}
+  - {fileID: 11400000, guid: 1b894d4eca3893d4d9976162f3e0a105, type: 2}
+  - {fileID: 11400000, guid: 6675551014182cd46b43c5de104f2ed9, type: 2}
+  - {fileID: 11400000, guid: 8e8bb1e003ae6e346aba056d9fcfa112, type: 2}
+  - {fileID: 11400000, guid: a04194841a72aaf4381bf5d2e57d5331, type: 2}
+  - {fileID: 11400000, guid: 5d17750291790164e8d0474d0f9194bc, type: 2}
+  - {fileID: 11400000, guid: e1b5388a0b171714fb6866127cbf1597, type: 2}

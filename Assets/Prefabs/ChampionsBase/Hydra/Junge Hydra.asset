@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad753dea2c3e4064c98f9742c3395359, type: 3}
+  m_Name: Junge Hydra
+  m_EditorClassIdentifier: 
+  championName: Junge Hydra
+  title: 
+  description: "Seine Mut wird nur durch seine Wut \xFCbertroffen."
+  championSprite: {fileID: 21300000, guid: 445acde73ac6f2547851b6902a1ecedd, type: 3}
+  maxHealthBase: 35
+  healthRecoveryBase: 3
+  healthGrowRate: 3
+  maxEnergyBase: 22
+  energyRecoveryBase: 2
+  energyGrowRate: 2
+  initiativeBase: 3
+  possibleDevotions: 0800000005000000
+  evasionChanceBase: 0.01
+  dmgReductionBase: 0.01
+  criticalChanceBase: 0.01
+  criticalMultBase: 0.02
+  resistancesBase:
+  - resistanceType: 3
+    resistanceAmount: 0.1
+  - resistanceType: 7
+    resistanceAmount: 0.1
+  - resistanceType: 1
+    resistanceAmount: -0.1
+  defenseMainBase:
+  - defenseType: 2
+    defenseAmount: 0.1
+  - defenseType: 1
+    defenseAmount: 0.1
+  - defenseType: 8
+    defenseAmount: 0.05
+  defenseSubBase:
+  - defenseType: 2
+    defenseAmount: 0.05
+  crystalLevelRequirements:
+  - mightCrystal: 2
+    amount: 25
+  - mightCrystal: 1
+    amount: 25
+  - mightCrystal: 7
+    amount: 10
+  crystalLevelBoni:
+  - mightCrystal: 2
+    amount: 15
+  - mightCrystal: 1
+    amount: 15
+  - mightCrystal: 7
+    amount: 15
+  possibleEvolutions:
+  - {fileID: 11400000, guid: fe8a31ba1a113a440b01a72bb54f401e, type: 2}
+  - {fileID: 11400000, guid: 1bb1684f4f1827e44baab06b0ed01a0d, type: 2}
+  specialUpgradeTypes: []
+  usableWeapons: 000000000200000004000000030000000500000007000000

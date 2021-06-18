@@ -48,9 +48,13 @@ public class BattleManager : MonoBehaviour
 
     private bool playerWon;
 
+    // Test.
+    bool notInBattle = true;
+
     #region Properties
 
     public Transform AttackEffectsHolder { get => attackEffectsHolder; }
+    public bool NotInBattle { get => notInBattle; set => notInBattle = value; }
 
     #endregion Properties
 
@@ -219,6 +223,8 @@ public class BattleManager : MonoBehaviour
                 TransitionManager.Instance.TeleportPlayer("", PlayerController.Instance.SafeSpotLocation, true, Transitions.Random);
                 inCombat = false;
                 PlayerController.Instance.IsFighting = false;
+                NotInBattle = true;
+                AudioManager.Instance.PlayMusic(0);
             }
         }
     }
@@ -232,6 +238,8 @@ public class BattleManager : MonoBehaviour
         TransitionManager.Instance.TeleportPlayer("", PlayerController.Instance.gameObject.transform.position, true, Transitions.Random);
         inCombat = false;
         PlayerController.Instance.IsFighting = false;
+        NotInBattle = true;
+        AudioManager.Instance.PlayMusic(0);
         // Activate the npc if any.
         if (currentNpc != null)
         {
@@ -543,8 +551,11 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     /// <param name="possibleBioms">The possible bioms the battle coult take place.</param>
     /// <param name="enemyTeam">The enemies to spawn.</param>
-    public void StartCombat(Biom[] possibleBioms, GameObject[] enemyTeam, NpcManager npc = null)
+    public void StartCombat(Biom[] possibleBioms, Encounters enemyTeam, NpcManager npc = null)
     {
+        // CHange the music.
+        AudioManager.Instance.PlayMusic(1);
+
         // Save the current npc if any, to tell him when fight is over.
         currentNpc = npc;
 
@@ -557,11 +568,95 @@ public class BattleManager : MonoBehaviour
         SetBattleMap(possibleBioms[r]);
 
         // Instantiate and place the enemy champions.
+        //this.enemyTeam.Clear();
+        //for (int i = 0; i < enemyTeam.Length; i++)
+        //{
+        //    GameObject tmp = Instantiate(enemyTeam[i], enemyHolder);
+        //    this.enemyTeam.Add(tmp);
+        //}
+        //if (this.enemyTeam.Count == 2)
+        //{
+        //    this.enemyTeam[0].transform.position = spawnPositionsRight[1].position;
+        //    this.enemyTeam[1].transform.position = spawnPositionsRight[2].position;
+        //}
+        //else
+        //{
+        //    for (int i = 0; i < this.enemyTeam.Count; i++)
+        //        this.enemyTeam[i].transform.position = spawnPositionsRight[i].position;
+        //}
+
         this.enemyTeam.Clear();
-        for (int i = 0; i < enemyTeam.Length; i++)
+        for (int i = 0; i < enemyTeam.Encounter.Length; i++)
         {
-            GameObject tmp = Instantiate(enemyTeam[i], enemyHolder);
-            this.enemyTeam.Add(tmp);
+            if(enemyTeam.Encounter[i] != null)
+            {
+                GameObject tmp = Instantiate(enemyTeam.Encounter[i], enemyHolder);
+                Champion tmpChamp = tmp.GetComponent<Champion>();
+
+                // Try to tier balance.
+                if(enemyTeam.Levels[i] > 14)
+                {
+                    tmpChamp.SetBaseAiMightLevel(65);
+                    for (int g = 0; g < tmpChamp.Equipment.Length; g++)
+                        tmpChamp.Equipment[g] = InventoryManager.Instance.GetRandomEquipment(g, 3);
+                    for (int g = 0; g < tmpChamp.Weapons.Length-1; g++)
+                        tmpChamp.Weapons[g] = InventoryManager.Instance.GetRandomWeapon(2);
+
+                }
+                else if (enemyTeam.Levels[i] > 9)
+                {
+                    tmpChamp.SetBaseAiMightLevel(45);
+                    for (int g = 0; g < tmpChamp.Equipment.Length; g++)
+                        tmpChamp.Equipment[g] = InventoryManager.Instance.GetRandomEquipment(g, 2);
+                    float rand = Random.Range(0.0f, 1.0f);
+                    if (rand < 0.4f)
+                    {
+                        for (int g = 0; g < tmpChamp.Weapons.Length - 1; g++)
+                            tmpChamp.Weapons[g] = InventoryManager.Instance.GetRandomWeapon(2);
+                    }
+                    else
+                    {
+                        for (int g = 0; g < tmpChamp.Weapons.Length - 1; g++)
+                            tmpChamp.Weapons[g] = InventoryManager.Instance.GetRandomWeapon(1);
+                    }
+                    
+                }
+                else if (enemyTeam.Levels[i] > 4)
+                {
+                    tmpChamp.SetBaseAiMightLevel(25);
+                    for (int g = 0; g < tmpChamp.Equipment.Length; g++)
+                        tmpChamp.Equipment[g] = InventoryManager.Instance.GetRandomEquipment(g, 1);
+                    
+                    
+                    for (int g = 0; g < tmpChamp.Weapons.Length - 1; g++)
+                        tmpChamp.Weapons[g] = InventoryManager.Instance.GetRandomWeapon(1);
+                }
+
+                if (enemyTeam.Evolved[i] != null)
+                {
+                    tmpChamp.EvolveChampion(enemyTeam.Evolved[i], true);
+                    if (enemyTeam.Levels[i] > 9)
+                        tmpChamp.EvolveChampion(enemyTeam.Evolved[i]);
+                    if (enemyTeam.Levels[i] > 14)
+                        tmpChamp.EvolveChampion(enemyTeam.Evolved[i]);
+
+
+
+                    // Get him random equipment.
+                }
+                for (int j = 0; j < enemyTeam.Levels[i]; j++)
+                {
+                    tmpChamp.LevelAI();
+                    tmpChamp.GoldReward += Random.Range(7, 15);
+                }
+                tmpChamp.Level = enemyTeam.Levels[i];
+                tmpChamp.UpdateChampionValues();
+                this.enemyTeam.Add(tmp);
+            }
+            
+
+
+            
         }
         if (this.enemyTeam.Count == 2)
         {
@@ -573,6 +668,7 @@ public class BattleManager : MonoBehaviour
             for (int i = 0; i < this.enemyTeam.Count; i++)
                 this.enemyTeam[i].transform.position = spawnPositionsRight[i].position;
         }
+
         // Get all participating champions in a sorted list, then start the battle loop.
         GetChampionsInBattle();
     }

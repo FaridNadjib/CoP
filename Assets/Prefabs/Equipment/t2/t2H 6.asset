@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c184bf537526d44dbdad37f8f2a98b2, type: 3}
+  m_Name: t2H 6
+  m_EditorClassIdentifier: 
+  type: 0
+  itemName: Starker Kopfschutz #7
+  itemIcon: {fileID: 21300000, guid: 58accbc52ad8fc94096d771d0a66c88e, type: 3}
+  itemID: 27
+  price: 120
+  devotionBonus:
+  - devotion: 5
+    devotionAmount: 2
+  - devotion: 9
+    devotionAmount: 2
+  statsBonus:
+  - statsBuffType: 5
+    statsAmount: 0.1
+  - statsBuffType: 7
+    statsAmount: 0.02
+  - statsBuffType: 1
+    statsAmount: 16
+  - statsBuffType: 3
+    statsAmount: 16
+  resistanceBonus: []
+  defenseMainBonus: []
+  defenseSubBonus: []

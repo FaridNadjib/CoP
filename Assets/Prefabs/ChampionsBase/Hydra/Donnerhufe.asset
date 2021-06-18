@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad753dea2c3e4064c98f9742c3395359, type: 3}
+  m_Name: Donnerhufe
+  m_EditorClassIdentifier: 
+  championName: Donnerhufe
+  title: 
+  description: "Seine Mut wird nur durch seine Wut \xFCbertroffen."
+  championSprite: {fileID: 21300000, guid: d576a0c1550cf5a4da60606e832e9c7e, type: 3}
+  maxHealthBase: 30
+  healthRecoveryBase: 2
+  healthGrowRate: 2
+  maxEnergyBase: 25
+  energyRecoveryBase: 2
+  energyGrowRate: 2
+  initiativeBase: 4
+  possibleDevotions: 090000000a000000
+  evasionChanceBase: 0.01
+  dmgReductionBase: 0.01
+  criticalChanceBase: 0.02
+  criticalMultBase: 0.025
+  resistancesBase:
+  - resistanceType: 7
+    resistanceAmount: 0.1
+  - resistanceType: 6
+    resistanceAmount: 0.1
+  - resistanceType: 5
+    resistanceAmount: -0.1
+  defenseMainBase:
+  - defenseType: 4
+    defenseAmount: 0.1
+  - defenseType: 5
+    defenseAmount: 0.1
+  defenseSubBase:
+  - defenseType: 5
+    defenseAmount: 0.05
+  crystalLevelRequirements:
+  - mightCrystal: 2
+    amount: 15
+  - mightCrystal: 5
+    amount: 30
+  - mightCrystal: 6
+    amount: 25
+  crystalLevelBoni:
+  - mightCrystal: 1
+    amount: 10
+  - mightCrystal: 5
+    amount: 20
+  - mightCrystal: 2
+    amount: 10
+  - mightCrystal: 6
+    amount: 15
+  possibleEvolutions:
+  - {fileID: 11400000, guid: 34a440de1c99a4d4384bfd65608ef3f4, type: 2}
+  - {fileID: 11400000, guid: 84a989cb0f4a84548b1ef57b6dbc3f87, type: 2}
+  specialUpgradeTypes: []
+  usableWeapons: 0000000002000000040000000700000005000000

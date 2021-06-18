@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad753dea2c3e4064c98f9742c3395359, type: 3}
+  m_Name: Donnerlaurer
+  m_EditorClassIdentifier: 
+  championName: Donnerlaurer
+  title: 
+  description: "Seine Mut wird nur durch seine Wut \xFCbertroffen."
+  championSprite: {fileID: 21300000, guid: 40a56d532e2e42a4ab43113a721a5cbb, type: 3}
+  maxHealthBase: 25
+  healthRecoveryBase: 1
+  healthGrowRate: 2
+  maxEnergyBase: 20
+  energyRecoveryBase: 2
+  energyGrowRate: 3
+  initiativeBase: 5
+  possibleDevotions: 0900000003000000
+  evasionChanceBase: 0.02
+  dmgReductionBase: 0.01
+  criticalChanceBase: 0.02
+  criticalMultBase: 0.02
+  resistancesBase:
+  - resistanceType: 5
+    resistanceAmount: 0.1
+  - resistanceType: 7
+    resistanceAmount: 0.1
+  - resistanceType: 6
+    resistanceAmount: -0.1
+  defenseMainBase:
+  - defenseType: 3
+    defenseAmount: 0.1
+  - defenseType: 1
+    defenseAmount: 0.1
+  - defenseType: 8
+    defenseAmount: 0.05
+  defenseSubBase:
+  - defenseType: 3
+    defenseAmount: 0.05
+  crystalLevelRequirements:
+  - mightCrystal: 5
+    amount: 25
+  - mightCrystal: 6
+    amount: 30
+  - mightCrystal: 9
+    amount: 25
+  crystalLevelBoni:
+  - mightCrystal: 1
+    amount: 10
+  - mightCrystal: 5
+    amount: 15
+  - mightCrystal: 6
+    amount: 10
+  - mightCrystal: 9
+    amount: 5
+  possibleEvolutions: []
+  specialUpgradeTypes: []

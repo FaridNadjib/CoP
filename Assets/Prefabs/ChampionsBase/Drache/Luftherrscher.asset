@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad753dea2c3e4064c98f9742c3395359, type: 3}
+  m_Name: Luftherrscher
+  m_EditorClassIdentifier: 
+  championName: Luftherrscher
+  title: 
+  description: "Seine Mut wird nur durch seine Wut \xFCbertroffen."
+  championSprite: {fileID: 21300000, guid: 6726e00429727d8458df6ce3ec7594e4, type: 3}
+  maxHealthBase: 20
+  healthRecoveryBase: 2
+  healthGrowRate: 2
+  maxEnergyBase: 20
+  energyRecoveryBase: 2
+  energyGrowRate: 2
+  initiativeBase: 3
+  possibleDevotions: 0700000002000000
+  evasionChanceBase: 0.01
+  dmgReductionBase: 0.01
+  criticalChanceBase: 0.01
+  criticalMultBase: 0.02
+  resistancesBase:
+  - resistanceType: 2
+    resistanceAmount: 0.1
+  - resistanceType: 4
+    resistanceAmount: 0.1
+  - resistanceType: 6
+    resistanceAmount: -0.1
+  defenseMainBase:
+  - defenseType: 3
+    defenseAmount: 0.1
+  - defenseType: 6
+    defenseAmount: 0.1
+  - defenseType: 7
+    defenseAmount: 0.05
+  defenseSubBase:
+  - defenseType: 6
+    defenseAmount: 0.05
+  crystalLevelRequirements:
+  - mightCrystal: 9
+    amount: 85
+  - mightCrystal: 6
+    amount: 90
+  - mightCrystal: 1
+    amount: 85
+  crystalLevelBoni:
+  - mightCrystal: 1
+    amount: 30
+  - mightCrystal: 6
+    amount: 30
+  - mightCrystal: 9
+    amount: 30
+  - mightCrystal: 7
+    amount: 5
+  possibleEvolutions: []
+  specialUpgradeTypes: []

@@ -66,6 +66,16 @@ public class ObjectPool : MonoBehaviour
     Queue<GameObject> seadragonPool = new Queue<GameObject>();
 
     Queue<GameObject> textPopupPool = new Queue<GameObject>();
+
+    // Battleeffectpools.
+    [SerializeField] GameObject[] battleEffectPrefabs;
+    Queue<GameObject>[] battleEffectPools;
+
+    // UI particles
+    [SerializeField] GameObject UIPart1Prefab;
+    Queue<GameObject> UIPart1Pool = new Queue<GameObject>();
+    [SerializeField] GameObject UIPart2Prefab;
+    Queue<GameObject> UIPart2Pool = new Queue<GameObject>();
     #endregion
 
     #region Singleton
@@ -134,6 +144,28 @@ public class ObjectPool : MonoBehaviour
         // Add all attack related pools to the dictionary.
         poolDictionary.Add("textPopup", textPopupPool);
         prefabDictionary.Add("textPopup", textPopup);
+
+        // UI particles.
+        poolDictionary.Add("UIPart1", UIPart1Pool);
+        prefabDictionary.Add("UIPart1", UIPart1Prefab);
+        poolDictionary.Add("UIPart2", UIPart2Pool);
+        prefabDictionary.Add("UIPart2", UIPart2Prefab);
+
+        battleEffectPools = new Queue<GameObject>[battleEffectPrefabs.Length];
+        for (int i = 0; i < battleEffectPools.Length; i++)
+        {
+            battleEffectPools[i] = new Queue<GameObject>();
+        }
+
+        // Add all battleEffects to the pool.
+        for (int i = 0; i < battleEffectPools.Length; i++)
+        {
+            poolDictionary.Add(((BattleEffects)(i + 1)).ToString(), battleEffectPools[i]);
+        }
+
+        for (int i = 0; i < battleEffectPrefabs.Length; i++)
+            prefabDictionary.Add(((BattleEffects)(i + 1)).ToString(), battleEffectPrefabs[i]);
+
     }
 
     /// <summary>

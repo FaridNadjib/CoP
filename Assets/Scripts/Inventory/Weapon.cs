@@ -2,9 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// How good weapons will scale with crystalmightlevel.
+/// </summary>
 public enum ParameterScale { None, S, A, B, C, D, E }
 
-
+/// <summary>
+/// Scalelevel, crystal type and scalemodifier.
+/// </summary>
 [System.Serializable]
 public struct MightCrystalScale
 {
@@ -14,7 +19,9 @@ public struct MightCrystalScale
     public Crystal MightCrystal { get => mightCrystal;}
     public ParameterScale Scale { get => scale;}
 }
-
+/// <summary>
+/// How good chance for weapon is to manifest crystals, crystaltype and chance.
+/// </summary>
 [System.Serializable]
 public struct CrystalManifestation
 {
@@ -24,7 +31,9 @@ public struct CrystalManifestation
     public Crystal MightCrystal { get => mightCrystal; }
     public float ManifestationChance { get => manifestationChance; set => manifestationChance = value; }
 }
-
+/// <summary>
+/// Weaponeffecttype, type, buff and duration.
+/// </summary>
 [System.Serializable]
 public struct WeaponSpecial
 {
@@ -37,6 +46,9 @@ public struct WeaponSpecial
     public int Duration { get => duration;}
 }
 
+/// <summary>
+/// Weapon buffs for resistance.
+/// </summary>
 [System.Serializable]
 public struct WeaponResistanceBuff
 {
@@ -49,6 +61,9 @@ public struct WeaponResistanceBuff
     public int Duration { get => duration; }
 }
 
+/// <summary>
+/// This class represents a weapon.
+/// </summary>
 [CreateAssetMenu(menuName = "Create Weapon")]
 public class Weapon : ScriptableObject
 {
@@ -74,13 +89,16 @@ public class Weapon : ScriptableObject
     [SerializeField] WeaponResistanceBuff[] resistancesBuffs;
     [SerializeField] SpecialRequirement specialRequirement;
     [SerializeField] float maxSpecialMeter;
-    // ToDO Particles and stuff.
 
-    // Delays and partlce:
+    [Header("Effect related:")]
+    [SerializeField] BattleEffects battleEffectSelf;
+    [SerializeField] BattleEffects battleEffectTarget;
+    [SerializeField] bool randomEffectPositions;
+    [SerializeField] AudioClip castSound;
+
+    [SerializeField] float startDelay;
     [SerializeField] float attackDelay;
-    [SerializeField] GameObject selfEffect;
-    [SerializeField] GameObject targetEffect;
-
+    [SerializeField] float endDelay;
 
     public WeaponType Type { get => type; }
     public int ItemID { get => itemID; }
@@ -98,6 +116,12 @@ public class Weapon : ScriptableObject
     public SpecialRequirement SpecialRequirement { get => specialRequirement;}
     public string ItemName { get => itemName; set => itemName = value; }
     public float AttackDelay { get => attackDelay; set => attackDelay = value; }
-    public GameObject SelfEffect { get => selfEffect; set => selfEffect = value; }
-    public GameObject TargetEffect { get => targetEffect; set => targetEffect = value; }
+    public int Price { get => price; set => price = value; }
+    public Sprite ItemIcon { get => itemIcon; set => itemIcon = value; }
+    public BattleEffects BattleEffectSelf { get => battleEffectSelf; set => battleEffectSelf = value; }
+    public BattleEffects BattleEffectTarget { get => battleEffectTarget; set => battleEffectTarget = value; }
+    public AudioClip CastSound { get => castSound; set => castSound = value; }
+    public float StartDelay { get => startDelay; set => startDelay = value; }
+    public bool RandomEffectPositions { get => randomEffectPositions;}
+    public float EndDelay { get => endDelay; set => endDelay = value; }
 }

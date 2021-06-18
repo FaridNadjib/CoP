@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad753dea2c3e4064c98f9742c3395359, type: 3}
+  m_Name: Korallenwurm
+  m_EditorClassIdentifier: 
+  championName: Korallenwurm
+  title: 
+  description: "Seine Mut wird nur durch seine Wut \xFCbertroffen."
+  championSprite: {fileID: 21300000, guid: a35d63aeaf51de64fa825d50b1065c88, type: 3}
+  maxHealthBase: 25
+  healthRecoveryBase: 2
+  healthGrowRate: 2
+  maxEnergyBase: 23
+  energyRecoveryBase: 3
+  energyGrowRate: 2
+  initiativeBase: 4
+  possibleDevotions: 0400000001000000
+  evasionChanceBase: 0.01
+  dmgReductionBase: 0.01
+  criticalChanceBase: 0.01
+  criticalMultBase: 0.02
+  resistancesBase:
+  - resistanceType: 6
+    resistanceAmount: 0.1
+  - resistanceType: 1
+    resistanceAmount: 0.1
+  - resistanceType: 7
+    resistanceAmount: -0.1
+  defenseMainBase:
+  - defenseType: 3
+    defenseAmount: 0.1
+  - defenseType: 1
+    defenseAmount: 0.1
+  - defenseType: 8
+    defenseAmount: 0.05
+  defenseSubBase:
+  - defenseType: 2
+    defenseAmount: 0.05
+  crystalLevelRequirements:
+  - mightCrystal: 4
+    amount: 20
+  - mightCrystal: 10
+    amount: 20
+  - mightCrystal: 7
+    amount: 15
+  crystalLevelBoni:
+  - mightCrystal: 1
+    amount: 10
+  - mightCrystal: 10
+    amount: 15
+  - mightCrystal: 9
+    amount: 10
+  - mightCrystal: 7
+    amount: 5
+  possibleEvolutions:
+  - {fileID: 11400000, guid: 57bebab577be4844b9744d3eb5bd5a3b, type: 2}
+  - {fileID: 11400000, guid: 90677c713fcdb714884224bb8efbae81, type: 2}
+  specialUpgradeTypes: []

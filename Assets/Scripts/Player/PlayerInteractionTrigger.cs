@@ -9,6 +9,7 @@ public class PlayerInteractionTrigger : MonoBehaviour
 
     private Interactable target;
     private ShopArea targetShop;
+    private HealingTrigger healArea;
     private GameObject tmp;
 
     #endregion Private Fields
@@ -28,13 +29,15 @@ public class PlayerInteractionTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         // Get the right component to start the interaction.
-        if (collision.GetComponent<Interactable>() != null && collision.GetComponent<Interactable>().IsInteractable || collision.GetComponent<ShopArea>() != null)
+        if (collision.GetComponent<Interactable>() != null && collision.GetComponent<Interactable>().IsInteractable || collision.GetComponent<ShopArea>() != null || collision.GetComponent<HealingTrigger>() != null)
         {
             PlayerController.Instance.OnInteracting += StartInteraction;
             if (collision.GetComponent<Interactable>() != null)
                 target = collision.GetComponent<Interactable>();
             else if (collision.GetComponent<ShopArea>() != null)
                 targetShop = collision.GetComponent<ShopArea>();
+            else if (collision.GetComponent<HealingTrigger>() != null)
+                healArea = collision.GetComponent<HealingTrigger>();
 
             tmp = ObjectPool.Instance.GetFromPool(Emotion.Attention.ToString());
             tmp.transform.parent = PlayerController.Instance.EmotionHolder;
@@ -49,12 +52,13 @@ public class PlayerInteractionTrigger : MonoBehaviour
     /// <param name="collision"></param>
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (target != null || targetShop != null)
+        if (target != null || targetShop != null || healArea != null)
         {
             // Desubscribe to the event of player hitting action button.
             PlayerController.Instance.OnInteracting -= StartInteraction;
             target = null;
             targetShop = null;
+            healArea = null;
 
             if (PlayerController.Instance.EmotionHolder.childCount > 0)
             {
@@ -73,5 +77,7 @@ public class PlayerInteractionTrigger : MonoBehaviour
             target.StartInteraction();
         else if (targetShop != null)
             targetShop.OpenShop();
+        else if (healArea != null)
+            healArea.StartHealing();
     }
 }

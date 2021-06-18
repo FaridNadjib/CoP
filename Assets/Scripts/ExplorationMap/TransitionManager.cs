@@ -47,6 +47,10 @@ public class TransitionManager : MonoBehaviour
             Destroy(gameObject);
 
         DontDestroyOnLoad(this.gameObject);
+
+
+        // Delete.
+        targetPosition = PlayerController.Instance.transform.position;
     }
 
     #endregion Singleton

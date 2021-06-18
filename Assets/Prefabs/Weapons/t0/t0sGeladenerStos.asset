@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cada89c88074d408681df381dd2826, type: 3}
+  m_Name: t0sGeladenerStos
+  m_EditorClassIdentifier: 
+  itemName: Geladener Stoss
+  itemIcon: {fileID: 21300000, guid: 9dbdcf9e22e37eb4d8b389711c4fb0f6, type: 3}
+  itemID: 92
+  price: 0
+  type: 8
+  targetType: 4
+  damageTypes: 07000000
+  scaleLevels:
+  - mightCrystal: 5
+    scale: 5
+  - mightCrystal: 6
+    scale: 5
+  energyCost: 15
+  baseAttack: 9
+  numberOfAttacks: 4
+  crystalManifestations:
+  - mightCrystal: 5
+    manifestationChance: 0.05
+  - mightCrystal: 6
+    manifestationChance: 0.05
+  weaponSpecials:
+  - effectType: 4
+    buff: -3
+    duration: 3
+  resistancesBuffs: []
+  specialRequirement: 2
+  maxSpecialMeter: 30
+  battleEffectSelf: 0
+  battleEffectTarget: 20
+  randomEffectPositions: 1
+  castSound: {fileID: 0}
+  startDelay: 0.65
+  attackDelay: 0.1
+  endDelay: 0.4

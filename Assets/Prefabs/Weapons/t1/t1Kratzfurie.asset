@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cada89c88074d408681df381dd2826, type: 3}
+  m_Name: t1Kratzfurie
+  m_EditorClassIdentifier: 
+  itemName: Kratzfurie
+  itemIcon: {fileID: 21300000, guid: f9897a766886e1c4d9de957762d241ff, type: 3}
+  itemID: 600
+  price: 92
+  type: 3
+  targetType: 4
+  damageTypes: 01000000
+  scaleLevels:
+  - mightCrystal: 1
+    scale: 5
+  energyCost: 30
+  baseAttack: 7
+  numberOfAttacks: 8
+  crystalManifestations:
+  - mightCrystal: 2
+    manifestationChance: 0.05
+  - mightCrystal: 1
+    manifestationChance: 0.05
+  weaponSpecials: []
+  resistancesBuffs: []
+  specialRequirement: 0
+  maxSpecialMeter: 0
+  battleEffectSelf: 0
+  battleEffectTarget: 46
+  randomEffectPositions: 1
+  castSound: {fileID: 0}
+  startDelay: 0.65
+  attackDelay: 0.1
+  endDelay: 0.4

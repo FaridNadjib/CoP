@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad753dea2c3e4064c98f9742c3395359, type: 3}
+  m_Name: HerkulesManticore
+  m_EditorClassIdentifier: 
+  championName: Herkules Manticore
+  title: 
+  description: "Seine Mut wird nur durch seine Wut \xFCbertroffen."
+  championSprite: {fileID: 21300000, guid: 4e3bf371dd434324e831258995ba2045, type: 3}
+  maxHealthBase: 20
+  healthRecoveryBase: 2
+  healthGrowRate: 2
+  maxEnergyBase: 25
+  energyRecoveryBase: 2
+  energyGrowRate: 2
+  initiativeBase: 3
+  possibleDevotions: 0200000008000000
+  evasionChanceBase: 0.01
+  dmgReductionBase: 0.01
+  criticalChanceBase: 0.01
+  criticalMultBase: 0.02
+  resistancesBase:
+  - resistanceType: 3
+    resistanceAmount: 0.1
+  defenseMainBase:
+  - defenseType: 2
+    defenseAmount: 0.1
+  - defenseType: 1
+    defenseAmount: 0.1
+  defenseSubBase:
+  - defenseType: 1
+    defenseAmount: 0.05
+  crystalLevelRequirements:
+  - mightCrystal: 1
+    amount: 90
+  - mightCrystal: 9
+    amount: 90
+  - mightCrystal: 7
+    amount: 60
+  crystalLevelBoni:
+  - mightCrystal: 1
+    amount: 15
+  - mightCrystal: 6
+    amount: 10
+  - mightCrystal: 9
+    amount: 15
+  - mightCrystal: 7
+    amount: 40
+  possibleEvolutions: []
+  specialUpgradeTypes: []
+  usableWeapons: 000000000200000004000000030000000500000006000000

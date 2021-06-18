@@ -14,6 +14,8 @@ public class Interactable : MonoBehaviour
     [SerializeField] private int amount;
     private Emotion activeEmotion;
 
+    [SerializeField] bool staysActive;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -26,7 +28,7 @@ public class Interactable : MonoBehaviour
     /// </summary>
     public void StartInteraction()
     {
-        IsInteractable = false;
+        IsInteractable = staysActive;
         PlayerController.Instance.StandStill();
         dialog.SetActive(true);
         if (PlayerController.Instance.EmotionHolder.childCount > 0)
@@ -156,10 +158,15 @@ public class Interactable : MonoBehaviour
     {
         dialog.SetActive(false);
         PlayerInventory.Instance.AddCrystals(crystals, amount);
-        GameObject tmp = ObjectPool.Instance.GetFromPool(crystals.ToString());
-        tmp.transform.parent = PlayerController.Instance.ItemIndicator;
-        tmp.transform.localPosition = Vector3.zero;
-        tmp.SetActive(true);
+        if (!staysActive)
+        {
+            AudioManager.Instance.PlayEffectClip(6);
+            GameObject tmp = ObjectPool.Instance.GetFromPool(crystals.ToString());
+            tmp.transform.parent = PlayerController.Instance.ItemIndicator;
+            tmp.transform.localPosition = Vector3.zero;
+            tmp.SetActive(true);
+        }
+
         PlayerController.Instance.CanMove = true;
     }
 }

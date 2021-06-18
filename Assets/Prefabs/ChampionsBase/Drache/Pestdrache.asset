@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad753dea2c3e4064c98f9742c3395359, type: 3}
+  m_Name: Pestdrache
+  m_EditorClassIdentifier: 
+  championName: Pestdrache
+  title: 
+  description: "Seine Mut wird nur durch seine Wut \xFCbertroffen."
+  championSprite: {fileID: 21300000, guid: d4681afacd2eab44e8b074dbbc010b1b, type: 3}
+  maxHealthBase: 25
+  healthRecoveryBase: 2
+  healthGrowRate: 2
+  maxEnergyBase: 20
+  energyRecoveryBase: 2
+  energyGrowRate: 2
+  initiativeBase: 3
+  possibleDevotions: 0100000008000000
+  evasionChanceBase: 0.01
+  dmgReductionBase: 0.02
+  criticalChanceBase: 0.01
+  criticalMultBase: 0.02
+  resistancesBase:
+  - resistanceType: 4
+    resistanceAmount: 0.1
+  - resistanceType: 6
+    resistanceAmount: 0.1
+  - resistanceType: 2
+    resistanceAmount: -0.1
+  defenseMainBase:
+  - defenseType: 2
+    defenseAmount: 0.1
+  - defenseType: 1
+    defenseAmount: 0.1
+  - defenseType: 8
+    defenseAmount: 0.05
+  defenseSubBase:
+  - defenseType: 2
+    defenseAmount: 0.05
+  crystalLevelRequirements:
+  - mightCrystal: 2
+    amount: 60
+  - mightCrystal: 8
+    amount: 65
+  - mightCrystal: 1
+    amount: 60
+  crystalLevelBoni:
+  - mightCrystal: 2
+    amount: 20
+  - mightCrystal: 8
+    amount: 25
+  - mightCrystal: 1
+    amount: 15
+  - mightCrystal: 7
+    amount: 5
+  possibleEvolutions:
+  - {fileID: 11400000, guid: 431657fd47753e245a0b389fe5321e03, type: 2}
+  - {fileID: 11400000, guid: 3369e799715510147b6b90e2056781ec, type: 2}
+  - {fileID: 11400000, guid: a0140186e00e8b843acde33e32c984c0, type: 2}
+  specialUpgradeTypes: []

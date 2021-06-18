@@ -37,6 +37,26 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
     }
 
     /// <summary>
+    /// To make sure tooltip is destroy when other go is deactiaved or destroyed.
+    /// </summary>
+    private void OnDisable()
+    {
+        StopCoroutine(ShowDelayedTooltip());
+        TooltipManager.Hide();
+        hide = true;
+    }
+
+    /// <summary>
+    /// To make sure tooltip is destroy when other go is deactiaved or destroyed.
+    /// </summary>
+    private void OnDestroy()
+    {
+        StopCoroutine(ShowDelayedTooltip());
+        TooltipManager.Hide();
+        hide = true;
+    }
+
+    /// <summary>
     /// Coroutine for tip delay.
     /// </summary>
     /// <returns></returns>
@@ -51,7 +71,6 @@ public class TooltipTrigger : MonoBehaviour, IPointerEnterHandler, IPointerExitH
 
     public void OnMouseEnter()
     {
-        Debug.Log("MouseEntered;");
         StartCoroutine(ShowDelayedTooltip());
         hide = false;
     }

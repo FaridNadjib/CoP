@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16b13ea7bc050fb4e824bc1ee02f69fb, type: 3}
+  m_Name: 6Destruction
+  m_EditorClassIdentifier: 
+  type: 7
+  crystalName: "Zerst\xF6rungskristall"
+  crystalPrice: 60
+  crystalSprite: {fileID: 21300000, guid: 88ea1f6350b85914f8447bf7682cffda, type: 3}

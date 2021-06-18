@@ -59,7 +59,11 @@ public class ChampionManager : MonoBehaviour
         tmp.GetComponent<Champion>().IsPlayer = true;
         tmp.GetComponent<Champion>().InitializeChampion();
         tmp.SetActive(false);
-        PlayerInventory.Instance.AllChampions.Add(tmp);
+        
+        if (PlayerInventory.Instance.CurrentChampions.Count < 3)
+            PlayerInventory.Instance.CurrentChampions.Add(tmp);
+        else
+            PlayerInventory.Instance.AllChampions.Add(tmp);
     }
 
     /// <summary>
